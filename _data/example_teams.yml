@@ -1,25 +1,25 @@
-- tier_name: Platinum Sponsors
+- tier_name: Platinum Teams
   size: large
   description: |-
     This is the description for the Platinum Tier.
 
     It can contain multiple lines. It has the size set to 'large'.
-  sponsors:
+  teams:
     - name: Dave McDave
       profile: https://github.com/
     - name: Sarah Lee-Cheesecake
       profile: https://github.com/
-- tier_name: Gold Sponsors
+- tier_name: Gold Teams
   description: |-
     This is the description for the Gold Tier
-  sponsors:
+  teams:
     - name: Dave McDave
       profile: https://github.com/
     - name: Sarah Lee-Cheesecake
       profile: https://github.com/
     - name: John Smith
       profile: https://github.com/
-- tier_name: Standard Sponsors
+- tier_name: Standard Teams
   size: small
   description: |-
     This is the description for the Standard Tier.
@@ -27,7 +27,7 @@
     It has the size set to 'small'.
 
     The profile is not required so if it's not set the link will not appear.
-  sponsors:
+  teams:
     - name: Dave McDave
       profile: https://github.com/
     - name: Sarah Lee-Cheesecake

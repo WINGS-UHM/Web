@@ -32,15 +32,15 @@ google_analytics: UA-xxxxxxxx
 
 The Google Analytics implementation uses Google Analytics v4 and consent mode. Please see the [cookie banner](/bulma-clean-theme/docs/page-components/cookie-banner/) for more information.
 
-## GitHub Sponsor
+## GitHub Team
 
-If you have a GitHub sponsors account set up, you can add your username to `gh_sponsor` in the `_config.yml` file and it will display a link to your profile on the right of the navbar.
+If you have a GitHub teams account set up, you can add your username to `gh_team` in the `_config.yml` file and it will display a link to your profile on the right of the navbar.
 
 ```yaml
-gh_sponsor: chrisrhymes
+gh_team: chrisrhymes
 ```
 
-Further information on Sponsors feature available in the [Sponsors docs page](/bulma-clean-theme/docs/sponsors/).
+Further information on Teams feature available in the [Teams docs page](/bulma-clean-theme/docs/teams/).
 
 ## Disqus
 

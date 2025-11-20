@@ -137,7 +137,7 @@
 * Added hero_darken - pull request #43 from haru398801
 
 # 0.7
-* Added Sponsors layout
+* Added Teams layout
 
 # 0.6.5
 * Update bulma-block-list

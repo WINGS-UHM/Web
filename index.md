@@ -20,7 +20,7 @@ If you would like to help support the maintenance of this theme then the theme c
 
 [View the GitHub repo](https://github.com/chrisrhymes/bulma-clean-theme)
 
-[Sponsor on GitHub](https://github.com/sponsors/chrisrhymes)
+[Teamon GitHub](https://github.com/teams/chrisrhymes)
 
 ## Ruby Gem
 
@@ -39,7 +39,7 @@ This demo site showcases the available page layout options.
 * [Landing Page With Callouts](/bulma-clean-theme/landing/)
 * [Promo Page](/bulma-clean-theme/promo-page/)
 * [Links Page](/bulma-clean-theme/links/)
-* [Sponsors Page](/bulma-clean-theme/sponsors/)
+* [Teams Page](/bulma-clean-theme/teams/)
 * [Image Gallery](/bulma-clean-theme/gallery/)
 * [Recipe Page](/bulma-clean-theme/example-recipe/)
 * [Blog](/bulma-clean-theme/blog/)

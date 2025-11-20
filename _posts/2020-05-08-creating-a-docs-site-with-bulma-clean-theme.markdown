@@ -79,12 +79,12 @@ To create a menu on the left on your docs page you need to create a new yaml fil
 
 If you would like auto generated table of contents for your docs page then add `toc: true` to the page's front matter. The table of contents works for markdown pages and loops through the heading 2s and heading 3s in the markdown and then auto generates the contents.
 
-## GitHub Sponsors
+## GitHub Teams
 
-If you want to link to your GitHub sponsors profile then add `gh_sponsor` with your username to the `_config.yml` file.
+If you want to link to your GitHub teams profile then add `gh_team` with your username to the `_config.yml` file.
 
 ```
-gh_sponsor: chrisrhymes
+gh_team: chrisrhymes
 ```
 
 ## Making the docs page live
