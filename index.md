@@ -1,6 +1,6 @@
 ---
 title: WINGS Lab
-subtitle: This is the demo site for WINGS Lab
+subtitle: Wireless Intelligent Networks for FutureG with Security
 layout: page
 callouts: home_callouts
 show_sidebar: true
