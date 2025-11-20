@@ -1,12 +1,12 @@
-title: Bulma Clean Theme Series
-description: This post is part of a series all about Bulma Clean Theme.
+title: WINGS Lab Series
+description: This post is part of a series all about WINGS Lab.
 sections:
   - label: Getting Started
     items:
       - title: Why use a static site generator
-      - title: Getting started with Bulma Clean Theme for Jekyll
+      - title: Getting started with WINGS Lab for Jekyll
   - label: Advanced Features
     items:
-      - title: Introducing some new layouts to Bulma Clean Theme
-      - title: Creating a docs site with Bulma Clean Theme
+      - title: Introducing some new layouts to WINGS Lab
+      - title: Creating a docs site with WINGS Lab
       - title: Creating a post series

@@ -8,7 +8,7 @@ toc: true
 
 ## Introduction
 
-Version 1 of Bulma Clean Theme uses version 1 of Bulma. Bulma v1 has been updated to use dart sass and Jekyll was updated to use dart sass from version 4.3 and up, so this is now the minimum supported version of Jekyll for this theme. 
+Version 1 of WINGS Lab uses version 1 of Bulma. Bulma v1 has been updated to use dart sass and Jekyll was updated to use dart sass from version 4.3 and up, so this is now the minimum supported version of Jekyll for this theme. 
 
 ## Updating dependencies
 

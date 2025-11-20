@@ -33,7 +33,7 @@ Or install it yourself as:
 
 ## GitHub Pages 
 
-### v0.x of Bulma Clean Theme
+### v0.x of WINGS Lab
 
 If you are deploying to GitHub pages, then you can also install the [GitHub Pages gem](https://github.com/github/pages-gem) and use `remote_theme` instead of `theme` in your `_config.yml`. 
 
@@ -44,7 +44,7 @@ Ensure you specify the version number at the end of the remote_theme, otherwise 
 remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 ```
 
-### v1.x of Bulma Clean Theme
+### v1.x of WINGS Lab
 
 {% include notification.html message="v1.x does not work with the GitHub pages default build process. " status="is-warning" %}
 
