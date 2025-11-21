@@ -1,7 +1,7 @@
 style: is-light
 items:
   - title: Works with GitHub Pages
-    subtitle: Quick and easy to get started
+    subtitle: Check Our Projects
     icon: fa-github
     icon_brand: true
     call_to_action_name: View on GitHub
