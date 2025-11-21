@@ -22,11 +22,6 @@ div.highlight {
     background-color: rgba($hero-darken, 0.5);
 }
 
-// 限制hero宽度
-.hero {
-    max-height: 500px; // 可以根据需要调整，比如 1000px, 1400px 等
-    margin: 0 auto;
-}
 
 .content {
     figure {
