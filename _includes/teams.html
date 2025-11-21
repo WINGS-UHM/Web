@@ -22,9 +22,7 @@
                         <div class="column {% if tier.size == 'large' %} is-4-desktop is-6-tablet {% else %} is-3-desktop is-4-tablet {% endif %}">
                             <div class="box has-text-centered">
 
-                                {%- comment -%}
-                                头像区域：如果设置了 team.avatar，就显示圆形头像
-                                {%- endcomment -%}
+                                {%- comment -%} 头像 {%- endcomment -%}
                                 {% if team.avatar %}
                                     <figure class="image is-128x128 is-inline-block mb-3">
                                         <img class="is-rounded"
@@ -33,24 +31,48 @@
                                     </figure>
                                 {% endif %}
 
+                                {%- comment -%} 名字 {%- endcomment -%}
                                 <p class="title {% if tier.size == 'large' %} is-4 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">
                                     {{ team.name }}
                                 </p>
 
-                                <p class="subtitle is-6">
-                                    {% if team.profile %}
-                                        <a href="{{ team.profile }}"
-                                           class="button is-light is-small"
+                                {%- comment -%}
+                                  icon 区域：
+                                  - 无边框（不用 button）
+                                  - 离名字有一点距离（mt: 0.5rem 左右）
+                                {%- endcomment -%}
+                                <div class="team-icons" style="margin-top: 0.5rem;">
+                                    {% if team.github %}
+                                        <a href="{{ team.github }}"
+                                           class="icon is-medium"
                                            target="_blank"
-                                           rel="noopener">
-                                            <span class="icon">
-                                                <i class="fas fa-user"></i>
-                                            </span>
+                                           rel="noopener"
+                                           aria-label="GitHub of {{ team.name }}">
+                                            <i class="fab fa-github"></i>
                                         </a>
-                                    {% else %}
-                                        &nbsp;
                                     {% endif %}
-                                </p>
+
+                                    {% if team.website %}
+                                        <a href="{{ team.website }}"
+                                           class="icon is-medium"
+                                           target="_blank"
+                                           rel="noopener"
+                                           aria-label="Website of {{ team.name }}">
+                                            <i class="fas fa-globe"></i>
+                                        </a>
+                                    {% endif %}
+
+                                    {% if team.linkedin %}
+                                        <a href="{{ team.linkedin }}"
+                                           class="icon is-medium"
+                                           target="_blank"
+                                           rel="noopener"
+                                           aria-label="LinkedIn of {{ team.name }}">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    {% endif %}
+                                </div>
+
                             </div>
                         </div>
                     {% endfor %}

@@ -6,15 +6,17 @@
     It can contain multiple lines. It has the size set to 'large'.
   teams:
     - name: Xiaochan(Luna) Xue
-      profile: https://Luna-Xue.github.io
       avatar: /assets/img/team/XXC_1.png
+      github: https://github.com/Luna-Xue
+      website: https://luna-xue.github.io
+      linkedin: https://www.linkedin.com/in/xxx/
 
 - tier_name: PhD Students
   description: |-
     This is the description for the Gold Tier
   teams:
     - name: Saurabh Parkar
-      profile: https://srparkar.github.io/
+      avatar: https://srparkar.github.io/
 
 - tier_name: Graduate Students
   size: small
@@ -26,16 +28,8 @@
     The profile is not required so if it's not set the link will not appear.
   teams:
     - name: Dave McDave
-      profile: https://github.com/
-    - name: Sarah Lee-Cheesecake
-      profile: https://github.com/
-    - name: John Smith
-      profile: https://github.com/
-    - name: Jane Smith
-      profile: https://github.com
-    - name: John Doe
-      profile: https://github.com/
-    - name: Jane Doe
-      profile: https://github.com/
-    - name: John Jones
-    - name: Jane Jones
+      avatar:
+      github: https://github.com/Luna-Xue
+      website: https://luna-xue.github.io
+      linkedin: https://www.linkedin.com/in/xxx/
+
