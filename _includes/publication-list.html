@@ -73,10 +73,18 @@
           </a>
         {% endif %}
 
-        {% if pub.cite %}
-          <a href="{{ pub.cite }}" class="pub-link" target="_blank" rel="noopener">
+        {% if pub.citation %}
+        <span class="pub-citation-wrapper">
+            <textarea class="pub-citation-src" aria-hidden="true" tabindex="-1"
+                    style="position:absolute; left:-9999px; top:0;">
+        {{ pub.citation }}
+            </textarea>
+            <a href="javascript:void(0);"
+            class="pub-link pub-cite"
+            onclick="copySiblingCitation(this)">
             <i class="fas fa-quote-right"></i> CITE
-          </a>
+            </a>
+        </span>
         {% endif %}
 
         {% if pub.doi %}

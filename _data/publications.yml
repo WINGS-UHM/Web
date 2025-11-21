@@ -5,20 +5,16 @@
   venue:
   link: https://example.com/preprint
   pdf: https://example.com/preprint.pdf
-  preprint: https://example.com/preprint.pdf
   code: https://github.com/xxx/repo
-  slides:
-  dataset: https://example.com/dataset.zip
-  poster:
-  source:
-  video:
-  project:
-  cite:
-  doi:
-  custom:
-    text: Custom link
-    url: https://example.com/custom
-
+  # 新增：要复制的引用文本（可以是 BibTeX 或普通 citation）
+  citation: |-
+    @article{Xue2015Example,
+      author = {Xue, Xiaochan and Ford, Robert},
+      title = {An example journal article},
+      journal = {Journal of Source Themes},
+      year = {2015}
+    }
+    
 - year: 2015
   type: journal
   authors: Xiaochan Xue, Robert Ford
@@ -26,33 +22,11 @@
   venue: Journal of Source Themes, 1(1)
   link: https://example.com/journal
   pdf: https://example.com/journal.pdf
-  preprint:
   code: https://github.com/xxx/repo2
-  slides: https://example.com/slides.pdf
-  dataset:
-  poster:
-  source: https://example.com/source.pdf
-  video:
-  project: https://example.com/project
-  cite: https://example.com/cite.bib
-  doi: https://doi.org/10.xxxx/xxxx
-  custom:
-
-- year: 2013
-  type: conference
-  authors: Xiaochan Xue, Robert Ford
-  title: An example conference paper
-  venue: In ICW.
-  link: https://example.com/conf
-  pdf: https://example.com/conf.pdf
-  preprint:
-  code:
-  slides:
-  dataset:
-  poster:
-  source:
-  video:
-  project:
-  cite:
-  doi:
-  custom:
+  citation: |-
+    @article{Xue2015Example,
+      author = {Xue, Xiaochan and Ford, Robert},
+      title = {An example journal article},
+      journal = {Journal of Source Themes},
+      year = {2015}
+    }
