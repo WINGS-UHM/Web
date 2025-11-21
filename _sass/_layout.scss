@@ -22,6 +22,12 @@ div.highlight {
     background-color: rgba($hero-darken, 0.5);
 }
 
+// 限制hero宽度
+.hero {
+    max-width: 1200px; // 可以根据需要调整，比如 1000px, 1400px 等
+    margin: 0 auto;
+}
+
 .content {
     figure {
         margin: 0;
@@ -37,7 +43,9 @@ div.highlight {
 }
 
 // Alpine.js hide on initial load
-[x-cloak] { display: none !important; }
+[x-cloak] {
+    display: none !important;
+}
 
 .skip-link {
     &:focus {
