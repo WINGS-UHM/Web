@@ -1,0 +1,96 @@
+{%- assign pubs = site.data[include.data] | sort: "year" | reverse -%}
+
+<div class="pub-list">
+  {% for pub in pubs %}
+    <div class="pub-item">
+      <div class="pub-main">
+        <span class="pub-authors">{{ pub.authors }}</span>
+        {% if pub.year %} ({{ pub.year }}){% endif %}.
+        {% if pub.link %}
+          <a href="{{ pub.link }}" class="pub-title" target="_blank" rel="noopener">
+            {{ pub.title }}
+          </a>
+        {% else %}
+          <span class="pub-title">{{ pub.title }}</span>
+        {% endif %}
+        {% if pub.venue %}
+          <span class="pub-venue"> {{ pub.venue }}</span>
+        {% endif %}
+      </div>
+
+      <div class="pub-links">
+        {% if pub.preprint %}
+          <a href="{{ pub.preprint }}" class="pub-link" target="_blank" rel="noopener">
+            <i class="far fa-file-alt"></i> PREPRINT
+          </a>
+        {% endif %}
+
+        {% if pub.pdf %}
+          <a href="{{ pub.pdf }}" class="pub-link" target="_blank" rel="noopener">
+            <i class="far fa-file-pdf"></i> PDF
+          </a>
+        {% endif %}
+
+        {% if pub.code %}
+          <a href="{{ pub.code }}" class="pub-link" target="_blank" rel="noopener">
+            <i class="fas fa-code"></i> CODE
+          </a>
+        {% endif %}
+
+        {% if pub.slides %}
+          <a href="{{ pub.slides }}" class="pub-link" target="_blank" rel="noopener">
+            <i class="far fa-file-powerpoint"></i> SLIDES
+          </a>
+        {% endif %}
+
+        {% if pub.dataset %}
+          <a href="{{ pub.dataset }}" class="pub-link" target="_blank" rel="noopener">
+            <i class="fas fa-database"></i> DATASET
+          </a>
+        {% endif %}
+
+        {% if pub.poster %}
+          <a href="{{ pub.poster }}" class="pub-link" target="_blank" rel="noopener">
+            <i class="far fa-image"></i> POSTER
+          </a>
+        {% endif %}
+
+        {% if pub.project %}
+          <a href="{{ pub.project }}" class="pub-link" target="_blank" rel="noopener">
+            <i class="fas fa-project-diagram"></i> PROJECT
+          </a>
+        {% endif %}
+
+        {% if pub.source %}
+          <a href="{{ pub.source }}" class="pub-link" target="_blank" rel="noopener">
+            <i class="far fa-file-alt"></i> SOURCE DOCUMENT
+          </a>
+        {% endif %}
+
+        {% if pub.video %}
+          <a href="{{ pub.video }}" class="pub-link" target="_blank" rel="noopener">
+            <i class="fas fa-video"></i> VIDEO
+          </a>
+        {% endif %}
+
+        {% if pub.cite %}
+          <a href="{{ pub.cite }}" class="pub-link" target="_blank" rel="noopener">
+            <i class="fas fa-quote-right"></i> CITE
+          </a>
+        {% endif %}
+
+        {% if pub.doi %}
+          <a href="{{ pub.doi }}" class="pub-link" target="_blank" rel="noopener">
+            <i class="fas fa-link"></i> DOI
+          </a>
+        {% endif %}
+
+        {% if pub.custom and pub.custom.text and pub.custom.url %}
+          <a href="{{ pub.custom.url }}" class="pub-link" target="_blank" rel="noopener">
+            <i class="fas fa-link"></i> {{ pub.custom.text | upcase }}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

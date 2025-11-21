@@ -1,0 +1,58 @@
+- year: 2019
+  type: preprint
+  authors: Xiaochan Xue
+  title: An example preprint / working paper
+  venue:
+  link: https://example.com/preprint
+  pdf: https://example.com/preprint.pdf
+  preprint: https://example.com/preprint.pdf
+  code: https://github.com/xxx/repo
+  slides:
+  dataset: https://example.com/dataset.zip
+  poster:
+  source:
+  video:
+  project:
+  cite:
+  doi:
+  custom:
+    text: Custom link
+    url: https://example.com/custom
+
+- year: 2015
+  type: journal
+  authors: Xiaochan Xue, Robert Ford
+  title: An example journal article
+  venue: Journal of Source Themes, 1(1)
+  link: https://example.com/journal
+  pdf: https://example.com/journal.pdf
+  preprint:
+  code: https://github.com/xxx/repo2
+  slides: https://example.com/slides.pdf
+  dataset:
+  poster:
+  source: https://example.com/source.pdf
+  video:
+  project: https://example.com/project
+  cite: https://example.com/cite.bib
+  doi: https://doi.org/10.xxxx/xxxx
+  custom:
+
+- year: 2013
+  type: conference
+  authors: Xiaochan Xue, Robert Ford
+  title: An example conference paper
+  venue: In ICW.
+  link: https://example.com/conf
+  pdf: https://example.com/conf.pdf
+  preprint:
+  code:
+  slides:
+  dataset:
+  poster:
+  source:
+  video:
+  project:
+  cite:
+  doi:
+  custom:
