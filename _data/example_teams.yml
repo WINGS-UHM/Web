@@ -7,6 +7,9 @@
   teams:
     - name: Xiaochan(Luna) Xue
       avatar: /assets/img/team/XXC_1.png
+      topic: Leader
+      joined: 2025
+      affiliate: ECE, University of Hawaiʻi at Mānoa
       github: https://github.com/Luna-Xue
       website: https://luna-xue.github.io
       linkedin: https://www.linkedin.com/in/xxx/
@@ -17,6 +20,9 @@
   teams:
     - name: Saurabh Parkar
       avatar: /assets/img/team/sparkar.jpg
+      topic: O-RAN, ISAC, AI
+      joined: 2026
+      affiliate: ECE, University of Hawaiʻi at Mānoa
       github: https://github.com/nexuseli18
       website: https://srparkar.github.io/ 
 

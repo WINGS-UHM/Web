@@ -4,10 +4,12 @@
         {% for tier in tiers %}
             <div class="column is-12">
 
+                {%- comment -%} Tier 标题 {%- endcomment -%}
                 <p class="title is-3 has-text-centered">
                     <span>{{ tier.tier_name }}</span>
                 </p>
 
+                {%- comment -%} Tier 描述 {%- endcomment -%}
                 {% if tier.description %}
                     <div class="columns is-centered">
                         <div class="column is-6 content has-text-centered">
@@ -16,6 +18,7 @@
                     </div>
                 {% endif %}
 
+                {%- comment -%} 成员区块 {%- endcomment -%}
                 <div class="columns is-multiline is-centered">
                     {% for team in tier.teams %}
                         <div class="column {% if tier.size == 'large' %} is-4-desktop is-6-tablet {% else %} is-3-desktop is-4-tablet {% endif %}">
@@ -38,6 +41,21 @@
                                 {% if team.topic %}
                                     <p class="subtitle is-6 has-text-grey mt-1">
                                         {{ team.topic }}
+                                    </p>
+                                {% endif %}
+
+                                {%- comment -%} 加一行：Joined in + Affiliate {%- endcomment -%}
+                                {% if team.joined or team.affiliate %}
+                                    <p class="is-size-7 has-text-grey-light">
+                                        {% if team.joined %}
+                                            Joined in {{ team.joined }}
+                                        {% endif %}
+                                        {% if team.joined and team.affiliate %}
+                                            &nbsp;&middot;&nbsp;
+                                        {% endif %}
+                                        {% if team.affiliate %}
+                                            {{ team.affiliate }}
+                                        {% endif %}
                                     </p>
                                 {% endif %}
 
@@ -80,6 +98,7 @@
                 </div>
             </div>
 
+            {%- comment -%} Tier 之间的分割线 {%- endcomment -%}
             <div class="column is-12">
                 <hr>
             </div>
