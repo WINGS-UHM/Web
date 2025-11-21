@@ -1,11 +1,11 @@
-- tier_name: Principle Investigator
+- tier_name: Principal Investigator
   size: large
   description: |-
     This is the description for the Platinum Tier.
 
     It can contain multiple lines. It has the size set to 'large'.
   teams:
-    - name: Xiaochan(Luna) Xue
+    - name: Xiaochan (Luna) Xue
       avatar: /assets/img/team/XXC_1.png
       topic: Leader
       joined: 2025
@@ -16,14 +16,14 @@
 
 - tier_name: PhD Students
   description: |-
-    This is the description for the Gold Tier
+    This is the description for the Gold Tier.
   teams:
     - name: Saurabh Parkar
       avatar: /assets/img/team/sparkar.jpg
       topic: O-RAN, ISAC, AI
       joined: 2026
       affiliate: ECE, University of Hawaiʻi at Mānoa
-      website: https://srparkar.github.io/ 
+      website: https://srparkar.github.io/
       github: https://github.com/nexuseli18
 
 - tier_name: Researchers
@@ -48,10 +48,10 @@
       topic: AFRL SDR Challenge
       affiliate: High School
 
-- tier_name: Collaborater
+- tier_name: Collaborators
   size: small
   description: |-
-  All collaborater
+    All collaborators.
   teams:
     - name: Shucheng Yu
       avatar: /assets/img/team/Shucheng Yu.jpg
