@@ -1,5 +1,7 @@
 - name: Docs
   link: /docs/
+- name: Teams
+  link: /teams/
 - name: Example Pages
   link: /#
   dropdown:
@@ -7,8 +9,6 @@
       link: /landing/
     - name: Promo Page
       link: /promo-page/
-    - name: Teams Page
-      link: /teams/
     - name: Image Gallery
       link: /gallery/
     - name: Products
