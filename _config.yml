@@ -68,9 +68,9 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "Xiaochan Xue"
       layout: post
-      image: https://picsum.photos/id/16/800/600
+      image: /assets/img/team/XXC.png
       show_sidebar: true
 
 markdown: kramdown
