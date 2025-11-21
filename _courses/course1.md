@@ -2,7 +2,6 @@
 title: CPE 691
 subtitle: Information Systems Security
 description: This is a course description
-course_code: ABC124
 layout: course
 image: https://picsum.photos/id/10/600/480
 semester: 2024-2025
