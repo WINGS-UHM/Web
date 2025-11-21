@@ -7,7 +7,7 @@ hero_image: ../assets/img/project/ORAN.svg
 image: ../assets/img/project/ORAN.svg
 hero_height: is-large
 hero_darken: true
-tags: bulma-clean-theme jekyll blog
+tags: O-RAN AI-RAN Prototype
 series: example_blog_series
 ---
 
