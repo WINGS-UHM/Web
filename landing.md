@@ -1,7 +1,7 @@
 ---
 layout: page
 title: WINGS Lab
-subtitle: Wireless Intelligent Networks for FutureG with Security
+subtitle: Wireless Intelligent Networks for FutureG with Security Lab
 hero_height: is-large
 hero_link: /page-1/
 hero_link_text: Example Call To Action
