@@ -16,7 +16,9 @@
     This is the description for the Gold Tier
   teams:
     - name: Saurabh Parkar
-      avatar: https://srparkar.github.io/
+      avatar: /assets/img/team/sparkar.jpg
+      github: https://github.com/nexuseli18
+      website: https://srparkar.github.io/ 
 
 - tier_name: Graduate Students
   size: small
