@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating a post series
+title: O-RAN/AI RAN Testbed
 description: How to create a post series with WINGS Lab
 date: 2021-10-30 09:00:07
 hero_image: /bulma-clean-theme/img/blog-post-series.jpg
@@ -47,7 +47,7 @@ sections:
     items:
       - title: Introducing some new layouts to WINGS Lab
       - title: Creating a docs site with WINGS Lab
-      - title: Creating a post series
+      - title: O-RAN/AI RAN Testbed
 ```
 
 ## Update your posts
