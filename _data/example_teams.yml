@@ -8,7 +8,7 @@
     - name: Xiaochan (Luna) Xue
       avatar: /assets/img/team/XXC_1.png
       topic: Leader
-      joined: 2025
+      joined: 2025 Fall
       affiliate: ECE, University of Hawaiʻi at Mānoa
       website: https://luna-xue.github.io
       github: https://github.com/Luna-Xue
@@ -21,7 +21,7 @@
     - name: Saurabh Parkar
       avatar: /assets/img/team/sparkar.jpg
       topic: O-RAN, ISAC, AI
-      joined: 2026
+      joined: 2026 Spring
       affiliate: ECE, University of Hawaiʻi at Mānoa
       website: https://srparkar.github.io/
       github: https://github.com/nexuseli18
@@ -33,19 +33,19 @@
   teams:
     - name: Lenny Yanza
       avatar: /assets/img/team/LennyY.jpg
-      topic: AFRL SDR Challenge
+      topic: AFRL SDR Challenge 2025/2026
       affiliate: Stevens Institute of Technology
     - name: Karen Caguana
       avatar: /assets/img/team/KarenC.png
-      topic: AFRL SDR Challenge
+      topic: AFRL SDR Challenge 2025/2026
       affiliate: Stevens Institute of Technology
     - name: Shaun George
       avatar: /assets/img/team/ShaunG.jpg
-      topic: AFRL SDR Challenge
+      topic: AFRL SDR Challenge 2025/2026
       affiliate: Stevens Institute of Technology
     - name: Akshat Santhana Gopalan
       avatar: /assets/img/team/AkshatS.jpg
-      topic: AFRL SDR Challenge
+      topic: AFRL SDR Challenge 2025/2026
       affiliate: High School
 
 - tier_name: Collaborators
