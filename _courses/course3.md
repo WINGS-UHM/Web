@@ -1,12 +1,12 @@
 ---
-title: Course 3 Name
-subtitle: Course 3 tagline here
-course_code: ABC125
+title: ECE 669
+subtitle: Wireless and Mobile Security
+#course_code: ABC125
 layout: course
 image: https://picsum.photos/id/16/600/480
-semester: £2.99 + VAT
+semester: 2026 Spring
 features:
-    - label: Great addition to any home
+    - label: University of Hawaiʻi at Mānoa, Honolulu, HI
     - label: Comes in a range of styles
       icon: fa-grin-stars
     - label: Available in multiple sizes

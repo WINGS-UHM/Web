@@ -1,12 +1,11 @@
 ---
 title: ECE 693E
 subtitle: FutureG Wireless Network
-course_code: ABC123
 layout: course
 image: https://picsum.photos/id/15/600/480
 semester: 2025 Fall
 features:
-    - label: Great addition to any home
+    - label: University of Hawaiʻi at Mānoa, Honolulu, HI
       icon: fa-location-arrow
     - label: Comes in a range of styles
       icon: fa-grin-stars

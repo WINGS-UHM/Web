@@ -5,8 +5,9 @@ description: This is a course description
 layout: course
 image: https://picsum.photos/id/10/600/480
 semester: 2024-2025
+# course_code: ABC123    For Reviews
 features:
-    - label: Great addition to any home
+    - label: Stevens Institute of Technology, Hoboken, NJ
       icon: fa-location-arrow
     - label: Comes in a range of styles
       icon: fa-grin-stars
