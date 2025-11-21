@@ -13,7 +13,7 @@ features:
       icon: fa-grin-stars
     - label: Available in multiple sizes
       icon: fa-fighter-jet
-rating: 3
+rating: 5
 ---
 
 This is the content about the course.
