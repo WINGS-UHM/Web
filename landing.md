@@ -3,8 +3,8 @@ layout: page
 title: WINGS Lab
 subtitle: Wireless Intelligent Networks for FutureG with Security Lab
 hero_height: is-large
-hero_link: /page-1/
-hero_link_text: Example Call To Action
+hero_link: https://github.com/wings-uhm
+hero_link_text: Visit GitHub
 show_sidebar: false
 callouts: WINGS_callouts
 ---
