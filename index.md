@@ -42,7 +42,7 @@ This demo site showcases the available page layout options.
 * [Teams Page](/bulma-clean-theme/teams/)
 * [Image Gallery](/bulma-clean-theme/gallery/)
 * [Recipe Page](/bulma-clean-theme/example-recipe/)
-* [Blog](/bulma-clean-theme/blog/)
+* [Blog](/bulma-clean-theme/projects/)
 * [Post](/bulma-clean-theme/2021/10/30/creating-a-post-series/)
 
 ## Page components

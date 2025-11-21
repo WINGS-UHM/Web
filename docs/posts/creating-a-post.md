@@ -35,7 +35,7 @@ Set `paginate` and `paginate_path` in your site's `_config.yaml` to configure th
 
 ```yaml
 paginate: 5
-paginate_path: "/blog/page:num"
+paginate_path: "/projects/page:num"
 ```
 
 ## Other settings

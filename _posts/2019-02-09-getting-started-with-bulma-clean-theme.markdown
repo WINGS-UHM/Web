@@ -72,7 +72,7 @@ For the blog homepage, create a blog.html page with `layout: blog` and use the o
 ```yml
 # Pagination settings
 paginate: 5
-paginate_path: "/blog/page:num"
+paginate_path: "/projects/page:num"
 ```
 
 ## Site defaults
