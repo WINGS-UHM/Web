@@ -18,7 +18,7 @@
 - name: Teaching
   link: /products/
 - name: Gallery
-link: /#
+  link: /#
   dropdown:
     - name: Image Gallery
       link: /gallery/
