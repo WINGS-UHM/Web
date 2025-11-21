@@ -6,6 +6,15 @@
   link: https://example.com/preprint
   pdf: https://example.com/preprint.pdf
   code: https://github.com/xxx/repo
+  preprint: https://example.com/conf.pdf
+  slides: https://example.com/conf.pdf
+  dataset: https://example.com/conf.pdf
+  poster: https://example.com/conf.pdf
+  source: https://example.com/conf.pdf
+  video: https://example.com/conf.pdf
+  project: https://example.com/conf.pdf
+  doi: https://example.com/conf.pdf
+  custom: https://example.com/conf.pdf
   # 新增：要复制的引用文本（可以是 BibTeX 或普通 citation）
   citation: |-
     @article{Xue2015Example,
@@ -14,7 +23,7 @@
       journal = {Journal of Source Themes},
       year = {2015}
     }
-    
+
 - year: 2015
   type: journal
   authors: Xiaochan Xue, Robert Ford
