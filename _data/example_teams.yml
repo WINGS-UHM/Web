@@ -10,8 +10,8 @@
       topic: Leader
       joined: 2025
       affiliate: ECE, University of Hawaiʻi at Mānoa
-      github: https://github.com/Luna-Xue
       website: https://luna-xue.github.io
+      github: https://github.com/Luna-Xue
       linkedin: https://www.linkedin.com/in/xxx/
 
 - tier_name: PhD Students
@@ -23,8 +23,8 @@
       topic: O-RAN, ISAC, AI
       joined: 2026
       affiliate: ECE, University of Hawaiʻi at Mānoa
-      github: https://github.com/nexuseli18
       website: https://srparkar.github.io/ 
+      github: https://github.com/nexuseli18
 
 - tier_name: Graduate Students
   size: small
@@ -41,3 +41,11 @@
       website: https://luna-xue.github.io
       linkedin: https://www.linkedin.com/in/xxx/
 
+- tier_name: Collaborater
+  size: small
+  description: |-
+  teams:
+    - name: Shucheng Yu
+      avatar: /assets/img/team/Shucheng Yu.jpg
+      affiliate: Yeshiva University
+      website: https://scholar.google.com/citations?user=AwOsshkAAAAJ&hl=en
