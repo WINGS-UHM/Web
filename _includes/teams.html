@@ -44,18 +44,15 @@
                                     </p>
                                 {% endif %}
 
-                                {%- comment -%} 加一行：Joined in + Affiliate {%- endcomment -%}
-                                {% if team.joined or team.affiliate %}
+                                {%- comment -%} Joined in 和 Affiliate：分两行显示 {%- endcomment -%}
+                                {% if team.joined %}
                                     <p class="is-size-7 has-text-grey-light">
-                                        {% if team.joined %}
-                                            Joined in {{ team.joined }}
-                                        {% endif %}
-                                        {% if team.joined and team.affiliate %}
-                                            &nbsp;&middot;&nbsp;
-                                        {% endif %}
-                                        {% if team.affiliate %}
-                                            {{ team.affiliate }}
-                                        {% endif %}
+                                        Joined in {{ team.joined }}
+                                    </p>
+                                {% endif %}
+                                {% if team.affiliate %}
+                                    <p class="is-size-7 has-text-grey-light">
+                                        {{ team.affiliate }}
                                     </p>
                                 {% endif %}
 
