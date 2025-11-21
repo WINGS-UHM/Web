@@ -4,7 +4,7 @@ title: WINGS Lab
 tagline: WINGS Lab
 email: your-email@domain.com
 description: >
-  Wireless Intelligent Networks for FutureG with Security
+  Wireless Intelligent Networks for FutureG with Security Lab
 baseurl: "/bulma-clean-theme"
 url: "https://www.csrhymes.com"
 permalink: pretty
@@ -79,9 +79,9 @@ highlighter: rouge
 footer_menu: example_footer_menu
 
 collections:
-  products: 
+  courses: 
     output: true
-    layout: product
+    layout: course
     image: https://picsum.photos/id/16/800/600
     show_sidebar: false
 

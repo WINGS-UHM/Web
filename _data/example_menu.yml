@@ -7,8 +7,8 @@
       items:
         - name: Landing Page With Callouts
           link: /landing/
-        - name: Products
-          link: /products/
+        - name: Courses
+          link: /courses/
         - name: Teams Page
           link: /teams/
         - name: Image Gallery

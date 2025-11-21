@@ -1,8 +1,8 @@
 ---
-title: Product 3 Name
-subtitle: Product 3 tagline here
-product_code: ABC125
-layout: product
+title: Course 3 Name
+subtitle: Course 3 tagline here
+course_code: ABC125
+layout: course
 image: https://picsum.photos/id/16/600/480
 price: £2.99 + VAT
 features:
@@ -14,7 +14,7 @@ features:
 rating: 3
 ---
 
-This is the content about the product.
+This is the content about the course.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mauris lacus, semper vel massa mattis, ullamcorper auctor libero. Maecenas sit amet ultricies erat. Curabitur eleifend est eget sagittis convallis. Mauris sit amet placerat lacus. Pellentesque vehicula quis massa ac lacinia. Vivamus gravida bibendum tincidunt. Sed eget augue vitae ligula ultricies lacinia a eget augue. Donec vulputate metus ut ante scelerisque sollicitudin. Nullam commodo suscipit venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut tristique pharetra mollis. 
 

@@ -9,7 +9,7 @@ show_sidebar: false
 
 ## Introduction
 
-A promo page is designed as a standalone landing page to promote something, such as a new product. The example promo page has been designed to promote a book, but it can be used for any product as it is very customisable. 
+A promo page is designed as a standalone landing page to promote something, such as a new course. The example promo page has been designed to promote a book, but it can be used for any course as it is very customisable. 
 
 [View promo page demo](/bulma-clean-theme/promo-page/)
 
@@ -39,7 +39,7 @@ snippet: |-
 
 The hero link is your main call to action on the page. 
 
-This could link to a product page, or where you are selling your product, (such as Amazon, eBay, etc.). Set the hero_link to where you want the visitor to be sent to, then set the hero_link_text to what the button text should say.
+This could link to a course page, or where you are selling your course, (such as Amazon, eBay, etc.). Set the hero_link to where you want the visitor to be sent to, then set the hero_link_text to what the button text should say.
 
 ```yaml
 title: My promo page title
@@ -50,7 +50,7 @@ hero_link_text: Buy now!
 
 ## Hero image
 
-Unlike standard pages, the `hero_image` on a promo page doesn't cover the whole hero as a background. Instead, this is used to show an image of the product you are promoting.
+Unlike standard pages, the `hero_image` on a promo page doesn't cover the whole hero as a background. Instead, this is used to show an image of the course you are promoting.
 
 Ensure you set the `hero_image_alt` text for improved accessibility to explain what the image contains. 
 
@@ -66,12 +66,12 @@ hero_image_ratio: is-4by5
 
 ## Reviews
 
-Reviews work the same as for [product reviews](/bulma-clean-theme/docs/products/product-reviews/). Set the `product_code` in the promo page's front matter and it will then display the reviews for the product. 
+Reviews work the same as for [course reviews](/bulma-clean-theme/docs/courses/course-reviews/). Set the `course_code` in the promo page's front matter and it will then display the reviews for the course. 
 
 ```yaml
 title: My promo page title
 layout: promo-page
-product_code: ABC123
+course_code: ABC123
 ```
 
 ## Newsletter

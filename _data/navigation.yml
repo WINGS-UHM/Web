@@ -4,8 +4,8 @@
   link: /docs/
 - name: Projects
   link: /projects/
-- name: Teaching
-  link: /products/
+- name: Courses
+  link: /courses/
 - name: Gallery
   link: /#
   dropdown:
@@ -20,7 +20,7 @@
       link: /landing/
     - name: Promo Page
       link: /promo-page/
-    - name: Products
-      link: /products/
+    - name: Courses
+      link: /courses/
     - name: Recipe Page
       link: /example-recipe/

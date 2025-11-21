@@ -14,7 +14,7 @@ hero_image_ratio: is-4by5
 about_image: https://i.pravatar.cc/400?img=24
 about_image_alt: The about image alt text
 about_title: About the author
-product_code: ABC123
+course_code: ABC123
 ---
 
 Donec semper nunc quis quam elementum sodales. Vestibulum eget eros vel odio cursus posuere non nec felis. Nunc porta justo odio, in posuere turpis porttitor id. Morbi fringilla, nisi quis facilisis lobortis, eros sem venenatis arcu, vitae varius est felis eu leo. Donec eleifend sapien in arcu mollis egestas. Fusce consectetur nibh in leo elementum cursus.

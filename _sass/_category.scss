@@ -1,11 +1,13 @@
 .category {
-    &-product {
+    &-course {
         display: block;
+
         &:hover {
             outline: solid 2px $link;
             border-radius: 0.75rem;
         }
-        &:focus, 
+
+        &:focus,
         &:active {
             outline: solid 2px $link;
             border-radius: 0.75rem;

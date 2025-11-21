@@ -8,26 +8,26 @@ show_sidebar: false
     </div>
 
     {% if page.collection %}
-        {% assign sorted_products = site[page.collection] | sort: page.sort %}
+        {% assign sorted_courses = site[page.collection] | sort: page.sort %}
     {% else %}
-        {% assign sorted_products = site.products | sort: page.sort %}
+        {% assign sorted_courses = site.courses | sort: page.sort %}
     {% endif %}
 
-    {% for product in sorted_products %}
+    {% for course in sorted_courses %}
         <div class="column is-4-desktop is-6-tablet">
-            <a href="{{ product.url | relative_url }}" class="category-product">
+            <a href="{{ course.url | relative_url }}" class="category-course">
                 <div class="card">
-                    {% if product.image %}
+                    {% if course.image %}
                         <div class="card-image">
                             <figure class="image is-4by3">
-                                <img src="{{ product.image }}" alt="{{ product.title }}">
+                                <img src="{{ course.image }}" alt="{{ course.title }}">
                             </figure>
                         </div>
                     {% endif %}
                     <div class="card-content">
-                        <p class="title is-4">{{ product.title }}</p>
-                        <p class="subtitle is-4">{{ product.subtitle }}</p>
-                        <p class="title is-5 has-text-right">{{ product.price }}</p>
+                        <p class="title is-4">{{ course.title }}</p>
+                        <p class="subtitle is-4">{{ course.subtitle }}</p>
+                        <p class="title is-5 has-text-right">{{ course.price }}</p>
                     </div>
                 </div>
             </a>
