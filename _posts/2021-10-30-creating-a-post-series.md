@@ -2,7 +2,7 @@
 layout: post
 title: O-RAN/AI RAN Testbed
 description: How to create a post series with WINGS Lab
-date: 2021-10-30 09:00:07
+date: 2025-10-01 00:00:00
 hero_image: ../assets/img/project/ORAN.svg
 image: ../assets/img/project/ORAN.svg
 hero_height: is-large
