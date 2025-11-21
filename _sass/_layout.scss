@@ -22,6 +22,18 @@ div.highlight {
     background-color: rgba($hero-darken, 0.5);
 }
 
+/* 1. 减小 section 上下 padding（影响所有 section）*/
+.section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* 2. 缩小普通段落的上下间距 */
+.content p {
+    margin-top: 0;
+    margin-bottom: 0.5rem; // 原来大约 1rem 左右
+}
+
 
 .content {
     figure {
