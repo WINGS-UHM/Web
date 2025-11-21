@@ -4,7 +4,7 @@ subtitle: Course 2 tagline here
 course_code: ABC123
 layout: course
 image: https://picsum.photos/id/15/600/480
-price: £0.99 + VAT
+semester: £0.99 + VAT
 features:
     - label: Great addition to any home
       icon: fa-location-arrow

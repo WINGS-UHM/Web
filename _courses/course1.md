@@ -1,11 +1,11 @@
 ---
-title: Course 1 Name
-subtitle: Course 1 tagline here
+title: CPE 691
+subtitle: Information Systems Security
 description: This is a course description
 course_code: ABC124
 layout: course
 image: https://picsum.photos/id/10/600/480
-price: £1.99 + VAT
+semester: 2024-2025
 features:
     - label: Great addition to any home
       icon: fa-location-arrow

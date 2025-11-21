@@ -22,7 +22,7 @@ I really like Jekyll as it is simple to use, but also very powerful. I decided t
 
 To get started, create your course pages inside a `_courses` directory as we will make use of collections later on.  
 
-The below is an example of the frontmatter for the course page. The course page uses the same hero, title and subtitle settings as other pages, but has additional settings for course code, image, price, rating and features. The course code is important for later on. 
+The below is an example of the frontmatter for the course page. The course page uses the same hero, title and subtitle settings as other pages, but has additional settings for course code, image, semester, rating and features. The course code is important for later on. 
 
 ```yml
 ---
@@ -33,7 +33,7 @@ hero_image: /img/hero-img.jpg
 course_code: ABC124
 layout: course
 image: https://via.placeholder.com/640x480
-price: £1.99 + VAT
+semester: £1.99 + VAT
 features:
     - label: Great addition to any home
       icon: fa-location-arrow

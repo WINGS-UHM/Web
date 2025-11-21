@@ -4,7 +4,7 @@ subtitle: Course 3 tagline here
 course_code: ABC125
 layout: course
 image: https://picsum.photos/id/16/600/480
-price: £2.99 + VAT
+semester: £2.99 + VAT
 features:
     - label: Great addition to any home
     - label: Comes in a range of styles

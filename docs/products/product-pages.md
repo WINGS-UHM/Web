@@ -19,7 +19,7 @@ You can override the default and create a folder with your own collection name. 
 
 ## Course Pages
 
- Create a new page for each course, such as `course1.md`. In the front matter for this page you can set the standard settings, such as your title, subtitle, description (for meta-description), hero_image, as well as the additional course settings such as price, course_code, image, features, and rating. 
+ Create a new page for each course, such as `course1.md`. In the front matter for this page you can set the standard settings, such as your title, subtitle, description (for meta-description), hero_image, as well as the additional course settings such as semester, course_code, image, features, and rating. 
 
 ```yaml
 title: Course 1 Name
@@ -29,7 +29,7 @@ hero_image: /img/hero-img.jpg
 course_code: ABC124
 layout: course
 image: https://via.placeholder.com/640x480
-price: £1.99 + VAT
+semester: £1.99 + VAT
 features:
     - label: Great addition to any home
       icon: fa-location-arrow

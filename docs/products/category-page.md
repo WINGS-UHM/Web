@@ -11,7 +11,7 @@ toc: true
 
 To create a category page listing your courses you will need to create a course category page. 
 
-Create a page, for example `courses.md`, with the `layout: course-category` in the front matter. You can set the sort order of the courses using `sort: title` to sort by the title, or by any setting in your course pages, such as price, rating or any custom front matter tags you wish to set. 
+Create a page, for example `courses.md`, with the `layout: course-category` in the front matter. You can set the sort order of the courses using `sort: title` to sort by the title, or by any setting in your course pages, such as semester, rating or any custom front matter tags you wish to set. 
 
 ```yaml
 title: Courses
