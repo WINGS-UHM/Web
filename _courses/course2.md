@@ -1,10 +1,10 @@
 ---
-title: Course 2 Name
-subtitle: Course 2 tagline here
+title: ECE 693E
+subtitle: Special Topic: FutureG Wireless Network
 course_code: ABC123
 layout: course
 image: https://picsum.photos/id/15/600/480
-semester: £0.99 + VAT
+semester: 2025 Fall
 features:
     - label: Great addition to any home
       icon: fa-location-arrow
