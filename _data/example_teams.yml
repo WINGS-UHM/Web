@@ -26,20 +26,27 @@
       website: https://srparkar.github.io/ 
       github: https://github.com/nexuseli18
 
-- tier_name: Graduate Students
+- tier_name: Researchers
   size: small
   description: |-
     This is the description for the Standard Tier.
-
-    It has the size set to 'small'.
-
-    The profile is not required so if it's not set the link will not appear.
   teams:
-    - name: Dave McDave
-      avatar:
-      github: https://github.com/Luna-Xue
-      website: https://luna-xue.github.io
-      linkedin: https://www.linkedin.com/in/xxx/
+    - name: Lenny Yanza
+      avatar: /assets/img/team/LennyY.jpg
+      topic: AFRL SDR Challenge
+      affiliate: Stevens Institute of Technology
+    - name: Karen Caguana
+      avatar: /assets/img/team/KarenC.png
+      topic: AFRL SDR Challenge
+      affiliate: Stevens Institute of Technology
+    - name: Shaun George
+      avatar: /assets/img/team/ShaunG.jpg
+      topic: AFRL SDR Challenge
+      affiliate: Stevens Institute of Technology
+    - name: Akshat Santhana Gopalan
+      avatar: /assets/img/team/AkshatS.jpg
+      topic: AFRL SDR Challenge
+      affiliate: High School
 
 - tier_name: Collaborater
   size: small
