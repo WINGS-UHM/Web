@@ -9,13 +9,18 @@
       link: /landing/
     - name: Promo Page
       link: /promo-page/
-    - name: Image Gallery
-      link: /gallery/
     - name: Products
       link: /products/
     - name: Recipe Page
       link: /example-recipe/
-    - name: Showcase
-      link: /showcase/
 - name: Projects
   link: /projects/
+- name: Teaching
+  link: /products/
+- name: Gallery
+link: /#
+  dropdown:
+    - name: Image Gallery
+      link: /gallery/
+    - name: Showcase
+      link: /showcase/
