@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Teams Page
-subtitle: An example teams page
+title: Our Team
+subtitle: This is a team try to form the Intellegent and Secure FutureG
 teams: example_teams
 show_sidebar: false
 ---
