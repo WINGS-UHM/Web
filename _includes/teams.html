@@ -3,39 +3,48 @@
     <div class="columns is-multiline">
         {% for tier in tiers %}
             <div class="column is-12">
+
+                {#--- Tier 标题 ---#}
                 <p class="title is-3 has-text-centered">
                     <span>{{ tier.tier_name }}</span>
                 </p>
-                <div class="columns is-centered">
-                    <div class="column is-6 content has-text-centered">
-                        <p>{{ tier.description | markdownify }}</p>
-                    </div>
-                </div>
 
+                {#--- Tier 描述 ---#}
+                {% if tier.description %}
+                    <div class="columns is-centered">
+                        <div class="column is-6 content has-text-centered">
+                            <p>{{ tier.description | markdownify }}</p>
+                        </div>
+                    </div>
+                {% endif %}
+
+                {#--- 成员区块 ---#}
                 <div class="columns is-multiline is-centered">
                     {% for team in tier.teams %}
                         <div class="column {% if tier.size == 'large' %} is-4-desktop is-6-tablet {% else %} is-3-desktop is-4-tablet {% endif %}">
                             <div class="box has-text-centered">
 
-                                {%- comment -%} 头像 {%- endcomment -%}
-                                {% if team.avatar %}
-                                    <figure class="image is-128x128 is-inline-block mb-3">
-                                        <img class="is-rounded"
-                                             src="{{ team.avatar | relative_url }}"
-                                             alt="{{ team.name }}">
-                                    </figure>
-                                {% endif %}
+                                {%- comment -%} 头像：所有 card 都有，没设置就用默认 {%- endcomment -%}
+                                {%- assign avatar = team.avatar | default: '/assets/img/team/default-avatar.png' -%}
+                                <figure class="image is-128x128 is-inline-block mb-3">
+                                    <img class="is-rounded"
+                                         src="{{ avatar | relative_url }}"
+                                         alt="{{ team.name }}">
+                                </figure>
 
                                 {%- comment -%} 名字 {%- endcomment -%}
                                 <p class="title {% if tier.size == 'large' %} is-4 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">
                                     {{ team.name }}
                                 </p>
 
-                                {%- comment -%}
-                                  icon 区域：
-                                  - 无边框（不用 button）
-                                  - 离名字有一点距离（mt: 0.5rem 左右）
-                                {%- endcomment -%}
+                                {%- comment -%} 小标题：方向 / 项目 {%- endcomment -%}
+                                {% if team.topic %}
+                                    <p class="subtitle is-6 has-text-grey mt-1">
+                                        {{ team.topic }}
+                                    </p>
+                                {% endif %}
+
+                                {%- comment -%} 社交 / 链接 图标区 {%- endcomment -%}
                                 <div class="team-icons" style="margin-top: 0.5rem;">
                                     {% if team.github %}
                                         <a href="{{ team.github }}"
@@ -73,6 +82,8 @@
                     {% endfor %}
                 </div>
             </div>
+
+            {#--- Tier 之间的分割线 ---#}
             <div class="column is-12">
                 <hr>
             </div>
