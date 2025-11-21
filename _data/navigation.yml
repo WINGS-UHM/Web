@@ -2,17 +2,6 @@
   link: /teams/
 - name: Docs
   link: /docs/
-- name: Example Pages
-  link: /#
-  dropdown:
-    - name: Landing Page With Callouts
-      link: /landing/
-    - name: Promo Page
-      link: /promo-page/
-    - name: Products
-      link: /products/
-    - name: Recipe Page
-      link: /example-recipe/
 - name: Projects
   link: /projects/
 - name: Teaching
@@ -24,3 +13,14 @@
       link: /gallery/
     - name: Showcase
       link: /showcase/
+- name: Example Pages
+  link: /#
+  dropdown:
+    - name: Landing Page With Callouts
+      link: /landing/
+    - name: Promo Page
+      link: /promo-page/
+    - name: Products
+      link: /products/
+    - name: Recipe Page
+      link: /example-recipe/
