@@ -23,3 +23,14 @@ $hero-darken: $dark !default;
 .gh-team {
   color: #ea4aaa;
 }
+
+// Team icons styling
+.team-icons {
+  .icon {
+    font-size: 1.5rem; // Increase size (is-medium is ~1.5rem, is-large is ~2rem)
+
+    i {
+      color: #024731; // Change icon color to green
+    }
+  }
+}
