@@ -1,6 +1,6 @@
 ---
 title: ECE 693E
-subtitle: Special Topic-FutureG Wireless Network
+subtitle: FutureG Wireless Network
 course_code: ABC123
 layout: course
 image: https://picsum.photos/id/15/600/480
@@ -12,7 +12,7 @@ features:
       icon: fa-grin-stars
     - label: Available in multiple sizes
       icon: fa-fighter-jet
-rating: 3
+rating: 5
 ---
 
 This is the content about the course.
