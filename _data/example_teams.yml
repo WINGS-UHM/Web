@@ -1,25 +1,21 @@
-- tier_name: Platinum Teams
+- tier_name: Principle Investigator
   size: large
   description: |-
     This is the description for the Platinum Tier.
 
     It can contain multiple lines. It has the size set to 'large'.
   teams:
-    - name: Dave McDave
-      profile: https://github.com/
-    - name: Sarah Lee-Cheesecake
-      profile: https://github.com/
-- tier_name: Gold Teams
+    - name: Xiaochan(Luna) Xue
+      profile: https://Luna-Xue.github.io
+
+- tier_name: PhD Students
   description: |-
     This is the description for the Gold Tier
   teams:
-    - name: Dave McDave
-      profile: https://github.com/
-    - name: Sarah Lee-Cheesecake
-      profile: https://github.com/
-    - name: John Smith
-      profile: https://github.com/
-- tier_name: Standard Teams
+    - name: Saurabh Parkar
+      profile: https://srparkar.github.io/
+
+- tier_name: Graduate Students
   size: small
   description: |-
     This is the description for the Standard Tier.
