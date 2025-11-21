@@ -45,7 +45,7 @@ link_sections:
         image: https://picsum.photos/id/69/300/300
         image_alt: An example image
       - name: Read the Blog
-        link: /blog/
+        link: /projects/
         image: https://picsum.photos/id/70/300/300
         image_alt: An example image
   - title: Another section title
@@ -59,7 +59,7 @@ link_sections:
         image_alt: An example image
         image_large: true
       - name: Read the Blog
-        link: /blog/
+        link: /projects/
         image: https://picsum.photos/id/72/300/300
         image_alt: An example image
 ```

@@ -15,7 +15,7 @@ For the top navigation, create a `navigation.yml` file in the `_data` directory 
 - name: Page Name
   link: /page-1/
 - name: Blog
-  link: /blog/
+  link: /projects/
   dropdown: 
     - name: Page 2
       link: /page-2/

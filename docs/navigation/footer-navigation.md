@@ -15,7 +15,7 @@ To add some footer links, create a yaml file in the `_data` directory using the 
 
 ```yaml
 - name: Blog
-  link: /blog/
+  link: /projects/
 - name: About
   link: /about/
 - name: Privacy Policy

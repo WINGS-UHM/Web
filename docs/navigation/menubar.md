@@ -41,7 +41,7 @@ Create a data file in the `_data` directory and use the following format.
         - name: Page With Menubar
           link: /page-3/
     - name: Blog
-      link: /blog/
+      link: /projects/
 ```
 
 For the current page to have an active class, ensure the `link:` format matches your [permalink](https://jekyllrb.com/docs/permalinks/#extensionless-permalinks) format. The above example will work with `permalink: pretty` setting in your `_config.yml`.
