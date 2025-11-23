@@ -1,31 +1,31 @@
 style: is-light
 height: is-small
 items:
-  - title: Example callout 1
-    subtitle: Example subtitle 1
-    icon: fa-space-shuttle
+  - title: Conference Deadline
+    # subtitle: Example subtitle 1
+    icon: fa-calendar
     description: >
-      The example description text goes here and can be multiple lines.
-
-      For example, such as this. 
-    call_to_action_name: Call to action 1
-    call_to_action_link: /page-1/
-  - title: Example callout 2
-    subtitle: Example subtitle 2
-    icon: fa-wrench
+      This is the conference deadline summary created by our team
+      
+      Please feel free to save and use:
+    call_to_action_name: Deadline
+    call_to_action_link: https://luna-xue.github.io/conf-track.html
+  - title: Techniques Summary
+    # subtitle: Example subtitle 2
+    icon: fa-pencil-square-o
     description: >
-      The example description text goes here and can be multiple lines.
+      Our team summarize interesting topics
 
-      For example, such as this.
-    call_to_action_name: Call to action 2
+      Please check:
+    call_to_action_name: Topics
     call_to_action_link: /page-2/
-  - title: Example callout 3
-    subtitle: Example subtitle 3
+  - title: GitHub Projects
+    # subtitle: Example subtitle 3
     icon: fa-github
     icon_brand: true
     description: >
-      The example description text goes here and can be multiple lines.
+      We also record our progress using GitHub
 
-      For example, such as this.
-    call_to_action_name: Call to action 3
-    call_to_action_link: https://www.csrhymes.com/bulma-clean-theme/page-3/
+      Please check if you are interested in:
+    call_to_action_name: View Github
+    call_to_action_link: https://github.com/WINGS-UHM/Web/
