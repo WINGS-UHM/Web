@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Creating a docs site with WINGS Lab
+title: mmWave Breathing Pattern Detection
 description: How to create a docs site for your project with WINGS Lab 
-date: 2020-05-08 09:00:07
+date: 2024-08-01 00:00:00
 hero_image: https://www.csrhymes.com/img/example-docs-page.jpg
 hero_height: is-large
 hero_darken: true
