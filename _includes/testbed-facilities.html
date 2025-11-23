@@ -1,30 +1,31 @@
-{% assign facilities = site.data[page.testbed_facilities] %}
-
-{% if facilities %}
-    <div class="testbed-facilities">
-        {% for facility in facilities %}
-            <div class="columns is-vcentered mb-5">
-                <div class="column is-4">
-                    <figure class="image">
-                        <img src="{{ facility.image | relative_url }}" alt="{{ facility.name }}">
-                    </figure>
-                </div>
-                <div class="column is-8">
-                    <h3 class="title is-4">{{ facility.name }}</h3>
-                    <div class="content">
-                        {{ facility.description | markdownify }}
+{% if page.testbed_facilities %}
+    {% assign facilities = site.data[page.testbed_facilities] %}
+    
+    {% if facilities and facilities.size > 0 %}
+        <div class="testbed-facilities">
+            {% for facility in facilities %}
+                <div class="columns is-vcentered mb-5">
+                    <div class="column is-4">
+                        <figure class="image">
+                            <img src="{{ facility.image | relative_url }}" alt="{{ facility.name }}">
+                        </figure>
+                    </div>
+                    <div class="column is-8">
+                        <h3 class="title is-4">{{ facility.name }}</h3>
+                        <div class="content">
+                            {{ facility.description | markdownify }}
+                        </div>
                     </div>
                 </div>
-            </div>
-        {% endfor %}
-    </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p class="notification is-info">
+            Facilities data file "{{ page.testbed_facilities }}" not found or is empty.
+        </p>
+    {% endif %}
 {% else %}
     <p class="notification is-warning">
-        No facilities data found. 
-        {% if page.testbed_facilities %}
-            Looking for: {{ page.testbed_facilities }}
-        {% else %}
-            testbed_facilities not set in front matter.
-        {% endif %}
+        testbed_facilities not specified in page front matter.
     </p>
 {% endif %}
