@@ -80,11 +80,13 @@ div.highlight {
 
 .pub-title {
     font-weight: 500;
-    text-decoration: underline;
-}
+    text-decoration: none; // 移除下划线
+    color: $primary; // 使用主题绿色
 
-.pub-venue {
-    font-style: italic;
+    &:hover {
+        color: darken($primary, 10%);
+        text-decoration: underline; // hover 时显示下划线
+    }
 }
 
 .pub-links {
