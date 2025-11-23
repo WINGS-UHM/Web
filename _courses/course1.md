@@ -25,7 +25,7 @@ This graduate course provides a comprehensive introduction to the principles and
 - **Credits:** 3  
 - **Prerequisites:**  
   - Computer Networks  
-  - Discrete Math, Probability and Statistics, or equivalent background :contentReference[oaicite:2]{index=2}  
+  - Discrete Math, Probability and Statistics, or equivalent background
 - **Credits:** 3
 
 ---
@@ -36,7 +36,7 @@ This graduate course provides a comprehensive introduction to the principles and
    Michael E. Whitman, Herbert J. Mattord, Cengage.  
 
 2. *Cryptography and Network Security: Principles and Practice* (7th edition)  
-   William Stallings. :contentReference[oaicite:3]{index=3}  
+   William Stallings. 
 
 Additional research papers and online materials will be provided as needed.
 
@@ -44,7 +44,7 @@ Additional research papers and online materials will be provided as needed.
 
 ## Course Objectives
 
-After successful completion of this course, students will be able to: :contentReference[oaicite:4]{index=4}  
+After successful completion of this course, students will be able to:   
 
 - Understand basic security concepts, techniques, policies, and standards.  
 - Be familiar with basic cryptographic algorithms and security protocols (for key management, secure network communication, identification, authentication, etc.).  
@@ -55,7 +55,7 @@ After successful completion of this course, students will be able to: :contentRe
 
 ## Grading Policy
 
-Total: **1000 points (100%)** :contentReference[oaicite:5]{index=5}  
+Total: **1000 points (100%)** 
 
 - **Discussion:** 40 points  
 - **Homework:** 480 points (7 assignments, ~70 points each)  
@@ -68,20 +68,20 @@ Total: **1000 points (100%)** :contentReference[oaicite:5]{index=5}
 - **No submission:** −10 points each.  
 - **Late submission:** −5 points per discussion.  
 - Discussions are submitted via Canvas/WebCampus comment panel.  
-- Deadline: one week after the corresponding lecture; due the day before the next week’s lecture. :contentReference[oaicite:6]{index=6}  
+- Deadline: one week after the corresponding lecture; due the day before the next week’s lecture. 
 
 ### Homework (480 points)
 
 - Seven (7) homework assignments.  
 - Each counts for around 70 points.  
 - Two (2) weeks to complete each assignment.  
-- Late penalty: −5 points per day after the due date. :contentReference[oaicite:7]{index=7}  
+- Late penalty: −5 points per day after the due date. 
 
 ### Midterm Exam (180 points)
 
 - Open-book, open-notes exam.  
 - Must be submitted by the due date; **no makeup exam**.  
-- Stevens academic integrity policy will be strictly enforced. :contentReference[oaicite:8]{index=8}  
+- Stevens academic integrity policy will be strictly enforced.  
 
 ---
 
@@ -90,7 +90,7 @@ Total: **1000 points (100%)** :contentReference[oaicite:5]{index=5}
 **Format**
 
 - Individual project by default; a team of two allowed with instructor approval.  
-- Three possible types: :contentReference[oaicite:9]{index=9}  
+- Three possible types:  
   1. **Survey paper** on a focused topic (≥ 8 pages, extensive coverage).  
   2. **Original research idea** (≥ 6 pages) with analytical and/or experimental results.  
   3. **Implementation of an existing paper** (≥ 6 pages) with source code and experimental results.
@@ -106,7 +106,7 @@ All reports must follow the provided IEEE template and be prepared in **LaTeX**.
 5. Evaluation (analytical or experimental results; not required for survey-only projects)  
 6. Discussion and future directions  
 7. Conclusion  
-8. References :contentReference[oaicite:10]{index=10}  
+8. References
 
 **Deliverables**
 
@@ -124,20 +124,20 @@ All reports must follow the provided IEEE template and be prepared in **LaTeX**.
 4. **Final presentation (60 points)**  
    - Presentation video of **at least 18 minutes** per project.  
    - All team members must present.  
-   - Slides should be detailed yet concise. :contentReference[oaicite:11]{index=11}  
+   - Slides should be detailed yet concise. 
 
 **Grading criteria for final project**
 
 - **Report quality (60 points):** structure, clarity, completeness, and professional writing.  
-- **Overall project quality (120 points):** technical depth, originality, and evaluation. :contentReference[oaicite:12]{index=12}  
+- **Overall project quality (120 points):** technical depth, originality, and evaluation. 
 
 ---
 
 ## Academic Integrity & Ethics
 
-All students are bound by the **Stevens Graduate Student Code of Academic Integrity**. Work submitted for credit must be entirely your own; all outside assistance must be properly acknowledged. Violations will be handled according to university policy and may result in severe sanctions. :contentReference[oaicite:13]{index=13}  
+All students are bound by the **Stevens Graduate Student Code of Academic Integrity**. Work submitted for credit must be entirely your own; all outside assistance must be properly acknowledged. Violations will be handled according to university policy and may result in severe sanctions.  
 
-In addition, this course enforces the following penalties for identical or near-identical submissions: :contentReference[oaicite:14]{index=14}  
+In addition, this course enforces the following penalties for identical or near-identical submissions:
 
 - **First occurrence:** 50% off both submissions and a warning.  
 - **Second occurrence:** 100% off both submissions and a report to the university.  
