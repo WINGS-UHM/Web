@@ -12,7 +12,7 @@ items:
     call_to_action_link: https://luna-xue.github.io/conf-track.html
   - title: Techniques Summary
     # subtitle: Example subtitle 2
-    icon: fa-pencil-square-o
+    icon: fa-pencil-square
     description: >
       We summarize interesting topics
 
