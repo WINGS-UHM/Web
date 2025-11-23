@@ -25,17 +25,17 @@ The items have 6 fields, but only the title and subtitle are required. If the ic
 style: is-light
 height: is-medium
 items:
-  - title: Example callout 1
-    subtitle: Example subtitle 1
-    icon: fa-space-shuttle
+  - title: Conference Deadline
+    # subtitle: Example subtitle 1
+    icon: fa-calendar
     description: >
-      The example description text goes here and can be multiple lines.
-
-      For example, such as this. 
-    call_to_action_name: Call to action 1
-    call_to_action_link: /page-1/
+      This is the conference deadline summary created by our team
+      
+      Please feel free to save and use:
+    call_to_action_name: Deadline
+    call_to_action_link: https://luna-xue.github.io/conf-track.html
   - title: Example callout 2
-    subtitle: Example subtitle 2
+    # subtitle: Example subtitle 2
     icon: fa-wrench
     description: >
       The example description text goes here and can be multiple lines.
@@ -44,7 +44,7 @@ items:
     call_to_action_name: Call to action 2
     call_to_action_link: /page-2/
   - title: Example callout 3
-    subtitle: Example subtitle 3
+    # subtitle: Example subtitle 3
     icon: fa-github
     icon_brand: true
     description: >
