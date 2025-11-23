@@ -1,0 +1,23 @@
+- name: USRP 2974 Software-Defined Radio
+  image: /assets/img/project/usrp-2974.jpg
+  description: |
+    The USRP 2974 is a high-performance software-defined radio platform designed for advanced wireless research and development. 
+    It supports multiple frequency bands and provides flexible signal processing capabilities.
+    
+- name: TMYTEK BBox Lite
+  image: /assets/img/project/BBox-Lite.png
+  description: |
+    The X310 SDR platform offers robust performance for wireless communication research. 
+    It features wide frequency coverage and excellent signal quality for various experimental applications.
+    
+- name: TMYTEK BBox One
+  image: /assets/img/project/BBox-One.avif
+  description: |
+    Our O-RAN testbed cluster provides a comprehensive environment for testing and validating 
+    Open Radio Access Network architectures and AI-driven network optimization.
+
+- name: TMYTEK UD Box
+  image: /assets/img/project/UDBox.png
+  description: |
+    Our O-RAN testbed cluster provides a comprehensive environment for testing and validating 
+    Open Radio Access Network architectures and AI-driven network optimization.

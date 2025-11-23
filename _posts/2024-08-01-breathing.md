@@ -9,6 +9,7 @@ hero_darken: true
 image: /assets/img/project/AIoT_Breath.png
 tags: bulma-clean-theme jekyll docs
 series: project_series_isac
+testbed_facilities: testbed_breathing
 ---
 
 I created WINGS Lab as a theme for my own website and decided to open source it so others could use it as well. One of the key things I wanted to do was to create a theme that worked with GitHub Pages, which also means that you can also use it as a docs site for your project. 
