@@ -1,9 +1,9 @@
 - tier_name: Principal Investigator
   size: large
-  description: |-
-    This is the description for the Platinum Tier.
+  # description: |-
+  #   This is the description for the Platinum Tier.
 
-    It can contain multiple lines. It has the size set to 'large'.
+  #   It can contain multiple lines. It has the size set to 'large'.
   teams:
     - name: Xiaochan (Luna) Xue
       avatar: /assets/img/team/XXC_1.png
@@ -15,8 +15,6 @@
       linkedin: https://www.linkedin.com/in/xxx/
 
 - tier_name: PhD Students
-  description: |-
-    This is the description for the Gold Tier.
   teams:
     - name: Saurabh Parkar
       avatar: /assets/img/team/sparkar.jpg
@@ -28,8 +26,6 @@
 
 - tier_name: Researchers
   size: small
-  description: |-
-    This is the description for the Standard Tier.
   teams:
     - name: Lenny Yanza
       avatar: /assets/img/team/LennyY.jpg
