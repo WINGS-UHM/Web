@@ -22,6 +22,11 @@ div.highlight {
     background-color: rgba($hero-darken, 0.5);
 }
 
+.hero .subtitle {
+    font-size: 1.25rem; // 可以根据需要调整，默认 is-3 大约是 1.5rem
+    // 如果想要更大，可以设置为 1.75rem 或 2rem
+}
+
 /* 1. 减小 section 上下 padding（影响所有 section）*/
 .section {
     padding-top: 2rem;
