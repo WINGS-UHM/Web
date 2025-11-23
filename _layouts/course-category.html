@@ -20,7 +20,7 @@ show_sidebar: false
                     {% if course.image %}
                         <div class="card-image">
                             <figure class="image is-4by3">
-                                <img src="{{ course.image }}" alt="{{ course.title }}">
+                                <img src="{{ course.image | relative_url }}" alt="{{ course.title }}">
                             </figure>
                         </div>
                     {% endif %}
