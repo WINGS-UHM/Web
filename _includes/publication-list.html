@@ -4,7 +4,7 @@
   {% for pub in pubs %}
     <div class="pub-item">
       <div class="pub-main">
-        <span class="pub-authors">{{ pub.authors }}</span>
+                <span class="pub-authors">{{ pub.authors | replace: 'Xiaochan Xue', '<strong>Xiaochan Xue</strong>' }}</span>
         {% if pub.year %} ({{ pub.year }}){% endif %}.
         {% if pub.link %}
           <a href="{{ pub.link }}" class="pub-title" target="_blank" rel="noopener">
