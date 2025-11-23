@@ -34,16 +34,16 @@ items:
       Please feel free to save and use:
     call_to_action_name: Deadline
     call_to_action_link: https://luna-xue.github.io/conf-track.html
-  - title: Example callout 2
+  - title: Techniques Summary
     # subtitle: Example subtitle 2
-    icon: fa-wrench
+    icon: fa-pencil-square-o
     description: >
-      The example description text goes here and can be multiple lines.
+      Our team summarize interesting topics
 
-      For example, such as this.
-    call_to_action_name: Call to action 2
+      Please check:
+    call_to_action_name: Topics
     call_to_action_link: /page-2/
-  - title: Example callout 3
+  - title: GitHub Projects
     # subtitle: Example subtitle 3
     icon: fa-github
     icon_brand: true
