@@ -79,15 +79,19 @@ div.highlight {
 }
 
 .pub-title {
-    font-weight: 500;
-    text-decoration: none; // 移除下划线
-    color: $primary; // 使用主题绿色
+    font-weight: 700; // 更加粗
+    font-size: 1.25rem; // 稍微放大字体
+    color: #024731; // 深绿更醒目（可替换）
+    text-decoration: none; // 移除默认下划线
+    transition: all 0.2s ease-in-out; // 平滑过渡效果
 
     &:hover {
-        color: darken($primary, 10%);
-        text-decoration: underline; // hover 时显示下划线
+        color: #012f22; // hover 时更深
+        text-decoration: underline; // hover 显示下划线
+        letter-spacing: 0.3px; // 微调间距提升感知
     }
 }
+
 
 .pub-links {
     margin-top: 0.2rem;
