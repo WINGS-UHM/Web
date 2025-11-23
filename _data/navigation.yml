@@ -9,7 +9,7 @@
 - name: Gallery
   link: /#
   dropdown:
-    - name: Image Gallery
+    - name: Activity Gallery
       link: /gallery/
     - name: Showcase
       link: /showcase/
