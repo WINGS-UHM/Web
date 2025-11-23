@@ -3,10 +3,10 @@ layout: post
 title: mmWave Breathing Pattern Detection
 description: How to create a docs site for your project with WINGS Lab 
 date: 2024-08-01 00:00:00
-hero_image: /assets/img/course/AIoT_Breath.png
+hero_image: /assets/img/project/AIoT_Breath.png
 hero_height: is-large
 hero_darken: true
-image: /assets/img/course/AIoT_Breath.png
+image: /assets/img/project/AIoT_Breath.png
 tags: bulma-clean-theme jekyll docs
 canonical_url: https://www.csrhymes.com/2020/05/08/creating-a-docs-site-with-bulma-clean-theme.html
 ---
