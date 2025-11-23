@@ -48,11 +48,11 @@ items:
     icon: fa-github
     icon_brand: true
     description: >
-      The example description text goes here and can be multiple lines.
+      We also record our progress using GitHub
 
-      For example, such as this.
-    call_to_action_name: Call to action 3
-    call_to_action_link: /page-3/
+      Please check if you are interested in:
+    call_to_action_name: View Github
+    call_to_action_link: https://github.com/WINGS-UHM/Web/
 ```
 
 ## Set the callouts in the frontmatter
