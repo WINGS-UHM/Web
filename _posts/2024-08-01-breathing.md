@@ -8,7 +8,7 @@ hero_height: is-large
 hero_darken: true
 image: /assets/img/project/AIoT_Breath.png
 tags: bulma-clean-theme jekyll docs
-canonical_url: https://www.csrhymes.com/2020/05/08/creating-a-docs-site-with-bulma-clean-theme.html
+series: project_series_isac
 ---
 
 I created WINGS Lab as a theme for my own website and decided to open source it so others could use it as well. One of the key things I wanted to do was to create a theme that worked with GitHub Pages, which also means that you can also use it as a docs site for your project. 

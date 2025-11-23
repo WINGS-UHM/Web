@@ -1,0 +1,11 @@
+title: ISAC Series
+description: This post is part of a series all about ISAC.
+sections:
+  - label: Fundamental
+    items:
+      - title: New Trend Waveform Design in ISAC
+  - label: Advanced
+    items:
+      - title: mmWave Breathing Pattern Detection
+      - title: NextG UAV Detection Using an O-RAN-Controlled Reconfigurable Intelligent Surface (RIS)
+
