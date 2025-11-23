@@ -1,8 +1,9 @@
 ---
 layout: page
 title: WINGS Lab
-subtitle: Wireless Intelligent Networks for FutureG with Security Lab <br>
-   Aloha! We are at University of Hawaiʻi at Mānoa
+subtitle: >
+  <strong>W</strong>ireless <strong>I</strong>ntelligent <strong>N</strong>etworks for Future<strong>G</strong> with <strong>S</strong>ecurity Lab<br>
+  <span style="font-size: 1.05rem;">Aloha! We are at the University of Hawaiʻi at Mānoa</span>
 hero_height: is-large
 # hero_link: https://github.com/wings-uhm
 # hero_link_text: Visit GitHub
