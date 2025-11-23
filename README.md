@@ -24,7 +24,7 @@ Visit: [https://wings-uhm.github.io/Web/](https://wings-uhm.github.io/Web/)
 
 ## 🚀 Features
 
-- 📚 Course pages: [CPE 691](https://wings-uhm.github.io/Web/courses/course1/), [ECE 362](https://wings-uhm.github.io/Web/courses/course2/)
+- 📚 Course pages: [ECE 693E](https://wings-uhm.github.io/Web/courses/ECE693E/),[ECE 669](https://wings-uhm.github.io/Web/courses/ECE669/), [ECE 362](https://wings-uhm.github.io/Web/courses/ECE362/)
 - 🧪 Project blog series with facility integration
 - 🎓 Team and alumni directory with filters
 - 🖼️ Optimized image cards for publications and labs
