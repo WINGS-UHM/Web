@@ -108,14 +108,3 @@ div.highlight {
 .pub-link.pub-cite.is-copied {
     color: #1a7f37; // 深绿
 }
-
-// 在 _sass/_layout.scss 文件末尾添加
-.columns.is-multiline .column.is-6:first-child {
-    .title.is-3 {
-        font-size: 2.25rem; // 更大
-    }
-
-    .subtitle.is-3 {
-        font-size: 1.5rem; // 适中
-    }
-}
