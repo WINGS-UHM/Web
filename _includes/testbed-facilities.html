@@ -1,10 +1,5 @@
 {% assign facilities = site.data[page.testbed_facilities] %}
 
-{% comment %} 调试：检查数据是否加载 {% endcomment %}
-{% if page.testbed_facilities %}
-    <!-- Debug: testbed_facilities = {{ page.testbed_facilities }} -->
-{% endif %}
-
 {% if facilities %}
     <div class="testbed-facilities">
         {% for facility in facilities %}
