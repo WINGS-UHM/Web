@@ -45,7 +45,7 @@ sections:
     items:
       - title: Introducing some new layouts to WINGS Lab
       - title: Creating a docs site with WINGS Lab
-      - title: O-RAN/AI RAN Testbed
+      - title: O-RAN/AI-RAN Testbed
 ```
 
 ## Update your posts

@@ -11,7 +11,7 @@ features:
       icon: fa-calendar
     - label: Available in multiple sizes
       icon: fa-fighter-jet
-rating: 5
+# rating: 5
 ---
 
 This is the content about the course.
