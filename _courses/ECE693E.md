@@ -9,8 +9,8 @@ features:
       icon: fa-location-arrow
     - label: 2025 Fall
       icon: fa-calendar
-    - label: Available in multiple sizes
-      icon: fa-fighter-jet
+    - label: In-person
+      icon: fa-users
 # rating: 5
 ---
 
