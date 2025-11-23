@@ -2,7 +2,7 @@
 title: ECE 693E - Intelligent and Secure Wireless Networks
 subtitle: From Wireless Fundamentals to intelligent, secure, and programmable AI-driven Radio Access Networks.
 layout: course
-image: https://picsum.photos/id/15/600/480
+image: /assets/img/course/ai_ran.png
 semester: 2025 Fall
 features:
     - label: University of Hawaiʻi at Mānoa, Honolulu, HI
