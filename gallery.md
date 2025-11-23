@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Activity Gallery
-subtitle: Showing the memories of our activities》
+subtitle: Showing the memories of our activities.
 description: A simple image gallery page 
 gallery: WINGS_gallery
 show_sidebar: false
