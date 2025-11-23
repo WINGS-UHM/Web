@@ -9,6 +9,10 @@ layout: default
     {% endif %}
 
     {{ content }}
+    
+    {% if page.testbed_facilities %}
+        {% include testbed-facilities.html %}
+    {% endif %}
 </div>
 
 <div class="tags my-4">
