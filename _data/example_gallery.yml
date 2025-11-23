@@ -1,38 +1,38 @@
-- title: Image Gallery Title
+- title: "CyberTraining: Pilot: O-RAN-Based Cyberinfrastructure Training for Future-Generation Wireless Communication and Sensing"
   images:
-    - link: https://picsum.photos/id/16/600/480
-      large_link: https://picsum.photos/id/16/1200/960
+    - link: /assets/img/gallery/Cyber1.JPG
+      large_link: /assets/img/gallery/Cyber1.JPG
       alt: The alt text for the image
-      description: The image description
+      description: Saurabh Parkar is showing the breathing data collection process to all mentees.
       ratio: is-4by3
-    - link: https://picsum.photos/id/17/600/480
-      large_link: https://picsum.photos/id/17/1200/960
+    - link: /assets/img/gallery/Cyber2.jpg
+      large_link: /assets/img/gallery/Cyber2.jpg
       alt: The alt text for the image
-      description: The image description
+      description: Group photo, including Saurabh Parkar, Dr. Xiaochan Xue, and Dr. Shucheng Yu
       ratio: is-4by3
-    - link: https://picsum.photos/id/18/600/480
-      large_link: https://picsum.photos/id/18/1200/960
-      alt: The alt text for the image
-      description: |-
-        ### A title
+    # - link: https://picsum.photos/id/18/600/480
+    #   large_link: https://picsum.photos/id/18/1200/960
+    #   alt: The alt text for the image
+    #   description: |-
+    #     ### A title
 
-        The *image* **description** can be longer and written in markdown too.
+    #     The *image* **description** can be longer and written in markdown too.
 
-        If you want to describe your image in more detail.
+    #     If you want to describe your image in more detail.
 
-        * Item 1
-        * Item 2
-      ratio: is-4by3
+    #     * Item 1
+    #     * Item 2
+    #   ratio: is-4by3
 
-- title: Second Image Gallery Title
-  images:
-    - link: https://picsum.photos/id/19/800/450
-      alt: The alt text for the image
-      description: The image description
-    - link: https://picsum.photos/id/20/800/450
-      alt: The alt text for the image
-      description: The image description
-    - link: https://picsum.photos/id/21/800/450
-      alt: The alt text for the image
-      description: |-
-        The *image* **description**
+# - title: Second Image Gallery Title
+#   images:
+#     - link: https://picsum.photos/id/19/800/450
+#       alt: The alt text for the image
+#       description: The image description
+#     - link: https://picsum.photos/id/20/800/450
+#       alt: The alt text for the image
+#       description: The image description
+#     - link: https://picsum.photos/id/21/800/450
+#       alt: The alt text for the image
+#       description: |-
+#         The *image* **description**
