@@ -7,7 +7,7 @@ hero_image: /assets/img/project/AIoT_Breath.png
 hero_height: is-large
 hero_darken: true
 image: /assets/img/project/AIoT_Breath.png
-tags: bulma-clean-theme jekyll docs
+tags: mmWave ISAC
 series: project_series_isac
 testbed_facilities: testbed_breathing
 ---
