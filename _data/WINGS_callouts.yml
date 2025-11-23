@@ -5,7 +5,7 @@ items:
     # subtitle: Example subtitle 1
     icon: fa-calendar
     description: >
-      This is the conference deadline summary created by our team
+      We create a conference deadline summary
       
       Please feel free to save and use:
     call_to_action_name: Deadline
@@ -14,7 +14,7 @@ items:
     # subtitle: Example subtitle 2
     icon: fa-pencil-square-o
     description: >
-      Our team summarize interesting topics
+      We summarize interesting topics
 
       Please check:
     call_to_action_name: Topics
