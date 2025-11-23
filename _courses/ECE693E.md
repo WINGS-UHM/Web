@@ -1,5 +1,5 @@
 ---
-title: ECE 693E: Intelligent and Secure Wireless Networks
+title: ECE 693E-Intelligent and Secure Wireless Networks
 subtitle: From Wireless Fundamentals to intelligent, secure, and programmable AI-driven Radio Access Networks.
 layout: course
 image: https://picsum.photos/id/15/600/480
