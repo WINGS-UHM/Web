@@ -1,11 +1,11 @@
 - name: Teams
   link: /teams/
-- name: Docs
-  link: /docs/
 - name: Projects
   link: /projects/
 - name: Courses
   link: /courses/
+- name: Docs
+  link: /docs/
 - name: Gallery
   link: /#
   dropdown:
