@@ -1,5 +1,5 @@
 {% if page.gallery %}
-    {% assign galleries=site.data.[page.gallery] %}
+    {% assign galleries = site.data[page.gallery] %}
     {% for gallery in galleries %}
         <div class="columns is-multiline">
             <div class="column is-12">
@@ -11,9 +11,9 @@
                         <div class="card-image">
                             {% include image-modal.html
                                 ratio=image.ratio
-                                link=image.link | relative_url
+                                link=image.link
                                 alt=image.alt
-                                large_link=image.large_link | relative_url
+                                large_link=image.large_link
                             %}
                         </div>
                         <div class="card-content">
