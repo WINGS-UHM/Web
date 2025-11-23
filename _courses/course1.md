@@ -3,7 +3,7 @@ title: CPE 691
 subtitle: Information Systems Security
 description: This is a course description
 layout: course
-image: https://picsum.photos/id/10/600/480
+image: ../assets/img/course/cybersecurity-triangle.svg
 semester: 2024-2025
 # course_code: ABC123    For Reviews
 features:
@@ -23,125 +23,139 @@ This graduate course provides a comprehensive introduction to the principles and
 - **Semester:** 2025 Spring  
 - **Location / Time:** Burchard 114 & WebCampus  
 - **Credits:** 3  
+- **Prerequisites:**  
+  - Computer Networks  
+  - Discrete Math, Probability and Statistics, or equivalent background :contentReference[oaicite:2]{index=2}  
+- **Credits:** 3
 
+---
 
-### Format
+## Textbooks
 
-- **Meeting Time:**  
-  - 1 meeting per week (Wednesday 3:00–5:30 pm)
-- **Mode:**  
-  - In-person & WebCampus
-- **Materials:**  
-  - Research papers from conferences/journals (e.g., IEEE S&P, USENIX Security, CCS, NDSS, INFOCOM, etc.)  
-  - Supplementary notes/slides provided by the instructor  
+1. *Principles of Information Security*  
+   Michael E. Whitman, Herbert J. Mattord, Cengage.  
+
+2. *Cryptography and Network Security: Principles and Practice* (7th edition)  
+   William Stallings. :contentReference[oaicite:3]{index=3}  
+
+Additional research papers and online materials will be provided as needed.
+
+---
+
+## Course Objectives
+
+After successful completion of this course, students will be able to: :contentReference[oaicite:4]{index=4}  
+
+- Understand basic security concepts, techniques, policies, and standards.  
+- Be familiar with basic cryptographic algorithms and security protocols (for key management, secure network communication, identification, authentication, etc.).  
+- Learn state-of-the-art techniques related to IoT security, distributed trust, and machine learning security and privacy.  
+- Design and/or implement security algorithms and protocols.
 
 ---
 
 ## Grading Policy
 
-- **Paper Presentations:** 35%  
-- **Paper Reports / Summaries:** 25%  
-- **Class Participation & Discussion:** 15%  
-- **Course Project (proposal, report, presentation):** 25%  
+Total: **1000 points (100%)** :contentReference[oaicite:5]{index=5}  
 
-### Letter Grade Cutoffs (Example)
+- **Discussion:** 40 points  
+- **Homework:** 480 points (7 assignments, ~70 points each)  
+- **Midterm Exam:** 180 points  
+- **Final Project & Presentation:** 300 points  
 
-- A range: 90–100%  
-- B range: 80–89%  
-- C range: 70–79%  
-- Below 70%: Unsatisfactory  
+### Discussion (40 points)
 
-*(Exact cutoffs may be adjusted slightly at the instructor’s discretion.)*
+- Four (4) required discussions throughout the semester.  
+- **No submission:** −10 points each.  
+- **Late submission:** −5 points per discussion.  
+- Discussions are submitted via Canvas/WebCampus comment panel.  
+- Deadline: one week after the corresponding lecture; due the day before the next week’s lecture. :contentReference[oaicite:6]{index=6}  
 
-### Academic Integrity
+### Homework (480 points)
 
-Copying or otherwise cheating on reports, presentations, code, or exams will result in a failing grade for the course and will be reported to the university following Stevens’ Honor System and academic integrity policies.
+- Seven (7) homework assignments.  
+- Each counts for around 70 points.  
+- Two (2) weeks to complete each assignment.  
+- Late penalty: −5 points per day after the due date. :contentReference[oaicite:7]{index=7}  
 
----
+### Midterm Exam (180 points)
 
-## Schedule (Tentative)
-
-**Week 01 – Course Overview & Security Basics**  
-- Topics: Course logistics; threat models; CIA triad; basic crypto notions  
-- Reading: Introductory survey or textbook chapter  
-- Deliverables: None  
-
-**Week 02 – Symmetric Cryptography & Authentication**  
-- Topics: Block/stream ciphers, modes of operation, MACs, authenticated encryption  
-- Reading: 1–2 foundational or tutorial papers  
-- Deliverables: Short reflection on readings  
-
-**Week 03 – Public-Key Cryptography & Key Exchange**  
-- Topics: RSA, ECC, Diffie–Hellman, PKI, certificates  
-- Reading: Classic key-exchange papers or modern PKI analysis  
-- Deliverables: Paper report #1  
-
-**Week 04 – Security Protocols (TLS, IPsec, Authentication)**  
-- Topics: Protocol design; TLS; IPsec; passwords; 2FA; single sign-on  
-- Reading: Selected protocol analysis papers  
-- Deliverables: Student presentations #1  
-
-**Week 05 – Network Security & Firewalls/IDS**  
-- Topics: Attack surfaces in networks; firewalls; intrusion detection/prevention  
-- Reading: Network anomaly detection / IDS research papers  
-- Deliverables: Paper report #2  
-
-**Week 06 – Software & Web Security**  
-- Topics: Memory safety, web vulnerabilities (XSS, CSRF, SQLi), secure coding  
-- Reading: Papers on software exploits and defenses  
-- Deliverables: Student presentations #2  
-
-**Week 07 – Operating System & Hardware-Assisted Security**  
-- Topics: OS isolation, access control, TCB, trusted execution environments  
-- Reading: Papers on TEEs, sandboxing, or OS security mechanisms  
-- Deliverables: Project proposals due  
-
-**Week 08 – Wireless & IoT Security**  
-- Topics: Wireless protocol security (Wi-Fi, cellular), IoT constraints, embedded devices  
-- Reading: Papers on wireless/IoT vulnerabilities and defenses  
-- Deliverables: Paper report #3  
-
-**Week 09 – Cloud & Distributed Systems Security**  
-- Topics: Cloud threat models, virtualization, access control, multi-tenant isolation  
-- Reading: Cloud security case studies / attacks  
-- Deliverables: Student presentations #3  
-
-**Week 10 – Privacy & Anonymity**  
-- Topics: Privacy models, anonymization, traffic analysis, differential privacy (high level)  
-- Reading: Papers on privacy attacks or defenses  
-- Deliverables: Project midterm update  
-
-**Week 11 – Security of Machine Learning / AI**  
-- Topics: Adversarial examples, poisoning, model stealing, privacy in ML  
-- Reading: Recent ML security papers  
-- Deliverables: Paper report #4  
-
-**Week 12 – Advanced Topics in Systems Security**  
-- Topics: Side-channel attacks, microarchitectural attacks, advanced malware  
-- Reading: Selected case-study papers  
-- Deliverables: Student presentations #4  
-
-**Week 13 – Security in Emerging Networks (5G/NextG, Edge, O-RAN)**  
-- Topics: Edge computing, SDN/NFV security, O-RAN threats and defenses  
-- Reading: Survey or research papers on NextG security  
-- Deliverables: Project progress check-in  
-
-**Week 14 – Project Presentations & Course Wrap-Up**  
-- Topics: Student project presentations; synthesis and open problems  
-- Deliverables: Final project report & presentation  
+- Open-book, open-notes exam.  
+- Must be submitted by the due date; **no makeup exam**.  
+- Stevens academic integrity policy will be strictly enforced. :contentReference[oaicite:8]{index=8}  
 
 ---
 
-## Course Project
+## Final Project (300 points)
 
-Students will work individually or in small teams (2–3 members) on a semester-long project related to information systems security. Possible directions include:
+**Format**
 
-- Designing or evaluating a security mechanism or protocol;  
-- Implementing and measuring an attack in a controlled environment;  
-- Performing an experimental study of a security property in a real system;  
-- Conducting a survey and critical analysis of a focused research area.  
+- Individual project by default; a team of two allowed with instructor approval.  
+- Three possible types: :contentReference[oaicite:9]{index=9}  
+  1. **Survey paper** on a focused topic (≥ 8 pages, extensive coverage).  
+  2. **Original research idea** (≥ 6 pages) with analytical and/or experimental results.  
+  3. **Implementation of an existing paper** (≥ 6 pages) with source code and experimental results.
 
-The project will include a short **proposal**, a **final written report** (in conference-paper format), and an **in-class presentation**.
+All reports must follow the provided IEEE template and be prepared in **LaTeX**.
+
+**Required sections for the final report**
+
+1. Title and abstract  
+2. Introduction (problem statement and background)  
+3. Related work (summary of state-of-the-art and related research)  
+4. Main technique / methodology  
+5. Evaluation (analytical or experimental results; not required for survey-only projects)  
+6. Discussion and future directions  
+7. Conclusion  
+8. References :contentReference[oaicite:10]{index=10}  
+
+**Deliverables**
+
+1. **Proposal (30 points)**  
+   - 1-page PDF including: problem statement, tentative plan, team members and task allocation (if applicable).  
+
+2. **Mid-stage report (30 points)**  
+   - ≥ 3-page PDF with preliminary versions of Sections 1–5.  
+   - For surveys, should cover at least half of the targeted literature.  
+
+3. **Final report (180 points)**  
+   - PDF in IEEE format, meeting page-length requirements (8+ pages survey; 6+ pages research/implementation).  
+   - Include source code if applicable.  
+
+4. **Final presentation (60 points)**  
+   - Presentation video of **at least 18 minutes** per project.  
+   - All team members must present.  
+   - Slides should be detailed yet concise. :contentReference[oaicite:11]{index=11}  
+
+**Grading criteria for final project**
+
+- **Report quality (60 points):** structure, clarity, completeness, and professional writing.  
+- **Overall project quality (120 points):** technical depth, originality, and evaluation. :contentReference[oaicite:12]{index=12}  
 
 ---
+
+## Academic Integrity & Ethics
+
+All students are bound by the **Stevens Graduate Student Code of Academic Integrity**. Work submitted for credit must be entirely your own; all outside assistance must be properly acknowledged. Violations will be handled according to university policy and may result in severe sanctions. :contentReference[oaicite:13]{index=13}  
+
+In addition, this course enforces the following penalties for identical or near-identical submissions: :contentReference[oaicite:14]{index=14}  
+
+- **First occurrence:** 50% off both submissions and a warning.  
+- **Second occurrence:** 100% off both submissions and a report to the university.  
+
+Assignments may be checked with Turnitin or similar tools for originality.
+
+---
+
+## Topics (Indicative)
+
+The detailed weekly schedule is posted on Canvas/WebCampus. Representative topics include:
+
+- Security goals, policies, and standards  
+- Classical and modern cryptography (symmetric, public-key, hash, MAC, digital signatures)  
+- Security protocols for key management and secure communication  
+- Identification and authentication mechanisms  
+- IoT and cyber-physical system security  
+- Distributed trust and secure protocols in distributed systems  
+- Machine learning security and privacy  
+
 _Last updated: May, 2025_
