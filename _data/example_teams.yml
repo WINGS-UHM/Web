@@ -46,8 +46,6 @@
 
 - tier_name: Collaborators
   size: small
-  description: |-
-    All collaborators.
   teams:
     - name: Shucheng Yu
       avatar: /assets/img/team/Shucheng Yu.jpg
