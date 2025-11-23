@@ -1,41 +1,164 @@
-- year: 2019
-  type: preprint
-  authors: Xiaochan Xue
-  title: An example preprint / working paper
-  venue:
-  link: https://example.com/preprint
-  pdf: https://example.com/preprint.pdf
-  code: https://github.com/xxx/repo
-  preprint: https://example.com/conf.pdf
-  slides: https://example.com/conf.pdf
-  dataset: https://example.com/conf.pdf
-  poster: https://example.com/conf.pdf
-  source: https://example.com/conf.pdf
-  video: https://example.com/conf.pdf
-  project: https://example.com/conf.pdf
-  doi: https://example.com/conf.pdf
-  custom: https://example.com/conf.pdf
-  # 新增：要复制的引用文本（可以是 BibTeX 或普通 citation）
+- year: 2026
+  type: conference
+  authors: Xiaochan Xue, Shucheng Yu, Saurabh Parkar, Jiarui Li
+  title: Waveform Design for ISAC: Trends and Future Directions
+  venue: IEEE International Conference on Computing, Networking and Communications (ICNC) 2026
+  link: 
+  pdf: 
+  code: 
+  demo: 
   citation: |-
-    @article{Xue2015Example,
-      author = {Xue, Xiaochan and Ford, Robert},
-      title = {An example journal article},
-      journal = {Journal of Source Themes},
-      year = {2015}
+
+- year: 2025
+  type: conference
+  authors: Xiaochan Xue, Saurabh Parkar, Shucheng Yu, Yao Zheng
+  title: AI-assisted Composite ISAC for mmWave Respiration Pattern Recognition
+  venue: IEEE Annual Congress on Artificial Intelligence of Things (AIoT) 2025
+  link: 
+  pdf: 
+  code: 
+  demo: 
+  project: https://example.com/conf.pdf
+  citation: |-
+
+- year: 2025
+  type: conference
+  authors: Xiaochan Xue, Shucheng Yu, Saurabh Parkar, Yao Zheng
+  title: ROISD: RIS and O-RAN Assisted Intelligent Sensing for UAV Detection
+  venue: IEEE Annual Congress on Artificial Intelligence of Things (AIoT) 2025
+  link: 
+  pdf: 
+  code: https://github.com/Luna-Xue
+  citation: |-
+
+- year: 2023
+  type: journal
+  authors: Moh Khalid Hasan, Xiaochan Xue, Shucheng Yu, Min Song
+  title: Cooperative Noma-based Spectrum Leasing with Multiple Secondary Users
+  venue: IEEE Transactions on Vehicular Technology (TVT) 2023
+  link: https://ieeexplore.ieee.org/abstract/document/10160162/
+  pdf: https://ieeexplore.ieee.org/abstract/document/10160162/
+  citation: |-
+    @ARTICLE{10160162,
+      author={Hasan, Moh Khalid and Xue, Xiaochan and Yu, Shucheng and Song, Min},
+      journal={IEEE Transactions on Vehicular Technology}, 
+      title={Cooperative NOMA-Based Spectrum Leasing With Multiple Secondary Users}, 
+      year={2023},
+      volume={72},
+      number={11},
+      pages={14543-14558},
+      keywords={NOMA;Relays;Receivers;Symbols;Resource management;Probability;Power system reliability;Cognitive radio network (CRN);spectrum leasing (SL);cooperative nonorthogonal multiple access (CNOMA);successive interference cancellation (SIC);and orthogonal multiple access (OMA)},
+      doi={10.1109/TVT.2023.3287230}
     }
 
-- year: 2015
-  type: journal
-  authors: Xiaochan Xue, Robert Ford
-  title: An example journal article
-  venue: Journal of Source Themes, 1(1)
-  link: https://example.com/journal
-  pdf: https://example.com/journal.pdf
-  code: https://github.com/xxx/repo2
+
+- year: 2023
+  type: conference
+  authors: Xiaochan Xue, Moh Khalid Hasan, Shucheng Yu, Laxima Niure Kandel, Min Song
+  title: Over-the-air Federated Learning with Enhanced Privacy
+  venue: IEEE International Conference on Communications (ICC) 2023
+  link: https://ieeexplore.ieee.org/abstract/document/10278765/
+  pdf: https://ieeexplore.ieee.org/abstract/document/10278765/
   citation: |-
-    @article{Xue2015Example,
-      author = {Xue, Xiaochan and Ford, Robert},
-      title = {An example journal article},
-      journal = {Journal of Source Themes},
-      year = {2015}
+    @INPROCEEDINGS{10278765,
+      author={Xue, Xiaochan and Hasan, Moh Khalid and Yu, Shucheng and Kandel, Laxima Niure and Song, Min},
+      booktitle={ICC 2023 - IEEE International Conference on Communications}, 
+      title={Over-the-Air Federated Learning with Enhanced Privacy}, 
+      year={2023},
+      volume={},
+      number={},
+      pages={4546-4551},
+      keywords={Wireless communication;Privacy;Data privacy;Federated learning;Computational modeling;Atmospheric modeling;Estimation;Over-the-air computation (AirComp);wireless multiple-access channel;federated learning},
+      doi={10.1109/ICC45041.2023.10278765}
     }
+
+
+- year: 2023
+  type: conference
+  authors: Xiaochan Xue, Shucheng Yu, Min Song
+  title: Secure Device Trust Bootstrapping Against Collaborative Signal Modification Attacks
+  venue: IEEE Conference on Computer Communications (INFOCOM) 2023
+  link: https://ieeexplore.ieee.org/abstract/document/10229007
+  pdf: https://ieeexplore.ieee.org/abstract/document/10229007
+  citation: |-
+    @INPROCEEDINGS{10229007,
+      author={Xue, Xiaochan and Yu, Shucheng and Song, Min},
+      booktitle={IEEE INFOCOM 2023 - IEEE Conference on Computer Communications}, 
+      title={Secure Device Trust Bootstrapping Against Collaborative Signal Modification Attacks}, 
+      year={2023},
+      volume={},
+      number={},
+      pages={1-10},
+      keywords={Wireless communication;Radio frequency;Protocols;RF signals;Communication channels;Hardware;Mobile applications;Device pairing;in-band;MitM attack;signal cancellation attack},
+      doi={10.1109/INFOCOM53939.2023.10229007}
+    }
+
+
+- year: 2021
+  type: conference
+  authors: Xiaochan Xue, Shucheng Yu, Min Song, Chunsheng Xin
+  title: K-Group Random Channel Hopping (K-RCH) Rendezvous for Cognitive Radio Networks
+  venue: IEEE International Conference on Communications (ICC) 2021
+  link: https://ieeexplore.ieee.org/abstract/document/9500643/
+  pdf: https://ieeexplore.ieee.org/abstract/document/9500643/
+  code: https://github.com/Luna-Xue
+  citation: |-
+    @INPROCEEDINGS{9500643,
+      author={Xue, Xiaochan and Yu, Shucheng and Song, Min and Xin, Chunsheng},
+      booktitle={ICC 2021 - IEEE International Conference on Communications}, 
+      title={K-Group Random Channel Hopping (K-RCH) Rendezvous for Cognitive Radio Networks}, 
+      year={2021},
+      volume={},
+      number={},
+      pages={1-6},
+      keywords={Schedules;Protocols;Simulation;Heuristic algorithms;Conferences;Cognitive radio;Next generation networking;Dynamic spectrum access;cognitive radio networks;rendezvous},
+      doi={10.1109/ICC42927.2021.9500643}
+    }
+
+- year: 2019
+  type: conference
+  authors: Hang Wu, Yulong Zou, Jia Zhu, Xiaochan Xue, Theodoros Tsiftsis
+  title: Secrecy performance of hybrid satellite-terrestrial relay systems with hardware impairments
+  venue: IEEE International Conference on Communications (ICC) 2019
+  link: https://ieeexplore.ieee.org/abstract/document/8761231/
+  pdf: https://ieeexplore.ieee.org/abstract/document/8761231/
+  code: https://github.com/Luna-Xue
+  citation: |-
+    @INPROCEEDINGS{8761231,
+      author={Wu, Hang and Zou, Yulong and Zhu, Jia and Xue, Xiaochan and Tsiftsis, Theodoros},
+      booktitle={ICC 2019 - 2019 IEEE International Conference on Communications (ICC)}, 
+      title={Secrecy Performance of Hybrid Satellite-Terrestrial Relay Systems with Hardware Impairments}, 
+      year={2019},
+      volume={},
+      number={},
+      pages={1-6},
+      keywords={Relays;Hardware;Satellites;Power system reliability;Probability;Satellite broadcasting;Probability density function},
+      doi={10.1109/ICC.2019.8761231}
+    }
+
+
+# - year: 2019
+#   type: preprint
+#   authors: Xiaochan Xue
+#   title: An example preprint / working paper
+#   venue:
+#   link: https://example.com/preprint
+#   pdf: https://example.com/preprint.pdf
+#   code: https://github.com/xxx/repo
+#   preprint: https://example.com/conf.pdf
+#   slides: https://example.com/conf.pdf
+#   dataset: https://example.com/conf.pdf
+#   poster: https://example.com/conf.pdf
+#   source: https://example.com/conf.pdf
+#   video: https://example.com/conf.pdf
+#   project: https://example.com/conf.pdf
+#   doi: https://example.com/conf.pdf
+#   custom: https://example.com/conf.pdf
+#   # 新增：要复制的引用文本（可以是 BibTeX 或普通 citation）
+#   citation: |-
+#     @article{Xue2015Example,
+#       author = {Xue, Xiaochan and Ford, Robert},
+#       title = {An example journal article},
+#       journal = {Journal of Source Themes},
+#       year = {2015}
+#     }
