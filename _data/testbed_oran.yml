@@ -1,10 +1,10 @@
-- name: X410 Software-Defined Radio Rack
+- name: X410 Software-Defined Radio
   image: /assets/img/project/X410.png
   description: |
     The X410 is a high-performance software-defined radio platform designed for advanced wireless research and development. 
     It supports multiple frequency bands and provides flexible signal processing capabilities.
     
-- name: X310 Software-Defined Radio Rack
+- name: X310 Software-Defined Radio
   image: /assets/img/project/X310.jpeg
   description: |
     The X310 SDR platform offers robust performance for wireless communication research. 
