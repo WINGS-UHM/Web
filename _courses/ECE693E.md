@@ -1,6 +1,6 @@
 ---
 title: ECE 693E
-subtitle: FutureG Wireless Network
+subtitle: Intelligent and Secure Wireless Networks
 layout: course
 image: https://picsum.photos/id/15/600/480
 semester: 2025 Fall
