@@ -1,6 +1,6 @@
 ---
-title: ECE 693E
-subtitle: Intelligent and Secure Wireless Networks
+title: ECE 693E: Intelligent and Secure Wireless Networks
+subtitle: A graduate-level tour from wireless communication basics to intelligent, secure, and programmable RAN/O-RAN systems.
 layout: course
 image: https://picsum.photos/id/15/600/480
 semester: 2025 Fall
