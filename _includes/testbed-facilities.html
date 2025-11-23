@@ -1,0 +1,18 @@
+{% if page.testbed_facilities %}
+    {% assign facilities = site.data[page.testbed_facilities] %}
+    {% for facility in facilities %}
+        <div class="columns is-vcentered mb-5">
+            <div class="column is-4">
+                <figure class="image">
+                    <img src="{{ facility.image | relative_url }}" alt="{{ facility.name }}">
+                </figure>
+            </div>
+            <div class="column is-8">
+                <h3 class="title is-4">{{ facility.name }}</h3>
+                <div class="content">
+                    {{ facility.description | markdownify }}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+{% endif %}

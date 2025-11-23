@@ -1,0 +1,17 @@
+- name: X410 Software-Defined Radio Rack
+  image: /assets/img/project/X410.png
+  description: |
+    The X410 is a high-performance software-defined radio platform designed for advanced wireless research and development. 
+    It supports multiple frequency bands and provides flexible signal processing capabilities.
+    
+- name: X310 Software-Defined Radio Rack
+  image: /assets/img/project/X310.jpeg
+  description: |
+    The X310 SDR platform offers robust performance for wireless communication research. 
+    It features wide frequency coverage and excellent signal quality for various experimental applications.
+    
+- name: O-RAN Testbed Server Cluster
+  image: /assets/img/project/ORAN.svg
+  description: |
+    Our O-RAN testbed cluster provides a comprehensive environment for testing and validating 
+    Open Radio Access Network architectures and AI-driven network optimization.
