@@ -9,7 +9,7 @@ semester: 2024-2025
 features:
     - label: Stevens Institute of Technology, Hoboken, NJ
       icon: fa-location-arrow
-    - label: 2024 Fall/2024 Fall/2025 Spring
+    - label: 2024 Spring / 2024 Fall / 2025 Spring
       icon: fa-calendar
     - label: WebCampus options
       icon: fa-video-camera
@@ -18,32 +18,19 @@ rating: 5
 
 This graduate course provides a comprehensive introduction to the principles and practice of information systems security. It covers core security properties (confidentiality, integrity, availability, authenticity, and accountability) and the cryptographic primitives used to achieve them, including symmetric and public-key encryption, message authentication codes, digital signatures, and key management.
 
-## Logistics
+### Logistics
 
-- **Course Number:** CPE 691 – Information Systems Security  
-- **Semester:** Fall 20XX  
-- **Location / Time:** TBA  
+- **Semester:** 2025 Spring  
+- **Location / Time:** Burchard 114 & WebCampus  
 - **Credits:** 3  
 
-### Personnel
-
-- **Lecturer:** *Xiaochan (Luna) Xue*  
-  - Introduces core concepts, provides high-level research overview, and moderates discussions.  
-
-- **Presenters (students):**  
-  - Give in-depth presentations on assigned research papers.  
-  - Prepare a short written report summarizing and critiquing each paper.  
-
-- **Audience / Discussants (students):**  
-  - Read assigned papers before class.  
-  - Ask questions, provide feedback, and engage in critical discussion.  
 
 ### Format
 
 - **Meeting Time:**  
-  - 1–2 meetings per week (e.g., MW 4:00–5:15 pm), seminar style  
+  - 1 meeting per week (Wednesday 3:00–5:30 pm)
 - **Mode:**  
-  - In-person (with possible online components as needed)  
+  - In-person & WebCampus
 - **Materials:**  
   - Research papers from conferences/journals (e.g., IEEE S&P, USENIX Security, CCS, NDSS, INFOCOM, etc.)  
   - Supplementary notes/slides provided by the instructor  
@@ -157,3 +144,4 @@ Students will work individually or in small teams (2–3 members) on a semester-
 The project will include a short **proposal**, a **final written report** (in conference-paper format), and an **in-class presentation**.
 
 ---
+_Last updated: May, 2025_
