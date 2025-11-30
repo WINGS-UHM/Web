@@ -2,7 +2,7 @@
 layout: page
 title: Our Team
 subtitle: This is a team try to form the Intellegent and Secure FutureG
-teams: example_teams
+teams: WINGS_teams
 show_sidebar: false
 ---
 
