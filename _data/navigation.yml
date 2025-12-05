@@ -13,12 +13,12 @@
       link: /gallery/
     - name: Showcase
       link: /showcase/
-- name: Example Pages
-  link: /#
-  dropdown:
-    # - name: Landing Page With Callouts
-    #   link: /landing/
-    - name: Promo Page
-      link: /promo-page/
-    - name: Recipe Page
-      link: /example-recipe/
+# - name: Example Pages
+#   link: /#
+#   dropdown:
+#     # - name: Landing Page With Callouts
+#     #   link: /landing/
+#     - name: Promo Page
+#       link: /promo-page/
+#     - name: Recipe Page
+#       link: /example-recipe/
