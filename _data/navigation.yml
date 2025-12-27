@@ -7,7 +7,7 @@
 - name: Docs
   link: /docs/
 - name: Gallery
-  link: /#
+  link: /gallery/
   dropdown:
     - name: Activity Gallery
       link: /gallery/
