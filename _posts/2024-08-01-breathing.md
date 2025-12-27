@@ -47,7 +47,7 @@ A narrowband FMCW radar signal is embedded into the OFDM guard band, enabling si
 
 - FMCW-to-OFDM power ratio systematically analyzed to balance sensing and communication
 <div style="text-align: center; margin: 1.5rem 0;">
-  <img src="/assets/img/isac-breathing/spectrogram.png" 
+  <img src="/Web/assets/img/isac-breathing/spectrogram.png" 
        alt="Waveform Spectrogram" 
        style="max-width: 100%; height: auto;" />
   <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #444444;">
@@ -61,7 +61,7 @@ A narrowband FMCW radar signal is embedded into the OFDM guard band, enabling si
 - CSI phase extraction per active subcarrier
 - Linear detrending for phase sanitization
 <div style="text-align: center; margin: 1.5rem 0;">
-  <img src="/assets/img/isac-breathing/sfo_sto_a.png" 
+  <img src="/Web/assets/img/isac-breathing/sfo_sto_a.png" 
        alt="unprocessed phase" 
        style="max-width: 100%; height: auto;" />
   <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #444444;">
@@ -69,7 +69,7 @@ A narrowband FMCW radar signal is embedded into the OFDM guard band, enabling si
   </div>
 </div>
 <div style="text-align: center; margin: 1.5rem 0;">
-  <img src="/assets/img/isac-breathing/sfo_sto_c.png" 
+  <img src="/Web/assets/img/isac-breathing/sfo_sto_c.png" 
        alt="processed phase" 
        style="max-width: 100%; height: auto;" />
   <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #444444;">
@@ -94,19 +94,19 @@ A narrowband FMCW radar signal is embedded into the OFDM guard band, enabling si
   <!-- Subfigures row -->
   <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
     <div style="flex: 1; max-width: 32%;">
-      <img src="/assets/img/isac-breathing/eupnea_median_filtered.png" alt="Subfigure A" style="width: 100%; height: auto;">
+      <img src="/Web/assets/img/isac-breathing/eupnea_median_filtered.png" alt="Subfigure A" style="width: 100%; height: auto;">
       <div style="font-size: 0.85rem; margin-top: 0.4rem; color: #555;">
         Raw and Preprocessed beat signal
       </div>
     </div>
     <div style="flex: 1; max-width: 32%;">
-      <img src="/assets/img/isac-breathing/eupnea_ewt.png" alt="Subfigure B" style="width: 100%; height: auto;">
+      <img src="/Web/assets/img/isac-breathing/eupnea_ewt.png" alt="Subfigure B" style="width: 100%; height: auto;">
       <div style="font-size: 0.85rem; margin-top: 0.4rem; color: #555;">
         EWT based decomposition for pattern isolation
       </div>
     </div>
     <div style="flex: 1; max-width: 32%;">
-      <img src="/assets/img/isac-breathing/eupnea_extracted.png" alt="Subfigure C" style="width: 100%; height: auto;">
+      <img src="/Web/assets/img/isac-breathing/eupnea_extracted.png" alt="Subfigure C" style="width: 100%; height: auto;">
       <div style="font-size: 0.85rem; margin-top: 0.4rem; color: #555;">
         Hilbert transform and pattern normalization
       </div>
@@ -123,19 +123,19 @@ A narrowband FMCW radar signal is embedded into the OFDM guard band, enabling si
   <!-- Subfigures row -->
   <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
     <div style="flex: 1; max-width: 32%;">
-      <img src="/assets/img/isac-breathing/ofdm_raw_phase_eupnea.png" alt="Subfigure A" style="width: 100%; height: auto;">
+      <img src="/Web/assets/img/isac-breathing/ofdm_raw_phase_eupnea.png" alt="Subfigure A" style="width: 100%; height: auto;">
       <div style="font-size: 0.85rem; margin-top: 0.4rem; color: #555;">
         Phase denoising and smoothing
       </div>
     </div>
     <div style="flex: 1; max-width: 32%;">
-      <img src="/assets/img/isac-breathing/ofdm_ewts_eupnea.png" alt="Subfigure B" style="width: 100%; height: auto;">
+      <img src="/Web/assets/img/isac-breathing/ofdm_ewts_eupnea.png" alt="Subfigure B" style="width: 100%; height: auto;">
       <div style="font-size: 0.85rem; margin-top: 0.4rem; color: #555;">
         EWT based decomposition for pattern isolation
       </div>
     </div>
     <div style="flex: 1; max-width: 32%;">
-      <img src="/assets/img/isac-breathing/ofdm_extracted_eupnea.png" alt="Subfigure C" style="width: 100%; height: auto;">
+      <img src="/Web/assets/img/isac-breathing/ofdm_extracted_eupnea.png" alt="Subfigure C" style="width: 100%; height: auto;">
       <div style="font-size: 0.85rem; margin-top: 0.4rem; color: #555;">
         Hilbert transform and pattern normalization
       </div>
@@ -155,7 +155,7 @@ A narrowband FMCW radar signal is embedded into the OFDM guard band, enabling si
 - 16-channel transmit and 4-channel receive phased arrays
 
 <div style="text-align: center; margin: 1.5rem 0;">
-  <img src="/assets/img/project/AIoT_Breath.png" 
+  <img src="/Web/assets/img/project/AIoT_Breath.png" 
        alt="Experimental Setup" 
        style="max-width: 75%; height: auto;" />
   <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #444444;">
@@ -174,7 +174,7 @@ A narrowband FMCW radar signal is embedded into the OFDM guard band, enabling si
 - Output: multi-class respiration pattern prediction
 
 <div style="text-align: center; margin: 1.5rem 0;">
-  <img src="/assets/img/isac-breathing/cnn_model.png" 
+  <img src="/Web/assets/img/isac-breathing/cnn_model.png" 
        alt="Waveform Spectrogram" 
        style="max-width: 300px; height: auto;" />
   <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #444444;">
@@ -190,7 +190,7 @@ A narrowband FMCW radar signal is embedded into the OFDM guard band, enabling si
 - Communication EVM : 20.36%
 
 <div style="text-align: center; margin: 1.5rem 0;">
-  <img src="/assets/img/isac-breathing/classification_results.png" 
+  <img src="/Web/assets/img/isac-breathing/classification_results.png" 
        alt="Classification Results" 
        style="max-width: 500px; height: auto;" />
   <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #444444;">
