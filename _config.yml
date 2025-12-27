@@ -5,8 +5,8 @@ tagline: WINGS Lab
 email: your-email@domain.com
 description: >
   Wireless Intelligent Networks for FutureG with Security Lab
-baseurl: "/bulma-clean-theme"
-url: "https://www.csrhymes.com"
+# baseurl: "/Web" # Change after renameing to -> "/"
+url: "https://wings-uhm.github.io/"
 permalink: pretty
 favicon: favicon.png
 gh_team: chrisrhymes
@@ -15,6 +15,7 @@ gh_team: chrisrhymes
 #fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 force_theme: light
+theme: bulma-clean-theme
 
 paginate: 5
 paginate_path: "/projects/page:num"
@@ -26,7 +27,6 @@ disqus:
   # shortname: my_disqus_shortname
   shortname: csrhymes
 
-
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
@@ -35,7 +35,7 @@ plugins:
   - kramdown-parser-gfm
   - jekyll-redirect-from
 
-exclude: 
+exclude:
   - Gemfile
   - clean-theme.gemspec
   - Gemfile.lock
@@ -50,21 +50,19 @@ livereload: true
 sass:
   style: compressed
   source_dir: _sass
-  # load_paths: 
-    # - node_modules
+  # load_paths:
+  # - node_modules
 
 google_analytics: G-63PD2VQQDE
 cookie_policy: /cookie-policy/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       show_sidebar: true
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
@@ -79,7 +77,7 @@ highlighter: rouge
 footer_menu: example_footer_menu
 
 collections:
-  courses: 
+  courses:
     output: true
     layout: course
     image: https://picsum.photos/id/16/800/600
@@ -92,4 +90,3 @@ social:
   tiktok: https://www.tiktok.com/
   x: https://www.x.com/
   youtube: https://www.youtube.com/
-  
