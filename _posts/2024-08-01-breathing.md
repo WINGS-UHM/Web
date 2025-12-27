@@ -12,86 +12,188 @@ series: project_series_isac
 testbed_facilities: testbed_breathing
 ---
 
-I created WINGS Lab as a theme for my own website and decided to open source it so others could use it as well. One of the key things I wanted to do was to create a theme that worked with GitHub Pages, which also means that you can also use it as a docs site for your project. 
+# On this Page  <!-- omit in toc -->
+- [Overview](#overview)
+  - [Highlights](#highlights)
+- [Methodology](#methodology)
+  - [Composite Waveform design](#composite-waveform-design)
+  - [Sensing Pipeline](#sensing-pipeline)
+  - [Respiration Patern Extraction](#respiration-patern-extraction)
+- [Experimental Setup](#experimental-setup)
+- [Deep Learning Model for Pattern Classification](#deep-learning-model-for-pattern-classification)
+- [Results](#results)
 
-## GitHub Pages Configuration
+## Overview
+A lightweight Integrated Sensing and Communication (ISAC) framework is presented for contactless respiration pattern recognition using a composite OFDM–FMCW waveform at 28 GHz mmWave.
+A narrowband FMCW radar signal is embedded into the OFDM guard band, enabling simultaneous high-resolution sensing and data communication without modifying the OFDM structure or requiring additional hardware.
 
-GitHub pages allows you to create a website for your project with free hosting. Go to your repo on GitHub, then click Settings, then scroll down to the GitHub Pages section. You have the option to create a site from the root of your master branch of from the /docs directory in your master branch. For this example, we are going to use the /docs directory. 
+### Highlights
+- Guard-band FMCW reuse preserves 5G NR spectral integrity
 
-Don't change this setting just yet as if you don't have a docs directory there will be nothing there to publish. 
+- Robust respiration sensing under realistic body motion
 
-## Creating the docs directory
+- Hardware validation on a mmWave USRP testbed
 
-Clone your git repo to a local directory, let's say `~/code/my-project` for this example. The below assumes you don't yet have a docs directory and you have [jekyll installed](https://jekyllrb.com/docs/installation/). If you do already have a docs directory you will have to rename it to something else. 
+- End-to-end AI pipeline achieving >98% classification accuracy
 
-Create a new jekyll installation in the docs directory, ensuring you replace your username and project name in the below example.
+## Methodology
 
-```bash
-git clone https://github.com/username/my-project.git ~/code/my-project
-cd ~/code/my-project
-jekyll new docs
-```
+### Composite Waveform design
+- Narrowband FMCW chirps embedded into unused OFDM guard bands
 
-You should now have a base install of Jekyll in your freshly created docs directory. 
+- No changes to OFDM modulation, framing, or scheduling
 
-## Configuring the theme
+- FMCW sweep bandwidth evaluated from 0.25–2 MHz
 
-1. Replace everything in the Gemfile with the following
-```
-source 'https://rubygems.org'
-gem "bulma-clean-theme",  '0.7.2'
-gem 'github-pages', group: :jekyll_plugins
-```
+- FMCW-to-OFDM power ratio systematically analyzed to balance sensing and communication
+<div style="text-align: center; margin: 1.5rem 0;">
+  <img src="/assets/img/isac-breathing/spectrogram.png" 
+       alt="Waveform Spectrogram" 
+       style="max-width: 100%; height: auto;" />
+  <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #444444;">
+    Fig. 1. Waveform Spectrogram
+  </div>
+</div>
 
-2. Open the `_config.yml` and comment out or delete the line `theme: minima` and replace it with `remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0`, then add `github-pages` to the list of plugins. Update the baseurl to your GitHub repo name, in this example we are using `my-project` as the repo name
-```yaml
-#theme: minima
-remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
-baseurl: "/my-project"
-plugins:
-- github-pages
-```
+### Sensing Pipeline
+**OFDM Mode**
+- Compensation for SFO, STO, and CFO
+- CSI phase extraction per active subcarrier
+- Linear detrending for phase sanitization
+<div style="text-align: center; margin: 1.5rem 0;">
+  <img src="/assets/img/isac-breathing/sfo_sto_a.png" 
+       alt="unprocessed phase" 
+       style="max-width: 100%; height: auto;" />
+  <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #444444;">
+    Fig. 2.1. Raw phase with SFO/STO trend. 
+  </div>
+</div>
+<div style="text-align: center; margin: 1.5rem 0;">
+  <img src="/assets/img/isac-breathing/sfo_sto_c.png" 
+       alt="processed phase" 
+       style="max-width: 100%; height: auto;" />
+  <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #444444;">
+    Fig. 2.2. Zoomed view showing respiratory cycles amid noise.
+  </div>
+</div>
 
-3. Open the `index.md` file and update the front matter so the layout is page and then add a title
-```yaml
-layout: page
-title: Docs for My Project
-```
+**FMCW Mode**
+- Dechirping and beat-frequency extraction
 
-4. Run `bundle install` and then `bundle exec jekyll serve`
+- Range-bin selection for slow-time respiration signal
 
-5. Visit `http://localhost:4000/my-project/` to view your new docs page.
+- Drift suppression using detrend filtering
 
-## Menu
 
-To create a menu on the left on your docs page you need to create a new yaml file in _data directory, such as `menu.yaml` and then use the below format, where the label will be the menu title and the items are the menu items. Each menu item can have a list of sub menu items if needed.
+### Respiration Patern Extraction
+- Hampel filtering, Moving-average and median filtering for smoothing
+- Empirical Wavelet Transform (EWT) for adaptive respiration-band isolation
+- Hilbert transform used to extract amplitude envelopes and normalize signals
 
-```yaml
-- label: Example Menu
-  items:
-    - name: Menu item
-      link: /link/
-      items:
-        - name: Sub menu item 
-          link: /sub-menu-item/
-```
+<div style="text-align: center; margin: 2rem 0;">
+  <!-- Subfigures row -->
+  <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+    <div style="flex: 1; max-width: 32%;">
+      <img src="/assets/img/isac-breathing/eupnea_median_filtered.png" alt="Subfigure A" style="width: 100%; height: auto;">
+      <div style="font-size: 0.85rem; margin-top: 0.4rem; color: #555;">
+        Raw and Preprocessed beat signal
+      </div>
+    </div>
+    <div style="flex: 1; max-width: 32%;">
+      <img src="/assets/img/isac-breathing/eupnea_ewt.png" alt="Subfigure B" style="width: 100%; height: auto;">
+      <div style="font-size: 0.85rem; margin-top: 0.4rem; color: #555;">
+        EWT based decomposition for pattern isolation
+      </div>
+    </div>
+    <div style="flex: 1; max-width: 32%;">
+      <img src="/assets/img/isac-breathing/eupnea_extracted.png" alt="Subfigure C" style="width: 100%; height: auto;">
+      <div style="font-size: 0.85rem; margin-top: 0.4rem; color: #555;">
+        Hilbert transform and pattern normalization
+      </div>
+    </div>
 
-## Table of contents
+  </div>
+  <!-- Main caption -->
+  <div style="margin-top: 0.75rem; font-size: 0.9rem; color: #444;">
+    Fig. 3. Pattern Extraction for FMCW mode
+  </div>
+</div>
 
-If you would like auto generated table of contents for your docs page then add `toc: true` to the page's front matter. The table of contents works for markdown pages and loops through the heading 2s and heading 3s in the markdown and then auto generates the contents.
+<div style="text-align: center; margin: 2rem 0;">
+  <!-- Subfigures row -->
+  <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+    <div style="flex: 1; max-width: 32%;">
+      <img src="/assets/img/isac-breathing/ofdm_raw_phase_eupnea.png" alt="Subfigure A" style="width: 100%; height: auto;">
+      <div style="font-size: 0.85rem; margin-top: 0.4rem; color: #555;">
+        Phase denoising and smoothing
+      </div>
+    </div>
+    <div style="flex: 1; max-width: 32%;">
+      <img src="/assets/img/isac-breathing/ofdm_ewts_eupnea.png" alt="Subfigure B" style="width: 100%; height: auto;">
+      <div style="font-size: 0.85rem; margin-top: 0.4rem; color: #555;">
+        EWT based decomposition for pattern isolation
+      </div>
+    </div>
+    <div style="flex: 1; max-width: 32%;">
+      <img src="/assets/img/isac-breathing/ofdm_extracted_eupnea.png" alt="Subfigure C" style="width: 100%; height: auto;">
+      <div style="font-size: 0.85rem; margin-top: 0.4rem; color: #555;">
+        Hilbert transform and pattern normalization
+      </div>
+    </div>
 
-## GitHub Teams
+  </div>
+  <!-- Main caption -->
+  <div style="margin-top: 0.75rem; font-size: 0.9rem; color: #444;">
+    Fig. 4. Pattern Extraction for OFDM mode
+  </div>
+</div>
 
-If you want to link to your GitHub teams profile then add `gh_team` with your username to the `_config.yml` file.
+## Experimental Setup
 
-```
-gh_team: chrisrhymes
-```
+- 28 GHz mmWave testbed based on NI-USRP-2974
 
-## Making the docs page live
+- 16-channel transmit and 4-channel receive phased arrays
 
-Once you have finished creating your docs page you can commit your changes and push everything up to GitHub. Go back to the GitHub settings page and scroll back down to the GitHub Pages section. Now we can update the setting to use the Master branch /docs folder and then GitHub will build your new docs page. 
+<div style="text-align: center; margin: 1.5rem 0;">
+  <img src="/assets/img/project/AIoT_Breath.png" 
+       alt="Experimental Setup" 
+       style="max-width: 75%; height: auto;" />
+  <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #444444;">
+    Fig. 5. Experimental Setup
+  </div>
+</div>
 
-## Want to see an example?
 
-I recently updated one of my own packages to use WINGS Lab to power the docs page. Check out the docs for [Bulma Block List](https://www.csrhymes.com/bulma-block-list) as an example. 
+## Deep Learning Model for Pattern Classification
+- Input: normalized respiration waveforms
+
+- Model: lightweight 1D convolutional neural network (1D-CNN)
+
+- Two convolution layers followed by global max pooling
+
+- Output: multi-class respiration pattern prediction
+
+<div style="text-align: center; margin: 1.5rem 0;">
+  <img src="/assets/img/isac-breathing/cnn_model.png" 
+       alt="Waveform Spectrogram" 
+       style="max-width: 300px; height: auto;" />
+  <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #444444;">
+    Fig. 6. CNN model Structure
+  </div>
+</div>
+
+## Results
+
+- Overall classification accuracy: 98–98.5%; Eupnea and Kussmaul patterns achieve 100% accuracy.
+- FMCW sensing maintains stable respiration extraction under body and hand movement with similarity score of 89.2%
+- OFDM CSI-based sensing degrades under motion due to multipath sensitivity with similarity score of 83.5%
+- Communication EVM : 20.36%
+
+<div style="text-align: center; margin: 1.5rem 0;">
+  <img src="/assets/img/isac-breathing/classification_results.png" 
+       alt="Classification Results" 
+       style="max-width: 500px; height: auto;" />
+  <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #444444;">
+    Fig. 7. Confusion matrix of the classification model
+  </div>
+</div>
