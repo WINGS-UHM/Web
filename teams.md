@@ -6,4 +6,4 @@ teams: WINGS_teams
 show_sidebar: false
 ---
 
-[View the teams docs](/bulma-clean-theme/docs/page-components/teams/)
+<!-- [View the teams docs](/bulma-clean-theme/docs/page-components/teams/) -->
