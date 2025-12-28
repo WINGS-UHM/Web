@@ -50,6 +50,7 @@ livereload: true
 sass:
   style: compressed
   source_dir: _sass
+  quiet_deps: true
   # load_paths:
   # - node_modules
 

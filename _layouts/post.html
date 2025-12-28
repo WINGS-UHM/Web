@@ -2,14 +2,23 @@
 layout: default
 ---
 <div class="content">
-    <p>Published: {{ page.date | date: '%b %-d, %Y' }} by {{ page.author }}</p>
+    <p>
+        Published: {{ page.date | date: '%b %-d, %Y' }}
+        {% assign author_id = page.author %}
+        {% for tier in site.data.WINGS_teams %}
+            {% assign person = tier.teams | where: 'id', author_id | first %}
+            {% if person %}
+                by <a href="{{ person.website }}" target="_blank">{{ person.name }}</a>
+            {% endif %}
+        {% endfor %}
+    </p>
 
     {% if page.series %}
         {% include series.html %}
     {% endif %}
 
     {{ content }}
-    
+
     {% if page.testbed_facilities %}
         {% include testbed-facilities.html %}
     {% endif %}

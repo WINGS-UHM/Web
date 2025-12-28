@@ -18,50 +18,53 @@
 >
     {% include head.html %}
     <script>
-  function copySiblingCitation(el) {
-    var wrapper = el.closest('.pub-citation-wrapper') || el.parentNode;
-    if (!wrapper) return;
+        function copySiblingCitation(el) {
+            var wrapper = el.closest('.pub-citation-wrapper') || el.parentNode;
+            if (!wrapper) return;
 
-    var src = wrapper.querySelector('.pub-citation-src');
-    if (!src) return;
+            var src = wrapper.querySelector('.pub-citation-src');
+            if (!src) return;
 
-    var text = src.value || src.textContent || src.innerText || '';
+            var text = src.value || src.textContent || src.innerText || '';
 
-    function showCopied() {
-      el.classList.add('is-copied');
-      var originalHtml = el.innerHTML;
-      el.innerHTML = '<i class="fas fa-check"></i> COPIED';
-      setTimeout(function () {
-        el.classList.remove('is-copied');
-        el.innerHTML = originalHtml;
-      }, 1500);
-    }
+            function showCopied() {
+                el.classList.add('is-copied');
+                var originalHtml = el.innerHTML;
+                el.innerHTML = '<i class="fas fa-check"></i> COPIED';
+                setTimeout(function () {
+                    el.classList.remove('is-copied');
+                    el.innerHTML = originalHtml;
+                }, 1500);
+            }
 
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text).then(showCopied).catch(function () {
-        fallbackCopy(text, el, showCopied);
-      });
-    } else {
-      fallbackCopy(text, el, showCopied);
-    }
-  }
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard
+                    .writeText(text)
+                    .then(showCopied)
+                    .catch(function () {
+                        fallbackCopy(text, el, showCopied);
+                    });
+            } else {
+                fallbackCopy(text, el, showCopied);
+            }
+        }
 
-  function fallbackCopy(text, el, callback) {
-    var temp = document.createElement('textarea');
-    temp.value = text;
-    temp.style.position = 'fixed';
-    temp.style.left = '-9999px';
-    document.body.appendChild(temp);
-    temp.select();
-    try {
-      document.execCommand('copy');
-      if (typeof callback === 'function') callback();
-    } catch (e) {
-      console.error('Copy failed', e);
-    }
-    document.body.removeChild(temp);
-  }
-</script>
+        function fallbackCopy(text, el, callback) {
+            var temp = document.createElement('textarea');
+            temp.value = text;
+            temp.style.position = 'fixed';
+            temp.style.left = '-9999px';
+            document.body.appendChild(temp);
+            temp.select();
+            try {
+                document.execCommand('copy');
+                if (typeof callback === 'function') callback();
+            } catch (e) {
+                console.error('Copy failed', e);
+            }
+            document.body.removeChild(temp);
+        }
+    </script>
 
     <body>
         {% include skip-to-content.html %}

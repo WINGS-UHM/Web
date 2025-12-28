@@ -1,6 +1,6 @@
 {% if page.testbed_facilities %}
     {% assign facilities = site.data[page.testbed_facilities] %}
-    
+    <h3>Testbed Devices</h3>
     {% if facilities and facilities.size > 0 %}
         <div class="testbed-facilities">
             {% for facility in facilities %}
@@ -20,12 +20,8 @@
             {% endfor %}
         </div>
     {% else %}
-        <p class="notification is-info">
-            Facilities data file "{{ page.testbed_facilities }}" not found or is empty.
-        </p>
+        <p class="notification is-info">Facilities data file "{{ page.testbed_facilities }}" not found or is empty.</p>
     {% endif %}
 {% else %}
-    <p class="notification is-warning">
-        testbed_facilities not specified in page front matter.
-    </p>
+    <p class="notification is-warning">testbed_facilities not specified in page front matter.</p>
 {% endif %}
