@@ -5,7 +5,7 @@ tagline: WINGS Lab
 email: your-email@domain.com
 description: >
   Wireless Intelligent Networks for FutureG with Security Lab
-# baseurl: "/Web" # Change after renameing to -> "/"
+baseurl: "/Web" # Change after renameing to -> "/"
 url: "https://wings-uhm.github.io/"
 permalink: pretty
 favicon: favicon.png
@@ -50,6 +50,7 @@ livereload: true
 sass:
   style: compressed
   source_dir: _sass
+  quiet_deps: true
   # load_paths:
   # - node_modules
 

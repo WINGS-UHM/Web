@@ -5,24 +5,27 @@
 
   #   It can contain multiple lines. It has the size set to 'large'.
   teams:
-    - name: Xiaochan (Luna) Xue
+    - id: XXC
+      name: Xiaochan (Luna) Xue
       avatar: /assets/img/team/XXC_1.png
       topic: Leader
       joined: 2025 Fall
       affiliate: ECE, University of Hawaiʻi at Mānoa
       website: https://luna-xue.github.io
       github: https://github.com/Luna-Xue
-      linkedin: https://www.linkedin.com/in/xxx/
+      linkedin: https://www.linkedin.com/in/xiaochan-xue-2b7b75227/
 
 - tier_name: PhD Students
   teams:
-    - name: Saurabh Parkar
+    - id: sparkar
+      name: Saurabh Parkar
       avatar: /assets/img/team/sparkar.jpg
       topic: O-RAN, ISAC, AI
       joined: 2026 Spring
       affiliate: ECE, University of Hawaiʻi at Mānoa
       website: https://srparkar.github.io/
       github: https://github.com/nexuseli18
+      linkedin: https://www.linkedin.com/in/saurabhparkar25/
 
 - tier_name: Researchers
   size: small
