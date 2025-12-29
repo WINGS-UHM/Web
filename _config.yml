@@ -67,7 +67,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "Xiaochan Xue"
+      author: "XXC"
       layout: post
       image: /assets/img/team/XXC.png
       show_sidebar: true

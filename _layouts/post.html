@@ -4,12 +4,31 @@ layout: default
 <div class="content">
     <p>
         Published: {{ page.date | date: '%b %-d, %Y' }}
-        {% assign author_id = page.author %}
-        {% for tier in site.data.WINGS_teams %}
-            {% assign person = tier.teams | where: 'id', author_id | first %}
-            {% if person %}
-                by <a href="{{ person.website }}" target="_blank">{{ person.name }}</a>
-            {% endif %}
+        <br>
+        Authors:
+
+        {% assign author_ids = page.author %}
+        {% assign rendered = false %}
+
+        {% for author_id in author_ids %}
+            {% assign found = false %}
+
+            {% for tier in site.data.WINGS_teams %}
+                {% assign person = tier.teams | where: 'id', author_id | first %}
+                {% if person %}
+                    {% if rendered %}, {% endif %}
+                    <a href="{{ person.website }}" target="_blank">{{ person.name }}</a>
+                    {% assign rendered = true %}
+                    {% assign found = true %}
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+
+            {% unless found %}
+                {% if rendered %}, {% endif %}
+                {{ author_id }}
+                {% assign rendered = true %}
+            {% endunless %}
         {% endfor %}
     </p>
 

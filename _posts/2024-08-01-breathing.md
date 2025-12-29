@@ -10,8 +10,12 @@ image: /assets/img/project/AIoT_Breath.png
 tags: mmWave ISAC
 series: project_series_isac
 testbed_facilities: testbed_breathing
-author: sparkar
 summary: A lightweight Integrated Sensing and Communication (ISAC) framework is presented for contactless respiration pattern recognition using a composite OFDM–FMCW waveform at 28 GHz mmWave. A narrowband FMCW radar signal is embedded into the OFDM guard band, enabling simultaneous high-resolution sensing and data communication without modifying the OFDM structure or requiring additional hardware.
+author:
+        - XXC
+        - sparkar
+        - syu
+        - Yao Zheng
 ---
 
 # On this Page  <!-- omit in toc -->
