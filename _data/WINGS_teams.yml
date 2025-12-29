@@ -50,7 +50,8 @@
 - tier_name: Collaborators
   size: small
   teams:
-    - name: Shucheng Yu
+    - id: syu
+      name: Shucheng Yu
       avatar: /assets/img/team/Shucheng Yu.jpg
       affiliate: Yeshiva University
       website: https://sites.google.com/view/shuchengyu
