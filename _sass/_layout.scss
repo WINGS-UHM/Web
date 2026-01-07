@@ -113,3 +113,125 @@ div.highlight {
 .pub-link.pub-cite.is-copied {
     color: #1a7f37; // 深绿
 }
+
+// News Timeline Styles
+.news-timeline {
+    margin-top: 2rem;
+
+    .news-year-group {
+        margin-bottom: 3rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .news-year-header {
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 2px solid #e0e0e0;
+
+        .title {
+            margin-bottom: 0;
+            color: #363636;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+    }
+
+    .news-items {
+        position: relative;
+        padding-left: 1.5rem;
+
+        // Timeline line
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, #4a9eff, #e0e0e0);
+        }
+    }
+
+    .news-item {
+        position: relative;
+        margin-bottom: 1.75rem;
+        padding-bottom: 1.75rem;
+        padding-left: 2rem;
+
+        &:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        // Timeline dot
+        &::before {
+            content: '';
+            position: absolute;
+            left: -1.75rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #4a9eff;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #4a9eff;
+            z-index: 1;
+        }
+
+        .news-content {
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+            color: #4a4a4a;
+
+            p {
+                margin-bottom: 0.5rem;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            strong {
+                color: #363636;
+                font-weight: 600;
+            }
+        }
+
+        .news-date-badge {
+            display: inline-block;
+            margin-top: 0.5rem;
+
+            .news-date {
+                display: inline-block;
+                padding: 0.25rem 0.75rem;
+                background: #f5f5f5;
+                border-radius: 4px;
+                font-size: 0.875rem;
+                color: #666;
+                font-style: italic;
+                font-weight: 500;
+                border-left: 3px solid #4a9eff;
+            }
+        }
+    }
+
+    // Responsive adjustments
+    @media screen and (max-width: 768px) {
+        .news-items {
+            padding-left: 1rem;
+        }
+
+        .news-item {
+            padding-left: 1.5rem;
+
+            &::before {
+                left: -1.25rem;
+                width: 10px;
+                height: 10px;
+            }
+        }
+    }
+}

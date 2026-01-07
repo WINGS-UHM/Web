@@ -3,15 +3,23 @@
   
   <div class="news-timeline">
     {% for year_group in news %}
-      <div class="news-year">
-        <h3 class="title is-5">{{ year_group.year }}</h3>
+      <div class="news-year-group">
+        <div class="news-year-header">
+          <h3 class="title is-4">{{ year_group.year }}</h3>
+        </div>
         
-        {% for item in year_group.items %}
-          <div class="news-item">
-            <p>{{ item.content | markdownify }}</p>
-            <p class="news-date"><em>{{ item.date }}</em></p>
-          </div>
-        {% endfor %}
+        <div class="news-items">
+          {% for item in year_group.items %}
+            <div class="news-item">
+              <div class="news-content">
+                {{ item.content | markdownify }}
+              </div>
+              <div class="news-date-badge">
+                <span class="news-date">{{ item.date }}</span>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
       </div>
     {% endfor %}
   </div>
