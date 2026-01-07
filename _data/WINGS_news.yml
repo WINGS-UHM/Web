@@ -1,0 +1,28 @@
+- year: 2025
+  items:
+    - date: "Dec 16"
+      content: "See you at SaTC Aspiring PI Workshop 2025, George Washington University in Washington, D.C!"
+    - date: "Dec 10"
+      content: "I am invited to give a Seminars at Yeshiva University! See you at New York!"
+    - date: "Nov 17"
+      content: "One papers is accepted by ICNC 2026! See you at Maui, Hawaii!"
+    - date: "Oct 11"
+      content: "Our O-RAN testbed is underway, with core infrastructure in place."
+    - date: "Oct 04"
+      content: "Two papers are accepted by IEEE AIoT 2025!"
+    - date: "Sep 01"
+      content: "2025-2026 AFRL SDR Challenge kicks off. My student **Saurabh Parkar** will lead the **Stevens** team in collaboration with **Yeshiva University**."
+    - date: "Aug 01"
+      content: "Joined University of Hawaii at Mānoa, Department of Electrical&Computer Engineering as a **Tenure-Track Assistant Professor**."
+    - date: "Feb 01"
+      content: "Selected as **2025 NSF CPS Rising Star** (17%)."
+
+- year: 2024
+  items:
+    - date: "Aug 01"
+      content: "I am hired as Lecture Instructor, SIT."
+
+- year: 2023
+  items:
+    - date: "Aug 01"
+      content: "I received **Excellence Doctoral Fellowship**, SIT."
