@@ -24,7 +24,22 @@
     #     * Item 2
     #   ratio: is-4by3
 
-# - title: Second Image Gallery Title
+- title: Invited Seminar at Yeshiva University
+    - link: /assets/img/gallery/YU1.JPG
+      large_link: /assets/img/gallery/YU1.JPG
+      alt: The alt text for the image
+      description: Discussion with Yeshiva group.
+      ratio: is-4by3
+    - link: /assets/img/gallery/YU2.JPG
+      large_link: /assets/img/gallery/YU2.JPG
+      alt: The alt text for the image
+      description: Present my recent work.
+      ratio: is-4by3
+    - link: /assets/img/gallery/YU3.JPG
+      large_link: /assets/img/gallery/YU3.JPG
+      alt: The alt text for the image
+      description: Visited Mr. Robot at Yehsiva's fancy lab with Abby Xu, Dr. Shucheng Yu, and Dr. Honggang Wang.
+      ratio: is-4by3
 #   images:
 #     - link: https://picsum.photos/id/19/800/450
 #       alt: The alt text for the image
