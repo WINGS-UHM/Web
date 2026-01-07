@@ -5,6 +5,10 @@ layout: page
 callouts: home_callouts
 show_sidebar: true
 ---
+## News
+
+{% include lab-news.html %}
+
 ## Publications
 
 {% include publication-list.html data="publications" %}
