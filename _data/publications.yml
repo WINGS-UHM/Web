@@ -4,7 +4,7 @@
   title: "Waveform Design for ISAC: Trends and Future Directions"
   venue: IEEE International Conference on Computing, Networking and Communications (ICNC) 2026
   link: 
-  pdf: 
+  pdf: /Web/papers/2026_ICNC_Waveform.pdf 
   code: 
   demo: 
   citation: |-
@@ -21,7 +21,7 @@
   title: AI-assisted Composite ISAC for mmWave Respiration Pattern Recognition
   venue: IEEE Annual Congress on Artificial Intelligence of Things (AIoT) 2025
   link: 
-  pdf: /papers/2025_AIoT_Breathing.pdf
+  pdf: /Web/papers/2025_AIoT_Breathing.pdf
   code: 
   demo: 
   project: https://wings-uhm.github.io/Web/2024/08/01/breathing/
@@ -39,7 +39,7 @@
   title: "ROISD: RIS and O-RAN Assisted Intelligent Sensing for UAV Detection"
   venue: IEEE Annual Congress on Artificial Intelligence of Things (AIoT) 2025
   link: 
-  pdf: 
+  pdf: /Web/papers/2025_AIoT_ROISD.pdf
   code: https://github.com/Luna-Xue
   project: https://wings-uhm.github.io/Web/2025/09/01/uav/
   citation: |-
