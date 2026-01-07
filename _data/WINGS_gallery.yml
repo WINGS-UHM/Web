@@ -47,13 +47,13 @@
 - title: SaTC 2.0 Workshop
   date: "Dec 15-16, 2025"
   images:
-    - link: /assets/img/gallery/SaTC1.HEIC
-      large_link: /assets/img/gallery/SaTC1.HEIC
+    - link: /assets/img/gallery/SaTC1.jpg
+      large_link: /assets/img/gallery/SaTC1.jpg
       alt: The alt text for the image
       # description: Discussion with Yeshiva group.
       ratio: is-4by3
-    - link: /assets/img/gallery/SaTC2.HEIC
-      large_link: /assets/img/gallery/SaTC1.HEIC
+    - link: /assets/img/gallery/SaTC2.jpg
+      large_link: /assets/img/gallery/SaTC1.jpg
       alt: The alt text for the image
       # description: Present my recent work.
       ratio: is-4by3
