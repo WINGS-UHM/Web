@@ -50,15 +50,15 @@
     - link: /assets/img/gallery/SaTC1.jpeg
       large_link: /assets/img/gallery/SaTC1.jpeg
       alt: The alt text for the image
-      description: Test
+      # description: Test
       ratio: is-4by3
     - link: /assets/img/gallery/SaTC2.jpeg
       large_link: /assets/img/gallery/SaTC2.jpeg
       alt: The alt text for the image
-      description: Test
+      # description: Test
       ratio: is-4by3
     - link: /assets/img/gallery/SaTC3.JPG
       large_link: /assets/img/gallery/SaTC3.JPG
       alt: The alt text for the image
-      description: test
+      description: Geroge Washington University
       ratio: is-4by3
