@@ -1,4 +1,5 @@
-- title: "CyberTraining: Pilot: O-RAN-Based Cyberinfrastructure Training for Future-Generation Wireless Communication and Sensing"
+- title: "CyberTraining: Pilot: O-RAN-Based Cyberinfrastructure Training for Future-Generation Wireless Communication and Sensing" 
+  date: "June, 2025"
   images:
     - link: /assets/img/gallery/Cyber1.JPG
       large_link: /assets/img/gallery/Cyber1.JPG
@@ -25,6 +26,7 @@
     #   ratio: is-4by3
 
 - title: Invited Seminar at Yeshiva University
+  date: "Dec 10, 2025"
   images:
     - link: /assets/img/gallery/YU1.JPG
       large_link: /assets/img/gallery/YU1.JPG
@@ -41,14 +43,22 @@
       alt: The alt text for the image
       description: Visited Mr. Robot at Yehsiva's fancy lab with Abby Xu, Dr. Shucheng Yu, and Dr. Honggang Wang.
       ratio: is-4by3
-#   images:
-#     - link: https://picsum.photos/id/19/800/450
-#       alt: The alt text for the image
-#       description: The image description
-#     - link: https://picsum.photos/id/20/800/450
-#       alt: The alt text for the image
-#       description: The image description
-#     - link: https://picsum.photos/id/21/800/450
-#       alt: The alt text for the image
-#       description: |-
-#         The *image* **description**
+
+- title: SaTC 2.0 Workshop
+  date: "Dec 15-16, 2025"
+  images:
+    - link: /assets/img/gallery/SaTC1.HEIC
+      large_link: /assets/img/gallery/SaTC1.HEIC
+      alt: The alt text for the image
+      # description: Discussion with Yeshiva group.
+      ratio: is-4by3
+    - link: /assets/img/gallery/SaTC2.HEIC
+      large_link: /assets/img/gallery/SaTC1.HEIC
+      alt: The alt text for the image
+      # description: Present my recent work.
+      ratio: is-4by3
+    - link: /assets/img/gallery/SaTC3.JPG
+      large_link: /assets/img/gallery/SaTC3.JPG
+      alt: The alt text for the image
+      # description: Visited Mr. Robot at Yehsiva's fancy lab with Abby Xu, Dr. Shucheng Yu, and Dr. Honggang Wang.
+      ratio: is-4by3
