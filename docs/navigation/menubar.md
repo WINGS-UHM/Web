@@ -29,7 +29,7 @@ Create a data file in the `_data` directory and use the following format.
 ```yaml
 - label: Example Menu
   items:
-    - name: Home
+    - name: Recent
       link: /
     - name: Pages
       link: #
