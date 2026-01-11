@@ -11,7 +11,7 @@ features:
       icon: fa-calendar
     - label: In-person
       icon: fa-users
-    - label: CRN - 89106
+    - label: CRN - 80003
       icon: fa-id-card
     - label: "Instructor: Dr. Xiaochan Xue, Holmes Hall 436"
       icon: fa-address-book
