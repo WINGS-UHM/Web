@@ -32,6 +32,20 @@ layout: default
         {% endfor %}
     </p>
 
+    {% if page.github %}
+    <div class="my-3">
+        <a href="{{ page.github }}" 
+           class="button is-link" 
+           target="_blank" 
+           rel="noopener">
+            <span class="icon">
+                <i class="fab fa-github"></i>
+            </span>
+            <span>View on GitHub</span>
+        </a>
+    </div>
+    {% endif %}
+
     {% if page.series %}
         {% include series.html %}
     {% endif %}
