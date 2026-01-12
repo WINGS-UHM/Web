@@ -30,18 +30,15 @@
 - tier_name: Researchers
   size: small
   teams:
-    - id: Thomas
-      name: Thomas Yang
+    - name: Thomas Yang
       avatar: /assets/img/team/Thomas.jpg
       topic: O-RAN/AI-RAN Buildup
       affiliate: University of Hawaiʻi at Mānoa
-    - id: Aris
-      name: Aris Carlos
+    - name: Aris Carlos
       avatar: /assets/img/team/Aris.png
       topic: O-RAN/AI-RAN Buildup
       affiliate: University of Hawaiʻi at Mānoa
-    - id: Ethan
-      name: Ethan Morrell
+    - name: Ethan Morrell
       # avatar: /assets/img/team/Shucheng Yu.jpg
       topic: O-RAN/AI-RAN Buildup
       affiliate: University of Hawaiʻi at Mānoa    
