@@ -30,6 +30,21 @@
 - tier_name: Researchers
   size: small
   teams:
+    - id: Thomas
+      name: Thomas Yang
+      avatar: /assets/img/team/Thomas.jpg
+      topic: O-RAN/AI-RAN Buildup
+      affiliate: University of Hawaiʻi at Mānoa
+    - id: Aris
+      name: Aris Carlos
+      avatar: /assets/img/team/Aris.png
+      topic: O-RAN/AI-RAN Buildup
+      affiliate: University of Hawaiʻi at Mānoa
+    - id: Ethan
+      name: Ethan Morrell
+      # avatar: /assets/img/team/Shucheng Yu.jpg
+      topic: O-RAN/AI-RAN Buildup
+      affiliate: University of Hawaiʻi at Mānoa    
     - name: Lenny Yanza
       avatar: /assets/img/team/LennyY.jpg
       topic: AFRL SDR Challenge 2025/2026
@@ -55,11 +70,13 @@
       avatar: /assets/img/team/Shucheng Yu.jpg
       affiliate: Yeshiva University
       website: https://sites.google.com/view/shuchengyu
-    - name: Laxima Niure Kandel
+    - id: Laxima
+      name: Laxima Niure Kandel
       avatar: /assets/img/team/Laxima.jpg
       affiliate: Embry-Riddle Aeronautical University
       website: https://sites.google.com/view/laximakandel/home
-    - name: Jiarui Li
+    - id: Jiarui
+      name: Jiarui Li
       avatar: /assets/img/team/jiarui.jpg
       affiliate: Stevens Institute of Technology
       website: https://sites.google.com/view/jiaruili/
