@@ -1,0 +1,28 @@
+{% if site.data.WINGS_news %}
+  {% assign news = site.data.WINGS_news | sort: "year" | reverse %}
+  
+  <div class="news-timeline">
+    {% for year_group in news %}
+      <div class="news-year-group">
+        <h3 class="news-year-title">{{ year_group.year }}</h3>
+        
+        <div class="news-items">
+          {% for item in year_group.items %}
+            <div class="news-item">
+              <div class="news-content-wrapper">
+                <div class="news-content">
+                  {{ item.content | markdownify }}
+                </div>
+                <div class="news-date">
+                  <em>{{ item.date }}</em>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No news available.</p>
+{% endif %}

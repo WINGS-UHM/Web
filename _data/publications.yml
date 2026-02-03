@@ -4,10 +4,16 @@
   title: "Waveform Design for ISAC: Trends and Future Directions"
   venue: IEEE International Conference on Computing, Networking and Communications (ICNC) 2026
   link: 
-  pdf: 
+  pdf: /Web/papers/2026_ICNC_Waveform.pdf 
   code: 
   demo: 
   citation: |-
+    @inproceedings{Xue2026WaveformISAC,
+      author    = {Xiaochan Xue and Shucheng Yu and Saurabh Parkar and Jiarui Li},
+      title     = {Waveform Design for ISAC: Trends and Future Directions},
+      booktitle = {Proceedings of the IEEE International Conference on Computing, Networking and Communications (ICNC)},
+      year      = {2026},
+    }
 
 - year: 2025
   type: conference
@@ -15,11 +21,17 @@
   title: AI-assisted Composite ISAC for mmWave Respiration Pattern Recognition
   venue: IEEE Annual Congress on Artificial Intelligence of Things (AIoT) 2025
   link: 
-  pdf: 
+  pdf: /Web/papers/2025_AIoT_Breathing.pdf
   code: 
   demo: 
   project: https://wings-uhm.github.io/Web/2024/08/01/breathing/
   citation: |-
+    @inproceedings{Xue2025CompositeISACRespiration,
+      author    = {Xiaochan Xue and Saurabh Parkar and Shucheng Yu and Yao Zheng},
+      title     = {AI-assisted Composite ISAC for mmWave Respiration Pattern Recognition},
+      booktitle = {Proceedings of the IEEE Annual Congress on Artificial Intelligence of Things (AIoT)},
+      year      = {2025},
+    }
 
 - year: 2025
   type: conference
@@ -27,10 +39,16 @@
   title: "ROISD: RIS and O-RAN Assisted Intelligent Sensing for UAV Detection"
   venue: IEEE Annual Congress on Artificial Intelligence of Things (AIoT) 2025
   link: 
-  pdf: 
+  pdf: /Web/papers/2025_AIoT_ROISD.pdf
   code: https://github.com/Luna-Xue
   project: https://wings-uhm.github.io/Web/2025/09/01/uav/
   citation: |-
+    @inproceedings{Xue2025ROISD,
+      author    = {Xiaochan Xue and Shucheng Yu and Saurabh Parkar and Yao Zheng},
+      title     = {ROISD: RIS and O-RAN Assisted Intelligent Sensing for UAV Detection},
+      booktitle = {Proceedings of the IEEE Annual Congress on Artificial Intelligence of Things (AIoT)},
+      year      = {2025},
+    }
 
 - year: 2023
   type: journal

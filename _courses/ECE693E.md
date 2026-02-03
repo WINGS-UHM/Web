@@ -7,10 +7,14 @@ semester: 2025 Fall
 features:
     - label: University of Hawaiʻi at Mānoa, Honolulu, HI
       icon: fa-location-arrow
-    - label: 2025 Fall
+    - label: M/W 9:00 am - 10:15 am, 2025 Fall
       icon: fa-calendar
     - label: In-person
       icon: fa-users
+    - label: CRN - 80003
+      icon: fa-id-card
+    - label: "Instructor: Dr. Xiaochan Xue, Holmes Hall 436"
+      icon: fa-address-book
 # rating: 5
 ---
 

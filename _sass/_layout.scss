@@ -113,3 +113,132 @@ div.highlight {
 .pub-link.pub-cite.is-copied {
     color: #1a7f37; // 深绿
 }
+
+// News Timeline Styles - Combined style
+.news-timeline {
+    margin-top: 2rem;
+
+    .news-year-group {
+        margin-bottom: 2rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .news-year-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        color: #363636;
+        padding-bottom: 0.5rem;
+    }
+
+    .news-items {
+        position: relative;
+        padding-left: 2rem;
+
+        // Timeline line
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, #4a9eff 0%, #e0e0e0 100%);
+        }
+    }
+
+    .news-item {
+        position: relative;
+        margin-bottom: 0.875rem;
+        padding-left: 1.5rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        // Timeline dot
+        &::before {
+            content: '';
+            position: absolute;
+            left: -1.75rem;
+            top: 0.4rem;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #4a9eff;
+            border: 2px solid #fff;
+            box-shadow: 0 0 0 2px #4a9eff;
+            z-index: 1;
+        }
+
+        .news-content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .news-content {
+            flex: 1;
+            min-width: 200px;
+            line-height: 1.5;
+            color: #4a4a4a;
+            margin: 0;
+
+            p {
+                margin-bottom: 0;
+                line-height: 1.5;
+            }
+
+            strong {
+                color: #363636;
+                font-weight: 600;
+            }
+        }
+
+        .news-date {
+            flex-shrink: 0;
+            margin-left: auto;
+            font-size: 0.9rem;
+            color: #666;
+            white-space: nowrap;
+
+            em {
+                font-style: italic;
+                color: #666;
+            }
+        }
+    }
+
+    // Responsive adjustments
+    @media screen and (max-width: 768px) {
+        .news-items {
+            padding-left: 1.5rem;
+        }
+
+        .news-item {
+            padding-left: 1rem;
+            margin-bottom: 0.75rem; // 移动端也减少间距
+
+            &::before {
+                left: -1.5rem;
+                width: 8px;
+                height: 8px;
+            }
+
+            .news-content-wrapper {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .news-date {
+                margin-left: 0;
+                align-self: flex-start;
+            }
+        }
+    }
+}
