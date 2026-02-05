@@ -9,12 +9,44 @@
             <h1 class="title is-2">{{ page.title }}</h1>
             <p class="subtitle is-3">{{ page.subtitle }}</p>
             {% if page.hero_link %}
-                <div class="my-4">
-                    <a href="{{ page.hero_link | relative_url }}" class="button is-info is-large">
-                        {{- page.hero_link_text -}}
-                    </a>
-                </div>
+                {% comment %}
+                    <div class="my-4">
+                        <a href="{{ page.hero_link | relative_url }}" class="button is-info is-large">
+                            {{- page.hero_link_text -}}
+                        </a>
+                    </div>
+                {% endcomment %}
+                <a href="{{ page.hero_link | relative_url }}" class="myButton">{{ page.hero_link_text }}</a>
             {% endif %}
         </div>
     </div>
 </section>
+
+<style>
+    .myButton {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+        background: linear-gradient(to bottom, #7bbf63 0%, #6aa84f 100%);
+        background-color: #74ad5a;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        transform: skewX(-8deg);
+        display: inline-block;
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: bold;
+        padding: 12px 44px;
+        text-decoration: none;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+    .myButton:hover {
+        background: linear-gradient(to bottom, #68a54b 0%, #74ad5a 100%);
+        background-color: #68a54b;
+        transform: translateY(-1px), skewX(-8deg);
+        transition: all 0.15s ease-in-out;
+    }
+    .myButton:active {
+        position: relative;
+        transform: translateY(0px);
+        top: 1px;
+    }
+</style>

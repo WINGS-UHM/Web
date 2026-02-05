@@ -1,5 +1,6 @@
 {% if page.gallery %}
-    {% assign galleries = site.data[page.gallery] %}
+    {% assign galleries = site.data[page.gallery] | reverse %}
+    {% comment %} show latest first{% endcomment %}
     {% for gallery in galleries %}
         <div class="columns is-multiline">
             <div class="column is-12">
@@ -12,7 +13,8 @@
                 <div class="column is-4-desktop is-6-tablet">
                     <div class="card">
                         <div class="card-image">
-                            {% include image-modal.html
+                            {%
+                                include image-modal.html
                                 ratio=image.ratio
                                 link=image.link
                                 alt=image.alt

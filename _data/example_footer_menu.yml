@@ -1,5 +1,5 @@
-- name: Recent
-  link: /
+# - name: Recent
+#   link: /
 - name: Projects
   link: /projects/
 - name: Courses
