@@ -8,14 +8,16 @@ layout: default
         {% include pagination.html %}
     </div>
     {% for post in paginator.posts %}
-        <div class="column is-12">
+        <div class="column is-12-mobile is-6-tablet is-4-desktop">
             {% include post-card.html %}
         </div>
     {% endfor %}
     <div class="column is-12">
         {% include pagination.html %}
     </div>
-    <div class="column is-12">
-        {% include subscribe.html %}
-    </div>
+    {% comment %}
+        <div class="column is-12">
+            {% include subscribe.html %}
+        </div>
+    {% endcomment %}
 </div>
