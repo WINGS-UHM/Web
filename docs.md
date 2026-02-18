@@ -1,10 +1,7 @@
 ---
-layout: page
-title: Docs
-menubar: docs_menu
+layout: docs-category
+title: Explore step-by-step installation and deployment workflows for WINGS Lab communication systems, experimental testbeds, and research platforms.
 show_sidebar: false
+collection: docs
 ---
 
-WINGS Lab has many features available. The documentation has been spit into categories to make it easier to navigate through the various features. 
-
-Find out how to install WINGS Lab in your Jekyll project in the [Installation](/bulma-clean-theme/docs/getting-started/installation/) section.

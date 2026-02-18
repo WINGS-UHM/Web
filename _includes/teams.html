@@ -3,7 +3,6 @@
     <div class="columns is-multiline">
         {% for tier in tiers %}
             <div class="column is-12">
-
                 {%- comment -%} Tier 标题 {%- endcomment -%}
                 <p class="title is-3 has-text-centered">
                     <span>{{ tier.tier_name }}</span>
@@ -23,13 +22,14 @@
                     {% for team in tier.teams %}
                         <div class="column {% if tier.size == 'large' %} is-4-desktop is-6-tablet {% else %} is-3-desktop is-4-tablet {% endif %}">
                             <div class="box has-text-centered">
-
                                 {%- comment -%} 头像：所有 card 都有，没设置就用默认 {%- endcomment -%}
-                                {%- assign avatar = team.avatar | default: '/assets/img/team/default-avatar.png' -%}
+                                {%- assign avatar = team.avatar | default: '/assets/img/team/default.png' -%}
                                 <figure class="image is-128x128 is-inline-block mb-3">
-                                    <img class="is-rounded"
-                                         src="{{ avatar | relative_url }}"
-                                         alt="{{ team.name }}">
+                                    <img
+                                        class="is-rounded"
+                                        src="{{ avatar | relative_url }}"
+                                        alt="{{ team.name }}"
+                                    >
                                 </figure>
 
                                 {%- comment -%} 名字 {%- endcomment -%}
@@ -46,9 +46,7 @@
 
                                 {%- comment -%} Joined in 和 Affiliate：分两行显示 {%- endcomment -%}
                                 {% if team.joined %}
-                                    <p class="is-size-7 has-text-grey-light">
-                                        Joined in {{ team.joined }}
-                                    </p>
+                                    <p class="is-size-7 has-text-grey-light">Joined in {{ team.joined }}</p>
                                 {% endif %}
                                 {% if team.affiliate %}
                                     <p class="is-size-7 has-text-grey-light">
@@ -59,36 +57,41 @@
                                 {%- comment -%} 社交 / 链接 图标区 {%- endcomment -%}
                                 <div class="team-icons" style="margin-top: 0.5rem;">
                                     {% if team.github %}
-                                        <a href="{{ team.github }}"
-                                           class="icon is-medium"
-                                           target="_blank"
-                                           rel="noopener"
-                                           aria-label="GitHub of {{ team.name }}">
+                                        <a
+                                            href="{{ team.github }}"
+                                            class="icon is-medium"
+                                            target="_blank"
+                                            rel="noopener"
+                                            aria-label="GitHub of {{ team.name }}"
+                                        >
                                             <i class="fab fa-github"></i>
                                         </a>
                                     {% endif %}
 
                                     {% if team.website %}
-                                        <a href="{{ team.website }}"
-                                           class="icon is-medium"
-                                           target="_blank"
-                                           rel="noopener"
-                                           aria-label="Website of {{ team.name }}">
+                                        <a
+                                            href="{{ team.website }}"
+                                            class="icon is-medium"
+                                            target="_blank"
+                                            rel="noopener"
+                                            aria-label="Website of {{ team.name }}"
+                                        >
                                             <i class="fas fa-globe"></i>
                                         </a>
                                     {% endif %}
 
                                     {% if team.linkedin %}
-                                        <a href="{{ team.linkedin }}"
-                                           class="icon is-medium"
-                                           target="_blank"
-                                           rel="noopener"
-                                           aria-label="LinkedIn of {{ team.name }}">
+                                        <a
+                                            href="{{ team.linkedin }}"
+                                            class="icon is-medium"
+                                            target="_blank"
+                                            rel="noopener"
+                                            aria-label="LinkedIn of {{ team.name }}"
+                                        >
                                             <i class="fab fa-linkedin"></i>
                                         </a>
                                     {% endif %}
                                 </div>
-
                             </div>
                         </div>
                     {% endfor %}
