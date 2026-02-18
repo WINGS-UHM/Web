@@ -84,6 +84,12 @@ collections:
     image: https://picsum.photos/id/16/800/600
     show_sidebar: false
 
+  docs:
+    output: true
+    layout: course
+    image: https://picsum.photos/id/16/800/600
+    show_sidebar: false
+
 social:
   facebook: https://www.facebook.com/
   instagram: https://www.instagram.com/
