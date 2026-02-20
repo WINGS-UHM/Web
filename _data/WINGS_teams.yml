@@ -41,11 +41,11 @@
     - name: Ethan Morrell
       # avatar: /assets/img/team/Shucheng Yu.jpg
       topic: O-RAN/AI-RAN Buildup
-      affiliate: University of Hawaiʻi at Mānoa    
+      affiliate: University of Hawaiʻi at Mānoa
     - name: Matthew Matsuo
       avatar: /assets/img/team/Matthew Matsuo.jpeg
       topic: O-RAN/AI-RAN Buildup
-      affiliate: University of Hawaiʻi at Mānoa    
+      affiliate: University of Hawaiʻi at Mānoa
     - name: Lenny Yanza
       avatar: /assets/img/team/LennyY.jpg
       topic: AFRL SDR Challenge 2025/2026
@@ -58,10 +58,6 @@
       avatar: /assets/img/team/ShaunG.jpg
       topic: AFRL SDR Challenge 2025/2026
       affiliate: Stevens Institute of Technology
-    - name: Akshat Santhana Gopalan
-      avatar: /assets/img/team/AkshatS.jpg
-      topic: AFRL SDR Challenge 2025/2026
-      affiliate: High School
 
 - tier_name: Collaborators
   size: small
