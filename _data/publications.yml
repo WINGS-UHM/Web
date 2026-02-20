@@ -1,5 +1,23 @@
 - year: 2026
   type: conference
+  authors: Saurabh Parkar, Xiaochan Xue, Shuang Li, Yao Zheng
+  title: "Adaptive Mode Selection in mmWave ISAC via Spectrally Disjoint Composite Waveforms"
+  venue: TechRxiv. Submitted to TCCN. Under review.
+  link: https://doi.org/10.36227/techrxiv.177156316.67611838/v1
+  pdf: 
+  code: 
+  demo: 
+  citation: |-
+    @article{parkar2025adaptive,
+      title   = {Adaptive Mode Selection in mmWave ISAC via Spectrally Disjoint Composite Waveforms},
+      author  = {Parkar, Saurabh and Xue, Xiaochan and Li, Shuang and Zheng, Yao},
+      journal = {TechRxiv},
+      year    = {2026},
+      doi     = {10.36227/techrxiv.177156316.67611838/v1}
+    }
+
+- year: 2026
+  type: conference
   authors: Xiaochan Xue, Shucheng Yu, Saurabh Parkar, Jiarui Li
   title: "Waveform Design for ISAC: Trends and Future Directions"
   venue: IEEE International Conference on Computing, Networking and Communications (ICNC) 2026
