@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lifelong Agent in Samrt Home
+title: Lifelong Agent in Smart Home
 description: 
 date: 2025-02-15 00:00:00
 hero_image: 

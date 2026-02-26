@@ -1,3 +1,7 @@
+- Label: ORAN
+  items:
+    - name: Overview
+      link: /docs/ORAN/
 - label: Kubernetes Cluster
   items:
     - name: Installation
