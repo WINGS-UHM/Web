@@ -43,6 +43,7 @@
   pdf: 
   code: 
   demo: 
+  project: https://wings-uhm.github.io/Web/2025/02/15/Smarthome-ToM/
   citation: |-
     @inproceedings{xu2026textbfdomusmind,
     title={\${\textbackslash}textbf\{DomusMind\}\$: A Benchmark for Evaluating Lifelong Smart Home Agents Under Drift},
