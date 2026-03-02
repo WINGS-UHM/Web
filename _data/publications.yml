@@ -1,21 +1,19 @@
 - year: 2026
   type: conference
-  authors: Rong Xu, Yinxin Wan, Xiaochan Xue
-  title: "DomusMind: A Benchmark for Evaluating Lifelong Smart Home Agents Under Drift"
-  venue: "ICLR 2026 Workshop on Lifelong Agents: Learning, Aligning, Evolving"
+  authors: Xiaochan Xue, Shucheng Yu, Saurabh Parkar, Jiarui Li
+  title: "Waveform Design for ISAC: Trends and Future Directions"
+  venue: IEEE International Conference on Computing, Networking and Communications (ICNC) 2026
   link: 
-  pdf: 
+  pdf: /Web/papers/2026_ICNC_Waveform.pdf 
   code: 
   demo: 
   citation: |-
-    @inproceedings{xu2026textbfdomusmind,
-    title={\${\textbackslash}textbf\{DomusMind\}\$: A Benchmark for Evaluating Lifelong Smart Home Agents Under Drift},
-    author={Rong Xu and Yinxin Wan and Xiaochan Xue},
-    booktitle={ICLR 2026 Workshop on Lifelong Agents: Learning, Aligning, Evolving},
-    year={2026},
-    url={https://openreview.net/forum?id=dCBF23RZYJ}
+    @inproceedings{Xue2026WaveformISAC,
+      author    = {Xiaochan Xue and Shucheng Yu and Saurabh Parkar and Jiarui Li},
+      title     = {Waveform Design for ISAC: Trends and Future Directions},
+      booktitle = {Proceedings of the IEEE International Conference on Computing, Networking and Communications (ICNC)},
+      year      = {2026},
     }
-
 
 - year: 2026
   type: conference
@@ -35,22 +33,25 @@
       doi     = {10.36227/techrxiv.177156316.67611838/v1}
     }
 
+
 - year: 2026
   type: conference
-  authors: Xiaochan Xue, Shucheng Yu, Saurabh Parkar, Jiarui Li
-  title: "Waveform Design for ISAC: Trends and Future Directions"
-  venue: IEEE International Conference on Computing, Networking and Communications (ICNC) 2026
+  authors: Rong Xu, Yinxin Wan, Xiaochan Xue
+  title: "DomusMind: A Benchmark for Evaluating Lifelong Smart Home Agents Under Drift"
+  venue: "ICLR 2026 Workshop on Lifelong Agents: Learning, Aligning, Evolving"
   link: 
-  pdf: /Web/papers/2026_ICNC_Waveform.pdf 
+  pdf: 
   code: 
   demo: 
   citation: |-
-    @inproceedings{Xue2026WaveformISAC,
-      author    = {Xiaochan Xue and Shucheng Yu and Saurabh Parkar and Jiarui Li},
-      title     = {Waveform Design for ISAC: Trends and Future Directions},
-      booktitle = {Proceedings of the IEEE International Conference on Computing, Networking and Communications (ICNC)},
-      year      = {2026},
+    @inproceedings{xu2026textbfdomusmind,
+    title={\${\textbackslash}textbf\{DomusMind\}\$: A Benchmark for Evaluating Lifelong Smart Home Agents Under Drift},
+    author={Rong Xu and Yinxin Wan and Xiaochan Xue},
+    booktitle={ICLR 2026 Workshop on Lifelong Agents: Learning, Aligning, Evolving},
+    year={2026},
+    url={https://openreview.net/forum?id=dCBF23RZYJ}
     }
+
 
 - year: 2025
   type: conference
