@@ -2,7 +2,7 @@
 layout: page
 title: Table of Contents
 subtitle: Pages
-menubar: docs_menu
+menubar: oran_menu
 show_sidebar: false
 redirect_from:
     - /page-with-contents/
