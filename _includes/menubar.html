@@ -1,6 +1,35 @@
 {% assign menus = site.data.[page.menubar] %}
-
-<aside class="menu">
+{% comment %}
+    <aside class="menu">
+        {% for menu in menus %}
+            <p class="menu-label">{{ menu.label }}</p>
+            <ul class="menu-list">
+                {% for item in menu.items %}
+                    <li>
+                        <a href="{{ item.link | relative_url }}" class="{% if item.link == page.url %}is-active{% endif %}">
+                            {{- item.name -}}
+                        </a>
+                        {% if item.items %}
+                            <ul>
+                                {% for subitem in item.items %}
+                                    <li>
+                                        <a
+                                            href="{{ subitem.link | relative_url }}"
+                                            class="{% if subitem.link == page.url %}is-active{% endif %}"
+                                        >
+                                            {{- subitem.name -}}
+                                        </a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </aside>
+{% endcomment %}
+<aside class="menu sticky-menubar">
     {% for menu in menus %}
         <p class="menu-label">{{ menu.label }}</p>
         <ul class="menu-list">
@@ -28,3 +57,13 @@
         </ul>
     {% endfor %}
 </aside>
+
+<style>
+    .sticky-menubar {
+        position: sticky;
+        top: 1.5rem;
+        align-self: flex-start;
+        max-height: calc(100vh - 2rem);
+        overflow-y: auto;
+    }
+</style>
