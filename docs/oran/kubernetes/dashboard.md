@@ -1,65 +1,92 @@
 ---
 layout: page
-title: Upgrading to v1
+title: Headlamp Dashboard
 menubar: oran_menu
 show_sidebar: false
 toc: true
 ---
 
-## Introduction
+## Headlamp Access Service
 
-Version 1 of WINGS Lab uses version 1 of Bulma. Bulma v1 has been updated to use dart sass and Jekyll was updated to use dart sass from version 4.3 and up, so this is now the minimum supported version of Jekyll for this theme. 
+To make the Headlamp Kubernetes UI automatically accessible from the host machine, a systemd service is used to maintain a persistent port-forward to the Headlamp service.
 
-## Updating dependencies
+This avoids manually running `kubectl port-forward` after every reboot.
 
-One way of updating Jekyll and the theme is by using bundle. First update the versions in your Gemfile as follows:
+### Create the Headlamp systemd service
 
-```ruby
-# Gemfile
-gem "jekyll", "~> 4.3"
-gem "bulma-clean-theme",  '1.0.0'
+Create the service file 
+```sh
+sudo tee /etc/systemd/system/headlamp-portforward.service > /dev/null << 'EOF'
+[Unit]
+Description=Start Headlamp Dashboard on reboots
+After=network-online.target kubelet.service
+Wants=network-online.target kubelet.service
+
+[Service]
+Type=simple
+User=admin
+Environment=HOME=/home/admin
+Environment=KUBECONFIG=/home/admin/.kube/config
+Environment=PATH=/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart=/usr/local/bin/kubectl -n headlamp port-forward svc/headlamp 8080:80
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+EOF
 ```
 
-Then use bundle to update from your command line.
+{% include notification.html message="Update system paths as needed. Replace the username `admin` with your own username and adjust any installation paths if they differ on your system" %}
 
-```bash
-$ bundle update
+Enable and start the service
+```sh
+sudo systemctl daemon-reload
+sudo systemctl enable headlamp-portforward.service
+sudo systemctl start headlamp-portforward.service
 ```
 
-## Using remote_theme
-
-If you are using Jekyll Remote Theme, then you can [add a version number](https://github.com/benbalter/jekyll-remote-theme?tab=readme-ov-file#declaring-your-theme) in your _config.yml to specify which version you want to use.
-
-```yaml
-# _config.yml
-remote_theme: chrisrhymes/bulma-clean-theme@v1.0.0
+Verify status
+```sh
+systemctl status headlamp-portforward.service
 ```
+<img src="{{"/assets/img/docs/oran/headlamp_status.png"  | relative_url }}" 
+       alt="Headlamp-Status" 
+       style="max-width: 100%; height: auto;" />
 
-## Changes to Bulma
+### Helper command to get login token
 
-Please read through the [Bulma migration guide](https://bulma.io/documentation/start/migrating-to-v1/) for any changes to Bulma that may affect your site.  
+Create following script
 
-### Dark mode
+```sh
+sudo tee /usr/local/bin/get-headlamp > /dev/null << 'EOF'
+#!/usr/bin/env bash
 
-Bulma v1 has a concept of themes and [automatic dark mode](https://bulma.io/documentation/features/dark-mode/).
+TOKEN_FILE="$HOME/k8s-extra/admin-token.txt"
 
-> Modern browsers come with a way to detect if a user has set their theme preference to light or dark by using the prefers-color-scheme keyword.
+if ! systemctl is-active --quiet headlamp-portforward; then
+    echo "Headlamp service is not running."
+    exit 1
+fi
 
-To disable this behaviour and force a theme, set the `force_theme:` in the _config.yml to either 'dark' or 'light'.
+if [ ! -f "$TOKEN_FILE" ]; then
+    echo "Token file not found at $TOKEN_FILE"
+    exit 1
+fi
 
-```yaml
-# _config.yml
-force_theme: light
+TOKEN=$(cat "$TOKEN_FILE")
+
+echo "Dashboard running at http://localhost:8080"
+echo "Login token = $TOKEN"
+EOF
+
+sudo chmod +x /usr/local/bin/get-headlamp # Make it executable
 ```
-
-## GitHub pages deploy
-
- As stated above, the minimum supported version is now Jekyll <= 4.3. The standard build for GitHub pages works with Jekyll 3.9, so you will need to migrate to using a GitHub action to build and deploy your site. 
-
- Please read through the [Jekyll docs for GitHub Actions](https://jekyllrb.com/docs/continuous-integration/github-actions/) for more information.
-
-### Additional gems
-
- The [GitHub pages gem](https://rubygems.org/gems/github-pages/versions/231) had a lot of additional gems included, which may not be included when you use GitHub actions to build your site. 
- 
- If you are using any additional gems in your site, such as `jekyll-github-metadata`, then ensure you install them following their documentation.
+The dashboard will be hosted at [`localhost:8080`](localhost:8080).
+Use the login token from
+```sh
+get-headlamp
+```
+<img src="{{"/assets/img/docs/oran/get-headlamp.png"  | relative_url }}" 
+       alt="Headlamp-Token" 
+       style="max-width: 100%; height: auto;" />
