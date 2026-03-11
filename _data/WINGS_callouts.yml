@@ -18,7 +18,7 @@ items:
 
       Please check:
     call_to_action_name: Topics
-    call_to_action_link: /page-2/
+    call_to_action_link: https://wings-uhm.github.io/Web/docs/
   - title: GitHub Projects
     # subtitle: Example subtitle 3
     icon: fa-github
