@@ -21,6 +21,6 @@ The entire O-RAN testbed is deployed on two high-performance Ubuntu-based infras
 - **Memory:** 64 GB RAM
 - **GPU:** NVIDIA RTX 5070ti
 - **USRPs:** 1x x410, 1x x310
-- **Software:**  [OCUDU](https://github.com/WINGS-UHM/ocudu), [srsGUI](https://github.com/WINGS-UHM/srsGUI), [srsRAN_4G](https://github.com/WINGS-UHM/srsRAN_4G)
+- **Software:**  [**OCUDU**](https://github.com/WINGS-UHM/ocudu), [**srsGUI**](https://github.com/WINGS-UHM/srsGUI), [**srsRAN_4G**](https://github.com/WINGS-UHM/srsRAN_4G)
 
-We have prepared forks of the upstream repositories with enhanced metric plotting, extended telemetry exposure, and customized capabilities tailored to support advanced O-RAN experimentation and real-time performance analysis within the testbed.
+{% include notification.html status="is-info" message="We have prepared our forked repositories improving on some of the features for more plottings suitable for ISAC research" %}
