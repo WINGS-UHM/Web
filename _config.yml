@@ -54,6 +54,7 @@ sass:
   # load_paths:
   # - node_modules
 
+talkmap_link: true
 google_analytics: G-63PD2VQQDE
 cookie_policy: /cookie-policy/
 
@@ -88,6 +89,11 @@ collections:
     output: true
     layout: course
     image: https://picsum.photos/id/16/800/600
+    show_sidebar: false
+
+  talks:
+    output: true
+    layout: default
     show_sidebar: false
 
 social:
