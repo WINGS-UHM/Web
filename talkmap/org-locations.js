@@ -10,7 +10,7 @@ var addressPoints = [
     -157.8160754
   ],
   [
-    "<strong><a href=\"/talks/2025-12-10-XXC-T3\" target=\"_blank\">Integrated Sensing and Communication in FutureG Systems</a></strong> - Dec 10, 2025<br />Katz School of Science and Health, Yeshiva University, 205 Lexington Ave, New York, NY 10016",
+    "<strong><a href=\"/Web/talks/2025-12-10-XXC-T3\" target=\"_blank\">Integrated Sensing and Communication in FutureG Systems</a></strong> - Dec 10, 2025<br />Katz School of Science and Health, Yeshiva University, 205 Lexington Ave, New York, NY 10016",
     40.7451494,
     -73.9804205
   ],
