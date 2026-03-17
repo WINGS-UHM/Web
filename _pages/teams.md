@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Our Team
-subtitle: This is a team try to form the Intellegent and Secure FutureG
+subtitle: Meet the team driving the Intelligent and Secure FutureG vision.
 teams: WINGS_teams
+permalink: /teams
 show_sidebar: false
 ---
 

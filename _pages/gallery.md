@@ -5,6 +5,7 @@ subtitle: Showing the memories of our activities.
 description: A simple image gallery page 
 gallery: WINGS_gallery
 show_sidebar: false
+permalink: /gallery
 ---
 
 <!-- This is an example page with an image gallery. 
