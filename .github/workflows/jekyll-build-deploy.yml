@@ -12,6 +12,9 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: [master]
+    paths-ignore:
+      - "talks/**"
+      - "talkmap.ipynb"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -34,7 +37,9 @@ concurrency:
 jobs:
   # Build job
   build:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    if: |
+      github.event_name == 'push' ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

@@ -2,6 +2,7 @@ name: Scrape Talk Locations
 
 on:
     push:
+        branches: [master]
         paths:
             - "talks/**"
             - "talkmap.ipynb"
