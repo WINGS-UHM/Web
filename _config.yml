@@ -35,6 +35,9 @@ plugins:
   - kramdown-parser-gfm
   - jekyll-redirect-from
 
+include:
+  - _pages
+
 exclude:
   - Gemfile
   - clean-theme.gemspec
@@ -62,6 +65,7 @@ defaults:
   - scope:
       path: ""
       type: "pages"
+      layout: default
     values:
       show_sidebar: true
   - scope:
@@ -93,8 +97,8 @@ collections:
 
   talks:
     output: true
-    layout: default
-    show_sidebar: false
+    # layout: default
+    # show_sidebar: false
 
 social:
   # facebook: https://www.facebook.com/

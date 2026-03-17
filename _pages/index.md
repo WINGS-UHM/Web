@@ -12,6 +12,7 @@ callouts: WINGS_callouts
 redirect_from: 
   - /landing.html
   - /landing/
+permalink: /
 ---
 
 {% include lab-news.html %}
