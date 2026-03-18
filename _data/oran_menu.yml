@@ -26,3 +26,7 @@
     #   link: /docs/oran/core-5g/srsran-ue-config/
     - name: COTS UE Configuration
       link: /docs/oran/core-5g/cots-ue-config/
+# - label: Troubleshooting
+#   items:
+#     - name: Common Issues
+#       link: /docs/oran/troubleshooting/common-issues/
