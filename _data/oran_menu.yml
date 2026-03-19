@@ -22,11 +22,18 @@
       link: /docs/oran/core-5g/open5gs-cn/
     - name: 5G Network Setup
       link: /docs/oran/core-5g/nw-setup/
-    # - name: srsRAN UE Configuration
-    #   link: /docs/oran/core-5g/srsran-ue-config/
-    - name: COTS UE Configuration
-      link: /docs/oran/core-5g/cots-ue-config/
+    # - name: COTS UE Configuration
+    #   link: /docs/oran/core-5g/cots-ue-config/
 # - label: Troubleshooting
 #   items:
 #     - name: Common Issues
 #       link: /docs/oran/troubleshooting/common-issues/
+
+- label: User Equipment (UE) Configuration
+  items:
+    # - name: srsRAN UE Configuration
+    #   link: /docs/oran/ue-config/srsran-ue-config/
+    - name: SIM Card Configuration
+      link: /docs/oran/ue-config/sim-card-config/
+    - name: COTS UE Configuration
+      link: /docs/oran/ue-config/cots-ue-config/

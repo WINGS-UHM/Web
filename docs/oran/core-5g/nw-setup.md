@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Hero
-subtitle: Pages
+title: OCUDU gNB deployment
 menubar: oran_menu
 show_sidebar: false
 redirect_from:

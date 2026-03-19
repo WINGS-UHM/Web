@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Creating A Page
+title: Core Network Setup
 subtitle: Pages
 menubar: oran_menu
 toc: true

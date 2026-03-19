@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Footer Navigation
-subtitle: Navigation
+title: O-RAN Services
 menubar: oran_menu
 toc: true
 show_sidebar: false
