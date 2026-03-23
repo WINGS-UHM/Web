@@ -2,7 +2,7 @@
 layout: post
 title: Lifelong Agent in Smart Home
 description: 
-date: 2025-02-15 00:00:00
+date: 2026-03-16 00:00:00
 hero_image: 
 image: /assets/img/project/ToM-smarthome.png
 hero_height: is-large
