@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Top Navigation
-subtitle: Navigation
+title: Near RT-RIC deployment
 menubar: oran_menu
 toc: true
 show_sidebar: false

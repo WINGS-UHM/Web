@@ -16,7 +16,7 @@ gh_team: chrisrhymes
 #direction: one of <ltr, rtl, auto>, default: ltr
 force_theme: light
 theme: bulma-clean-theme
-
+remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 paginate: 5
 paginate_path: "/projects/page:num"
 
@@ -34,6 +34,9 @@ plugins:
   - jekyll-seo-tag
   - kramdown-parser-gfm
   - jekyll-redirect-from
+
+include:
+  - _pages
 
 exclude:
   - Gemfile
@@ -54,6 +57,7 @@ sass:
   # load_paths:
   # - node_modules
 
+talkmap_link: true
 google_analytics: G-63PD2VQQDE
 cookie_policy: /cookie-policy/
 
@@ -61,6 +65,7 @@ defaults:
   - scope:
       path: ""
       type: "pages"
+      layout: default
     values:
       show_sidebar: true
   - scope:
@@ -89,6 +94,11 @@ collections:
     layout: course
     image: https://picsum.photos/id/16/800/600
     show_sidebar: false
+
+  talks:
+    output: true
+    # layout: default
+    # show_sidebar: false
 
 social:
   # facebook: https://www.facebook.com/

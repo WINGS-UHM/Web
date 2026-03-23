@@ -1,0 +1,59 @@
+---
+layout: page
+title: "Talks and presentations"
+permalink: /talks/
+show_sidebar: false
+---
+<div class="columns is-multiline">
+    <div class="column is-6" style="display:flex; flex-direction:column; gap:1.5rem;">
+        <div style="display:flex; justify-content:center;">
+            <iframe
+                src="{{"/talkmap/map.html"  | relative_url}}"
+                height="700"
+                style="border:none; width:100%; max-width:850px;"
+            >
+            </iframe>
+        </div>
+    </div>
+    {% for talk in site.talks reversed %}
+        <div class="column is-3">
+            <div class="box" style="flex:1;">
+                <p class="title is-4">{{ talk.title }}</p>
+                <p class="subtitle is-6" style="margin-top: 0.5em;">
+                    {% assign author_ids = talk.author %}
+                    {% assign rendered = false %}
+
+                    {% for author_id in author_ids %}
+                        {% assign found = false %}
+
+                        {% for tier in site.data.WINGS_teams %}
+                            {% assign person = tier.teams | where: 'id', author_id | first %}
+                            {% if person %}
+                                {% if rendered %}, {% endif %}
+                                <a href="{{ person.website }}" target="_blank">{{ person.name }}</a>
+                                {% assign rendered = true %}
+                                {% assign found = true %}
+                                {% break %}
+                            {% endif %}
+                        {% endfor %}
+
+                        {% unless found %}
+                            {% if rendered %}, {% endif %}
+                            {{ author_id }}
+                            {% assign rendered = true %}
+                        {% endunless %}
+                    {% endfor %}
+                    | {{ talk.date | date: '%B %d, %Y' }}
+                </p>
+                <div class="content">
+                    {{ talk.excerpt | truncate: 500 }}
+                    {% if talk.url_link %}
+                        <a href="{{ talk.url_link}}" target="_blank">Read more...</a>
+                    {% else %}
+                        <a href="{{ talk.url | relative_url }}">Read more...</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
