@@ -74,7 +74,8 @@ defaults:
     values:
       author: "XXC"
       layout: post
-      image: /assets/img/team/XXC.png
+      image: /assets/img/project/project.png
+      hero_image: /assets/img/project/project.png
       show_sidebar: true
 
 markdown: kramdown

@@ -3,7 +3,7 @@ title: "ORAN Testbed"
 subtitle: 
 # description: This is a course description
 layout: docs-2
-image: /assets/img/project/Testbed.svg
+image: /assets/img/project/Testbed.gif
 # semester: 2024-2025
 menubar: oran_menu
 features:

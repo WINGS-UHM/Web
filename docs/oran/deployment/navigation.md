@@ -4,45 +4,43 @@ title: O-RAN Services
 menubar: oran_menu
 toc: true
 show_sidebar: false
-redirect_from: 
-  - /page-5/
 ---
 
-## Footer
+## Navigating Logs in Terminal
 
-To add some footer links, create a yaml file in the `_data` directory using the following format.
-
-```yaml
-- name: Blog
-  link: /projects/
-- name: About
-  link: /about/
-- name: Privacy Policy
-  link: /privacy-policy/
+### E2 Termination logs
+To view the output of the RIC E2 termination service, to which RAN nodes connect over SCTP
+```bash
+  kubectl logs -f -n ricplt -l app=ricplt-e2term-alpha
 ```
 
-Then add the name of your yaml file (without the .yml extension) into the `footer_menu` setting in the `_config.yml`.
-
-```yaml
-footer_menu: example_footer_menu
+To view the output of the RIC E2 manager service, which shows information about connected RAN nodes
+```bash
+kubectl logs -f -n ricplt -l app=ricplt-e2mgr
+```
+### xApp related logs: Application subscriptions and routing
+To view the output of the RIC subscription manager service, which aggregates xApp subscription requests and forwards them to target RAN nodes
+```bash
+ kubectl logs -f -n ricplt -l app=ricplt-submgr
 ```
 
-## Hiding the footer
+To view the output of the RIC route manager, which manages RMR routes across the RIC components
 
-If you would like to hide the footer on a particular page then set `hide_footer: true` in the page's front matter.
-
-## Footer social links
-
-**Added in v1.1.0**
-
-You can add social links to your footer by setting the links to your social profiles in the `_config.yml` file. 
-
-```yaml
-social:
-  facebook: https://www.facebook.com/
-  instagram: https://www.instagram.com/
-  threads: https://www.threads.net/
-  tiktok: https://www.tiktok.com/
-  x: https://www.x.com/
-  youtube: https://www.youtube.com/
+```bash
+kubectl logs -f -n ricplt -l app=ricplt-rtmgr
 ```
+
+## Navigating Logs on Headlamp dasboard.
+
+These logs can also be viewed over our deployed [***Kubernetes Cluster Dashboard***](localhost:8080/c/main/map?group=namespace).
+
+The headlamp dashboard provides a neat visualization for deployed clusters, you further click on each namespace to see further mapping.
+<img src="{{"/assets/img/docs/oran/headlamp-dashboard.png"  | relative_url }}" 
+       alt="Headlamp-Dashboard" 
+       style="max-width: 100%; height: auto;" />
+
+From the dashboard page goto the [***Workloads***](localhost:8080/c/main/workloads) tab from left pane and click on the specific service deployment you wish to view logs of as shown in image below.
+
+<img src="{{"/assets/img/docs/oran/headlamp-logs.png"  | relative_url }}" 
+       alt="Headlamp-Dashboard" 
+       style="max-width: 100%; height: auto;" />
