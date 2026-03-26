@@ -6,10 +6,10 @@ items:
     icon: fa-calendar
     description: >
       We create a conference deadline summary
-      
+
       Please feel free to save and use:
     call_to_action_name: Deadline
-    call_to_action_link: https://luna-xue.github.io/conf-track.html
+    call_to_action_link: /conf-track
   - title: Techniques Summary
     # subtitle: Example subtitle 2
     icon: fa-pencil-square
@@ -18,7 +18,7 @@ items:
 
       Please check:
     call_to_action_name: Topics
-    call_to_action_link: https://wings-uhm.github.io/Web/docs/
+    call_to_action_link: /docs/
   - title: GitHub Projects
     # subtitle: Example subtitle 3
     icon: fa-github
