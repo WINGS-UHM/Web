@@ -1,0 +1,17 @@
+- name: ROSMASTER M3 Pro Mobile Robot Platform
+  image: /assets/img/project/ROSMASTER-M3PRO_600x.webp
+  description: |
+    A tracked mobile robot platform with onboard sensing, actuation, and wireless connectivity for
+    teleoperation experiments and end-to-end control latency evaluation.
+
+- name: Gaming Steering Wheel and Pedal Set
+  image: /assets/img/project/G923.png
+  description: |
+    Human-in-the-loop driving interface providing intuitive steering, throttle, and braking for
+    remote robot control experiments.
+
+- name: AI-RAN Wireless Edge
+  image: /assets/img/project/ORAN.svg
+  description: |
+    O-RAN–style programmable RAN stack for monitoring link quality and experimenting with
+    communication-aware adaptation during robot teleoperation.
