@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ORAN Fuzzer
+title: O-RAN Fuzzer
 description: 
 date: 2026-03-23 00:00:00
 hero_image: 
