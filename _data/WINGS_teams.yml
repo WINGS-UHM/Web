@@ -46,34 +46,20 @@
       avatar: /assets/img/team/Matthew Matsuo.jpeg
       topic: O-RAN/AI-RAN Buildup
       affiliate: University of Hawaiʻi at Mānoa
-    - name: Lenny Yanza
-      avatar: /assets/img/team/LennyY.jpg
-      topic: AFRL SDR Challenge 2025/2026
-      affiliate: Stevens Institute of Technology
-    - name: Karen Caguana
-      avatar: /assets/img/team/KarenC.png
-      topic: AFRL SDR Challenge 2025/2026
-      affiliate: Stevens Institute of Technology
-    - name: Shaun George
-      avatar: /assets/img/team/ShaunG.jpg
-      topic: AFRL SDR Challenge 2025/2026
-      affiliate: Stevens Institute of Technology
 
-- tier_name: Collaborators
+- tier_name: Alumni
   size: small
   teams:
-    - id: syu
-      name: Shucheng Yu
-      avatar: /assets/img/team/Shucheng Yu.jpg
-      affiliate: Yeshiva University
-      website: https://sites.google.com/view/shuchengyu
-    - id: Laxima
-      name: Laxima Niure Kandel
-      avatar: /assets/img/team/Laxima.jpg
-      affiliate: Embry-Riddle Aeronautical University
-      website: https://sites.google.com/view/laximakandel/home
-    - id: Jiarui
-      name: Jiarui Li
-      avatar: /assets/img/team/jiarui.jpg
-      affiliate: Stevens Institute of Technology
-      website: https://sites.google.com/view/jiaruili/
+      - name: Lenny Yanza
+        avatar: /assets/img/team/LennyY.jpg
+        topic: AFRL SDR Challenge 2025/2026
+        affiliate: Stevens Institute of Technology
+      - name: Karen Caguana
+        avatar: /assets/img/team/KarenC.png
+        topic: AFRL SDR Challenge 2025/2026
+        affiliate: Stevens Institute of Technology
+      - name: Shaun George
+        avatar: /assets/img/team/ShaunG.jpg
+        topic: AFRL SDR Challenge 2025/2026
+        affiliate: Stevens Institute of Technology
+
