@@ -1,8 +1,13 @@
 var addressPoints = [
   [
     "<strong><a href=\"/Web/talks/\" target=\"_blank\">Fake gNB Exploration: Identifying Core Network Messaging Vulnerabilities</a></strong> - May 01, 2026<br />University of Utah, 50 S Central Campus Dr, Salt Lake City, UT, USA",
-    40.7644061,
-    -111.8439649
+    40.7642237,
+    -111.8445785
+  ],
+  [
+    "<strong><a href=\"https://luna-xue.github.io/assets/files/Enhancing%20Security%20and%20Privacy%20in%20Distributed%20Wireless%20Networks%20Through%20Physical%20Layer%20Techniques%20_%20Stevens%20Institute%20of%20Technology.html\" target=\"_blank\">Enhancing Security and Privacy in Distributed Wireless Networks Through Physical Layer Techniques</a></strong> - Feb 26, 2025<br />Babbio Center, Stevens Institute of Technology, Hoboken, NJ 07030",
+    40.7448096,
+    -74.0252392
   ],
   [
     "<strong><a href=\"https://ece.hawaii.edu/events/catalog/ECE-Seminars?evt=664\" target=\"_blank\">Intelligent Open RAN: AI-Driven Integrated Sensing and Communication (ISAC) for Trusted Next Generation Wireless Networks</a></strong> - Apr 17, 2025<br />College of Engineering, University of Hawai\u02bbi at M\u0101noa, Holmes Hall, 2540 Dole St, Honolulu, HI 96822",
@@ -15,13 +20,8 @@ var addressPoints = [
     -156.3106833
   ],
   [
-    "<strong><a href=\"https://luna-xue.github.io/assets/files/Enhancing%20Security%20and%20Privacy%20in%20Distributed%20Wireless%20Networks%20Through%20Physical%20Layer%20Techniques%20_%20Stevens%20Institute%20of%20Technology.html\" target=\"_blank\">Enhancing Security and Privacy in Distributed Wireless Networks Through Physical Layer Techniques</a></strong> - Feb 26, 2025<br />Babbio Center, Stevens Institute of Technology, Hoboken, NJ 07030",
-    40.7448096,
-    -74.0252392
-  ],
-  [
     "<strong><a href=\"/Web/talks/2025-12-10-XXC-T3\" target=\"_blank\">Integrated Sensing and Communication in FutureG Systems</a></strong> - Dec 10, 2025<br />Katz School of Science and Health, Yeshiva University, 205 Lexington Ave, New York, NY 10016",
-    40.7451494,
-    -73.9804205
+    40.7452208,
+    -73.9804111
   ]
 ];
