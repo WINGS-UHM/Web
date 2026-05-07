@@ -15,13 +15,15 @@
       link: /docs/oran/deployment/installation/
     - name: Navigating O-RAN Services
       link: /docs/oran/deployment/navigation/
+    - name: xApp Onboarding
+      link: /docs/oran/deployment/xapp-onboarding/
 
 - label: 5G Network Setup
   items:
     - name: Core Network Setup
       link: /docs/oran/core-5g/open5gs-cn/
-    - name: 5G Network Setup
-      link: /docs/oran/core-5g/nw-setup/
+    - name: 5G gNB Setup
+      link: /docs/oran/core-5g/gnb-setup/
     # - name: COTS UE Configuration
     #   link: /docs/oran/core-5g/cots-ue-config/
 # - label: Troubleshooting
