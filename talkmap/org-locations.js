@@ -1,6 +1,6 @@
 var addressPoints = [
   [
-    "<strong><a href=\"/Web/papers/2026_ICNC_Waveform.pdf\" target=\"_blank\">Waveform Design for ISAC: Trends and Future Directions</a></strong> - May 01, 2026<br />University of Utah, 50 S Central Campus Dr, Salt Lake City, UT, USA",
+    "<strong><a href=\"/Web/talks/\" target=\"_blank\">Fake gNB Exploration: Identifying Core Network Messaging Vulnerabilities</a></strong> - May 01, 2026<br />University of Utah, 50 S Central Campus Dr, Salt Lake City, UT, USA",
     40.7644061,
     -111.8439649
   ],
@@ -21,7 +21,7 @@ var addressPoints = [
   ],
   [
     "<strong><a href=\"/Web/talks/2025-12-10-XXC-T3\" target=\"_blank\">Integrated Sensing and Communication in FutureG Systems</a></strong> - Dec 10, 2025<br />Katz School of Science and Health, Yeshiva University, 205 Lexington Ave, New York, NY 10016",
-    40.7452208,
-    -73.9804111
+    40.7451494,
+    -73.9804205
   ]
 ];
