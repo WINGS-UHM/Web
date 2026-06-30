@@ -58,7 +58,7 @@ sass:
   # - node_modules
 
 talkmap_link: true
-google_analytics: G-63PD2VQQDE
+google_analytics: 
 cookie_policy: /cookie-policy/
 
 defaults:
